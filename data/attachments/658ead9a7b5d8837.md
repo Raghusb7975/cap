@@ -1,0 +1,170 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "MedBook." [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e12]: MedBook.
+        - navigation [ref=e13]:
+          - link "Find Doctors" [ref=e14] [cursor=pointer]:
+            - /url: /doctors
+            - img [ref=e15]
+            - text: Find Doctors
+          - link "Appointments Cart 86" [ref=e21] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e22]
+            - text: Appointments Cart
+            - generic [ref=e26]: "86"
+          - link "Dashboard" [ref=e27] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e28]
+            - text: Dashboard
+        - generic [ref=e34]:
+          - link "R raghu Patient" [ref=e35] [cursor=pointer]:
+            - /url: /profile
+            - generic [ref=e37]: R
+            - generic [ref=e38]:
+              - generic [ref=e39]: raghu
+              - generic [ref=e40]: Patient
+          - button [ref=e41]:
+            - img
+    - main [ref=e42]:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - heading "Secure Checkout" [level=1] [ref=e46]:
+            - img [ref=e47]
+            - text: Secure Checkout
+          - paragraph [ref=e50]:
+            - img [ref=e51]
+            - text: Your payment is protected by 256-bit SSL encryption
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - img [ref=e57]
+            - generic [ref=e60]: Cart
+            - img [ref=e61]
+          - generic [ref=e63]:
+            - generic [ref=e64]: "2"
+            - generic [ref=e65]: Payment
+            - img [ref=e66]
+          - generic [ref=e68]:
+            - generic [ref=e69]: "3"
+            - generic [ref=e70]: Confirmation
+        - generic [ref=e71]:
+          - generic [ref=e73]:
+            - heading "1 Choose Payment Method" [level=2] [ref=e74]:
+              - generic [ref=e75]: "1"
+              - text: Choose Payment Method
+            - generic [ref=e76]:
+              - button "Credit Card Visa, Mastercard, Amex" [ref=e77]:
+                - img [ref=e78]
+                - generic [ref=e81]: Credit Card
+                - generic [ref=e82]: Visa, Mastercard, Amex
+              - button "Debit Card Direct bank payment" [ref=e83]:
+                - img [ref=e84]
+                - generic [ref=e88]: Debit Card
+                - generic [ref=e89]: Direct bank payment
+              - button "Health Insurance Use your insurance plan" [ref=e90]:
+                - img [ref=e91]
+                - generic [ref=e93]: Health Insurance
+                - generic [ref=e94]: Use your insurance plan
+              - button "Pay at Clinic Pay on arrival" [ref=e95]:
+                - img [ref=e96]
+                - generic [ref=e102]: Pay at Clinic
+                - generic [ref=e103]: Pay on arrival
+            - generic [ref=e104]:
+              - generic [ref=e105]:
+                - heading "Credit Card Details" [level=3] [ref=e106]:
+                  - img [ref=e107]
+                  - text: Credit Card Details
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Card Number *
+                  - generic [ref=e112]:
+                    - textbox "Card Number *" [ref=e113]:
+                      - /placeholder: 0000 0000 0000 0000
+                      - text: 1233 4556 7778 8887
+                    - generic [ref=e114]: 16/16
+                  - paragraph [ref=e115]:
+                    - img [ref=e116]
+                    - text: Valid card number
+                - generic [ref=e119]:
+                  - generic [ref=e120]: Cardholder Name *
+                  - textbox "Cardholder Name *" [ref=e121]:
+                    - /placeholder: Full name as on card
+                    - text: raghu sn
+                - generic [ref=e122]:
+                  - generic [ref=e123]:
+                    - generic [ref=e124]: Expiry Date *
+                    - textbox "Expiry Date *" [ref=e125]:
+                      - /placeholder: MM/YY
+                      - text: 08/56
+                    - paragraph [ref=e126]:
+                      - img [ref=e127]
+                      - text: Valid
+                  - generic [ref=e130]:
+                    - generic [ref=e131]: CVV *(3 digits)
+                    - textbox "CVV *(3 digits)" [active] [ref=e133]:
+                      - /placeholder: •••
+                      - text: "344"
+                    - paragraph [ref=e134]:
+                      - img [ref=e135]
+                      - text: Valid
+                - generic [ref=e138]:
+                  - img [ref=e139]
+                  - text: Your card details are encrypted and never stored on our servers.
+              - button "Pay $136.50 Securely" [ref=e142]:
+                - img
+                - text: Pay $136.50 Securely
+              - paragraph [ref=e143]:
+                - img [ref=e144]
+                - text: Secured by 256-bit SSL · No charges without confirmation
+          - generic [ref=e148]:
+            - heading "Appointment Summary" [level=2] [ref=e149]
+            - generic [ref=e150]:
+              - generic [ref=e152]: T
+              - generic [ref=e153]:
+                - paragraph [ref=e154]: Dr. Lisa Thompson
+                - paragraph [ref=e155]: Gynecology
+                - paragraph [ref=e156]: Women's Health Clinic
+            - generic [ref=e157]:
+              - generic [ref=e158]:
+                - generic [ref=e159]: Date
+                - generic [ref=e160]: Apr 9th, 2026
+              - generic [ref=e161]:
+                - generic [ref=e162]: Time
+                - generic [ref=e163]: 10:30 AM
+            - generic [ref=e164]:
+              - generic [ref=e165]:
+                - generic [ref=e166]: Consultation Fee
+                - generic [ref=e167]: $130.00
+              - generic [ref=e168]:
+                - generic [ref=e169]: Service Tax (5%)
+                - generic [ref=e170]: $6.50
+            - generic [ref=e171]:
+              - generic [ref=e172]: Total Due
+              - generic [ref=e173]: $136.50
+            - generic [ref=e174]:
+              - generic [ref=e175]: "Accepted:"
+              - generic [ref=e176]: VISA
+              - generic [ref=e177]: MC
+              - generic [ref=e178]: AMEX
+              - generic [ref=e179]: Insurance
+    - contentinfo [ref=e180]:
+      - generic [ref=e181]:
+        - generic [ref=e182]:
+          - img [ref=e183]
+          - generic [ref=e186]: MedBook
+          - generic [ref=e187]: © 2026 All rights reserved.
+        - generic [ref=e188]:
+          - link "Privacy" [ref=e189] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms" [ref=e190] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact Support" [ref=e191] [cursor=pointer]:
+            - /url: "#"
+  - region "Notifications (F8)":
+    - list
+```

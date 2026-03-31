@@ -1,0 +1,107 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "MedBook." [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e12]: MedBook.
+        - navigation [ref=e13]:
+          - link "Find Doctors" [ref=e14] [cursor=pointer]:
+            - /url: /doctors
+            - img [ref=e15]
+            - text: Find Doctors
+          - link "Appointments Cart" [ref=e19] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e20]
+            - text: Appointments Cart
+          - link "Dashboard" [ref=e24] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e25]
+            - text: Dashboard
+        - generic [ref=e31]:
+          - link "R raghu Patient" [ref=e32] [cursor=pointer]:
+            - /url: /profile
+            - generic [ref=e34]: R
+            - generic [ref=e35]:
+              - generic [ref=e36]: raghu
+              - generic [ref=e37]: Patient
+          - button [ref=e38]:
+            - img
+    - main [ref=e39]:
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - paragraph [ref=e45]: Welcome back
+          - heading "raghu 👋" [level=1] [ref=e46]
+          - paragraph [ref=e47]: Manage your healthcare appointments
+        - generic [ref=e48]:
+          - link "Find a Doctor" [ref=e49] [cursor=pointer]:
+            - /url: /doctors
+            - button "Find a Doctor" [ref=e50]:
+              - img
+              - text: Find a Doctor
+          - link "View Cart" [ref=e51] [cursor=pointer]:
+            - /url: /cart
+            - button "View Cart" [ref=e52]:
+              - img
+              - text: View Cart
+          - link "Profile" [ref=e53] [cursor=pointer]:
+            - /url: /profile
+            - button "Profile" [ref=e54]:
+              - img
+              - text: Profile
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - img [ref=e59]
+            - generic [ref=e61]:
+              - paragraph [ref=e62]: Total Visits
+              - paragraph [ref=e63]: "0"
+          - generic [ref=e64]:
+            - img [ref=e66]
+            - generic [ref=e68]:
+              - paragraph [ref=e69]: Upcoming
+              - paragraph [ref=e70]: "0"
+          - generic [ref=e71]:
+            - img [ref=e73]
+            - generic [ref=e76]:
+              - paragraph [ref=e77]: Completed
+              - paragraph [ref=e78]: "0"
+          - generic [ref=e79]:
+            - img [ref=e81]
+            - generic [ref=e83]:
+              - paragraph [ref=e84]: Total Spent
+              - paragraph [ref=e85]: $0
+        - generic [ref=e87]:
+          - generic [ref=e88]:
+            - heading "My Appointments" [level=2] [ref=e89]
+            - tablist [ref=e90]:
+              - tab "Upcoming" [selected] [ref=e91]
+              - tab "Past Records" [ref=e92]
+          - tabpanel "Upcoming" [ref=e93]:
+            - img [ref=e95]
+    - contentinfo [ref=e97]:
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - img [ref=e100]
+          - generic [ref=e103]: MedBook
+          - generic [ref=e104]: © 2026 All rights reserved.
+        - generic [ref=e105]:
+          - link "Privacy" [ref=e106] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms" [ref=e107] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact Support" [ref=e108] [cursor=pointer]:
+            - /url: "#"
+  - region "Notifications (F8)":
+    - list [ref=e110]:
+      - listitem [ref=e111]:
+        - generic [ref=e112]:
+          - generic [ref=e113]: Welcome back!
+          - generic [ref=e114]: You have successfully logged in.
+        - button [ref=e115]:
+          - img [ref=e116]
+```

@@ -1,0 +1,232 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "MedBook." [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e12]: MedBook.
+        - navigation [ref=e13]:
+          - link "Find Doctors" [ref=e14] [cursor=pointer]:
+            - /url: /doctors
+            - img [ref=e15]
+            - text: Find Doctors
+          - link "Appointments Cart 100" [ref=e21] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e22]
+            - text: Appointments Cart
+            - generic [ref=e26]: "100"
+          - link "Dashboard" [ref=e27] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e28]
+            - text: Dashboard
+        - generic [ref=e34]:
+          - link "R raghu Patient" [ref=e35] [cursor=pointer]:
+            - /url: /profile
+            - generic [ref=e37]: R
+            - generic [ref=e38]:
+              - generic [ref=e39]: raghu
+              - generic [ref=e40]: Patient
+          - button [ref=e41]:
+            - img
+    - main [ref=e42]:
+      - link "Back to all doctors" [ref=e45] [cursor=pointer]:
+        - /url: /doctors
+        - img [ref=e46]
+        - text: Back to all doctors
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - generic [ref=e54]: D
+            - generic [ref=e55]:
+              - generic [ref=e56]: Gynecology
+              - heading "Dr. Lisa Thompson" [level=1] [ref=e57]
+              - generic [ref=e58]:
+                - generic [ref=e59]:
+                  - img [ref=e60]
+                  - generic [ref=e62]: "4.7"
+                  - generic [ref=e63]: (120+ reviews)
+                - generic [ref=e64]:
+                  - img [ref=e65]
+                  - generic [ref=e68]: 13 Years Experience
+              - generic [ref=e69]:
+                - generic [ref=e70]:
+                  - img [ref=e71]
+                  - generic [ref=e74]:
+                    - paragraph [ref=e75]: Location
+                    - paragraph [ref=e76]: Women's Health Clinic
+                - generic [ref=e77]:
+                  - img [ref=e78]
+                  - generic [ref=e81]:
+                    - paragraph [ref=e82]: Availability
+                    - paragraph [ref=e83]: Mon, Tue, Wed, Thu, Fri
+          - generic [ref=e84]:
+            - heading "About the Doctor" [level=2] [ref=e85]
+            - paragraph [ref=e86]: Experienced OB-GYN providing comprehensive women's health services including prenatal care and minimally invasive surgery.
+            - generic [ref=e87]:
+              - heading "Expertise & Services" [level=3] [ref=e88]
+              - list [ref=e89]:
+                - listitem [ref=e90]:
+                  - img [ref=e91]
+                  - generic [ref=e94]: Specialized Treatment 1
+                - listitem [ref=e95]:
+                  - img [ref=e96]
+                  - generic [ref=e99]: Specialized Treatment 2
+                - listitem [ref=e100]:
+                  - img [ref=e101]
+                  - generic [ref=e104]: Specialized Treatment 3
+                - listitem [ref=e105]:
+                  - img [ref=e106]
+                  - generic [ref=e109]: Specialized Treatment 4
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - heading "Book Appointment" [level=3] [ref=e113]
+            - paragraph [ref=e114]: Select date and time
+          - generic [ref=e115]:
+            - generic [ref=e116]:
+              - generic [ref=e117]: Consultation Fee
+              - generic [ref=e118]: $130
+            - generic [ref=e119]:
+              - generic [ref=e120]:
+                - img [ref=e121]
+                - text: Select Date
+              - generic [ref=e128]:
+                - navigation "Navigation bar" [ref=e129]:
+                  - button "Go to the Previous Month" [ref=e130]:
+                    - img
+                  - button "Go to the Next Month" [ref=e131]:
+                    - img
+                - generic [ref=e132]:
+                  - status [ref=e134]: May 2026
+                  - grid "May 2026" [ref=e135]:
+                    - rowgroup [ref=e136]:
+                      - row [ref=e137]:
+                        - columnheader [ref=e138]: Su
+                        - columnheader [ref=e139]: Mo
+                        - columnheader [ref=e140]: Tu
+                        - columnheader [ref=e141]: We
+                        - columnheader [ref=e142]: Th
+                        - columnheader [ref=e143]: Fr
+                        - columnheader [ref=e144]: Sa
+                    - rowgroup [ref=e145]:
+                      - row "Sunday, April 26th, 2026 Monday, April 27th, 2026 Tuesday, April 28th, 2026 Wednesday, April 29th, 2026 Thursday, April 30th, 2026 Friday, May 1st, 2026 Saturday, May 2nd, 2026" [ref=e146]:
+                        - gridcell "Sunday, April 26th, 2026" [ref=e147]:
+                          - button "Sunday, April 26th, 2026" [ref=e148]: "26"
+                        - gridcell "Monday, April 27th, 2026" [ref=e149]:
+                          - button "Monday, April 27th, 2026" [ref=e150]: "27"
+                        - gridcell "Tuesday, April 28th, 2026" [ref=e151]:
+                          - button "Tuesday, April 28th, 2026" [ref=e152]: "28"
+                        - gridcell "Wednesday, April 29th, 2026" [ref=e153]:
+                          - button "Wednesday, April 29th, 2026" [ref=e154]: "29"
+                        - gridcell "Thursday, April 30th, 2026" [ref=e155]:
+                          - button "Thursday, April 30th, 2026" [ref=e156]: "30"
+                        - gridcell "Friday, May 1st, 2026" [ref=e157]:
+                          - button "Friday, May 1st, 2026" [ref=e158]: "1"
+                        - gridcell "Saturday, May 2nd, 2026" [ref=e159]:
+                          - button "Saturday, May 2nd, 2026" [ref=e160]: "2"
+                      - row "Sunday, May 3rd, 2026 Monday, May 4th, 2026 Tuesday, May 5th, 2026 Wednesday, May 6th, 2026 Thursday, May 7th, 2026 Friday, May 8th, 2026 Saturday, May 9th, 2026" [ref=e161]:
+                        - gridcell "Sunday, May 3rd, 2026" [ref=e162]:
+                          - button "Sunday, May 3rd, 2026" [ref=e163]: "3"
+                        - gridcell "Monday, May 4th, 2026" [ref=e164]:
+                          - button "Monday, May 4th, 2026" [ref=e165]: "4"
+                        - gridcell "Tuesday, May 5th, 2026" [ref=e166]:
+                          - button "Tuesday, May 5th, 2026" [ref=e167]: "5"
+                        - gridcell "Wednesday, May 6th, 2026" [ref=e168]:
+                          - button "Wednesday, May 6th, 2026" [ref=e169]: "6"
+                        - gridcell "Thursday, May 7th, 2026" [ref=e170]:
+                          - button "Thursday, May 7th, 2026" [ref=e171]: "7"
+                        - gridcell "Friday, May 8th, 2026" [ref=e172]:
+                          - button "Friday, May 8th, 2026" [ref=e173]: "8"
+                        - gridcell "Saturday, May 9th, 2026" [ref=e174]:
+                          - button "Saturday, May 9th, 2026" [ref=e175]: "9"
+                      - row "Sunday, May 10th, 2026 Monday, May 11th, 2026 Tuesday, May 12th, 2026 Wednesday, May 13th, 2026 Thursday, May 14th, 2026 Friday, May 15th, 2026 Saturday, May 16th, 2026" [ref=e176]:
+                        - gridcell "Sunday, May 10th, 2026" [ref=e177]:
+                          - button "Sunday, May 10th, 2026" [ref=e178]: "10"
+                        - gridcell "Monday, May 11th, 2026" [ref=e179]:
+                          - button "Monday, May 11th, 2026" [ref=e180]: "11"
+                        - gridcell "Tuesday, May 12th, 2026" [ref=e181]:
+                          - button "Tuesday, May 12th, 2026" [ref=e182]: "12"
+                        - gridcell "Wednesday, May 13th, 2026" [ref=e183]:
+                          - button "Wednesday, May 13th, 2026" [ref=e184]: "13"
+                        - gridcell "Thursday, May 14th, 2026" [ref=e185]:
+                          - button "Thursday, May 14th, 2026" [ref=e186]: "14"
+                        - gridcell "Friday, May 15th, 2026" [ref=e187]:
+                          - button "Friday, May 15th, 2026" [ref=e188]: "15"
+                        - gridcell "Saturday, May 16th, 2026" [ref=e189]:
+                          - button "Saturday, May 16th, 2026" [ref=e190]: "16"
+                      - row "Sunday, May 17th, 2026 Monday, May 18th, 2026 Tuesday, May 19th, 2026 Wednesday, May 20th, 2026 Thursday, May 21st, 2026 Friday, May 22nd, 2026 Saturday, May 23rd, 2026" [ref=e191]:
+                        - gridcell "Sunday, May 17th, 2026" [ref=e192]:
+                          - button "Sunday, May 17th, 2026" [ref=e193]: "17"
+                        - gridcell "Monday, May 18th, 2026" [ref=e194]:
+                          - button "Monday, May 18th, 2026" [ref=e195]: "18"
+                        - gridcell "Tuesday, May 19th, 2026" [ref=e196]:
+                          - button "Tuesday, May 19th, 2026" [ref=e197]: "19"
+                        - gridcell "Wednesday, May 20th, 2026" [ref=e198]:
+                          - button "Wednesday, May 20th, 2026" [ref=e199]: "20"
+                        - gridcell "Thursday, May 21st, 2026" [ref=e200]:
+                          - button "Thursday, May 21st, 2026" [ref=e201]: "21"
+                        - gridcell "Friday, May 22nd, 2026" [ref=e202]:
+                          - button "Friday, May 22nd, 2026" [ref=e203]: "22"
+                        - gridcell "Saturday, May 23rd, 2026" [ref=e204]:
+                          - button "Saturday, May 23rd, 2026" [ref=e205]: "23"
+                      - row "Sunday, May 24th, 2026 Monday, May 25th, 2026 Tuesday, May 26th, 2026 Wednesday, May 27th, 2026 Thursday, May 28th, 2026 Friday, May 29th, 2026 Saturday, May 30th, 2026" [ref=e206]:
+                        - gridcell "Sunday, May 24th, 2026" [ref=e207]:
+                          - button "Sunday, May 24th, 2026" [ref=e208]: "24"
+                        - gridcell "Monday, May 25th, 2026" [ref=e209]:
+                          - button "Monday, May 25th, 2026" [ref=e210]: "25"
+                        - gridcell "Tuesday, May 26th, 2026" [ref=e211]:
+                          - button "Tuesday, May 26th, 2026" [ref=e212]: "26"
+                        - gridcell "Wednesday, May 27th, 2026" [ref=e213]:
+                          - button "Wednesday, May 27th, 2026" [ref=e214]: "27"
+                        - gridcell "Thursday, May 28th, 2026" [ref=e215]:
+                          - button "Thursday, May 28th, 2026" [ref=e216]: "28"
+                        - gridcell "Friday, May 29th, 2026" [ref=e217]:
+                          - button "Friday, May 29th, 2026" [ref=e218]: "29"
+                        - gridcell "Saturday, May 30th, 2026" [ref=e219]:
+                          - button "Saturday, May 30th, 2026" [ref=e220]: "30"
+                      - row "Sunday, May 31st, 2026 Monday, June 1st, 2026 Tuesday, June 2nd, 2026 Wednesday, June 3rd, 2026 Thursday, June 4th, 2026 Friday, June 5th, 2026 Saturday, June 6th, 2026" [ref=e221]:
+                        - gridcell "Sunday, May 31st, 2026" [ref=e222]:
+                          - button "Sunday, May 31st, 2026" [ref=e223]: "31"
+                        - gridcell "Monday, June 1st, 2026" [ref=e224]:
+                          - button "Monday, June 1st, 2026" [ref=e225]: "1"
+                        - gridcell "Tuesday, June 2nd, 2026" [ref=e226]:
+                          - button "Tuesday, June 2nd, 2026" [ref=e227]: "2"
+                        - gridcell "Wednesday, June 3rd, 2026" [ref=e228]:
+                          - button "Wednesday, June 3rd, 2026" [ref=e229]: "3"
+                        - gridcell "Thursday, June 4th, 2026" [ref=e230]:
+                          - button "Thursday, June 4th, 2026" [ref=e231]: "4"
+                        - gridcell "Friday, June 5th, 2026" [ref=e232]:
+                          - button "Friday, June 5th, 2026" [ref=e233]: "5"
+                        - gridcell "Saturday, June 6th, 2026" [ref=e234]:
+                          - button "Saturday, June 6th, 2026" [ref=e235]: "6"
+            - generic [ref=e236]:
+              - generic [ref=e237]:
+                - img [ref=e238]
+                - text: Select Time
+              - combobox [ref=e241]:
+                - generic: Choose a time slot
+                - img [ref=e242]
+            - generic [ref=e244]:
+              - text: Patient Notes (Optional)
+              - textbox "Briefly describe your symptoms or reason for visit..." [ref=e245]
+            - button "Add to Cart" [disabled]
+            - paragraph [ref=e246]: You won't be charged yet. Payment is collected at checkout.
+    - contentinfo [ref=e247]:
+      - generic [ref=e248]:
+        - generic [ref=e249]:
+          - img [ref=e250]
+          - generic [ref=e253]: MedBook
+          - generic [ref=e254]: © 2026 All rights reserved.
+        - generic [ref=e255]:
+          - link "Privacy" [ref=e256] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms" [ref=e257] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact Support" [ref=e258] [cursor=pointer]:
+            - /url: "#"
+  - region "Notifications (F8)":
+    - list
+```

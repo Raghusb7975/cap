@@ -1,0 +1,128 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "MedBook." [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e12]: MedBook.
+        - navigation [ref=e13]:
+          - link "Find Doctors" [ref=e14] [cursor=pointer]:
+            - /url: /doctors
+            - img [ref=e15]
+            - text: Find Doctors
+          - link "Appointments Cart 89" [ref=e21] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e22]
+            - text: Appointments Cart
+            - generic [ref=e26]: "89"
+          - link "Dashboard" [ref=e27] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e28]
+            - text: Dashboard
+        - generic [ref=e34]:
+          - link "R raghu Patient" [ref=e35] [cursor=pointer]:
+            - /url: /profile
+            - generic [ref=e37]: R
+            - generic [ref=e38]:
+              - generic [ref=e39]: raghu
+              - generic [ref=e40]: Patient
+          - button [ref=e41]:
+            - img
+    - main [ref=e42]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - img [ref=e47]
+          - generic [ref=e53]: 10 Specialists Available
+        - heading "Find the Right Doctor" [level=1] [ref=e54]
+        - paragraph [ref=e55]: Search by name, specialty, or hospital — results update instantly.
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - img [ref=e58]
+            - textbox "Search by name, specialty or hospital..." [active] [ref=e61]: Cardiology
+            - button [ref=e62]:
+              - img [ref=e63]
+          - combobox [ref=e67]:
+            - option "All Specialties" [selected]
+            - option "Cardiology"
+            - option "Dermatology"
+            - option "Gastroenterology"
+            - option "General Medicine"
+            - option "Gynecology"
+            - option "Neurology"
+            - option "Oncology"
+            - option "Orthopedics"
+            - option "Pediatrics"
+            - option "Psychiatry"
+      - generic [ref=e70]:
+        - button "All" [ref=e71]
+        - button "Cardiology" [ref=e72]
+        - button "Dermatology" [ref=e73]
+        - button "Gastroenterology" [ref=e74]
+        - button "General Medicine" [ref=e75]
+        - button "Gynecology" [ref=e76]
+        - button "Neurology" [ref=e77]
+        - button "Oncology" [ref=e78]
+        - button "Orthopedics" [ref=e79]
+        - button "Pediatrics" [ref=e80]
+        - button "Psychiatry" [ref=e81]
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - paragraph [ref=e85]: Showing 1 doctor matching your search
+            - button "Clear filters" [ref=e86]:
+              - img [ref=e87]
+              - text: Clear filters
+          - generic [ref=e90]:
+            - img [ref=e91]
+            - combobox [ref=e101]:
+              - 'option "Sort: Top Rated" [selected]'
+              - 'option "Sort: Most Experienced"'
+              - 'option "Sort: Fee (Low → High)"'
+              - 'option "Sort: Fee (High → Low)"'
+        - generic [ref=e103]:
+          - generic [ref=e104]:
+            - generic [ref=e105]:
+              - generic [ref=e107]: J
+              - generic [ref=e108]:
+                - heading "Dr. Sarah Johnson" [level=3] [ref=e109]
+                - generic [ref=e110]: Cardiology
+                - generic [ref=e111]:
+                  - img [ref=e112]
+                  - generic [ref=e114]: "4.8"
+                  - generic [ref=e115]: (12y exp)
+            - generic [ref=e116]:
+              - generic [ref=e117]:
+                - img [ref=e118]
+                - generic [ref=e121]: City Heart Hospital
+              - generic [ref=e122]:
+                - img [ref=e123]
+                - generic [ref=e126]: Mon, Wed, Fri
+          - generic [ref=e127]:
+            - generic [ref=e128]:
+              - paragraph [ref=e129]: Consultation Fee
+              - paragraph [ref=e130]: $150
+            - link "Book Visit" [ref=e131] [cursor=pointer]:
+              - /url: /doctors/1
+              - button "Book Visit" [ref=e132]:
+                - text: Book Visit
+                - img
+    - contentinfo [ref=e133]:
+      - generic [ref=e134]:
+        - generic [ref=e135]:
+          - img [ref=e136]
+          - generic [ref=e139]: MedBook
+          - generic [ref=e140]: © 2026 All rights reserved.
+        - generic [ref=e141]:
+          - link "Privacy" [ref=e142] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms" [ref=e143] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact Support" [ref=e144] [cursor=pointer]:
+            - /url: "#"
+  - region "Notifications (F8)":
+    - list
+```

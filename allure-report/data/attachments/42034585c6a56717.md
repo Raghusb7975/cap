@@ -1,0 +1,4506 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "MedBook." [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e12]: MedBook.
+        - navigation [ref=e13]:
+          - link "Find Doctors" [ref=e14] [cursor=pointer]:
+            - /url: /doctors
+            - img [ref=e15]
+            - text: Find Doctors
+          - link "Appointments Cart 85" [ref=e21] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e22]
+            - text: Appointments Cart
+            - generic [ref=e26]: "85"
+          - link "Dashboard" [ref=e27] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e28]
+            - text: Dashboard
+        - generic [ref=e34]:
+          - link "R raghu Patient" [ref=e35] [cursor=pointer]:
+            - /url: /profile
+            - generic [ref=e37]: R
+            - generic [ref=e38]:
+              - generic [ref=e39]: raghu
+              - generic [ref=e40]: Patient
+          - button [ref=e41]:
+            - img
+    - main [ref=e42]:
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - paragraph [ref=e48]: Welcome back
+          - heading "raghu 👋" [level=1] [ref=e49]
+          - paragraph [ref=e50]: You have 125 upcoming appointments
+        - generic [ref=e51]:
+          - link "Find a Doctor" [ref=e52] [cursor=pointer]:
+            - /url: /doctors
+            - button "Find a Doctor" [ref=e53]:
+              - img
+              - text: Find a Doctor
+          - link "View Cart" [ref=e54] [cursor=pointer]:
+            - /url: /cart
+            - button "View Cart" [ref=e55]:
+              - img
+              - text: View Cart
+          - link "Profile" [ref=e56] [cursor=pointer]:
+            - /url: /profile
+            - button "Profile" [ref=e57]:
+              - img
+              - text: Profile
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - img [ref=e62]
+            - generic [ref=e64]:
+              - paragraph [ref=e65]: Total Visits
+              - paragraph [ref=e66]: "129"
+          - generic [ref=e67]:
+            - img [ref=e69]
+            - generic [ref=e74]:
+              - paragraph [ref=e75]: Upcoming
+              - paragraph [ref=e76]: "125"
+          - generic [ref=e77]:
+            - img [ref=e79]
+            - generic [ref=e82]:
+              - paragraph [ref=e83]: Completed
+              - paragraph [ref=e84]: "0"
+          - generic [ref=e85]:
+            - img [ref=e87]
+            - generic [ref=e90]:
+              - paragraph [ref=e91]: Total Spent
+              - paragraph [ref=e92]: $22810
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - heading "My Appointments" [level=2] [ref=e96]
+            - tablist [ref=e97]:
+              - tab "Upcoming 125" [selected] [ref=e98]:
+                - text: Upcoming
+                - generic [ref=e99]: "125"
+              - tab "Past Records 4" [ref=e100]:
+                - text: Past Records
+                - generic [ref=e101]: "4"
+          - tabpanel "Upcoming 125" [ref=e102]:
+            - generic [ref=e103]:
+              - generic [ref=e104]:
+                - generic [ref=e105]:
+                  - img [ref=e106]
+                  - text: Tomorrow!
+                - generic [ref=e110]:
+                  - generic [ref=e111]:
+                    - generic [ref=e113]: C
+                    - generic [ref=e114]:
+                      - generic [ref=e115]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e116]
+                        - generic [ref=e117]:
+                          - img [ref=e118]
+                          - text: Confirmed
+                      - paragraph [ref=e121]: Neurology
+                      - generic [ref=e122]:
+                        - generic [ref=e123]:
+                          - img [ref=e124]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e129]:
+                          - img [ref=e130]
+                          - text: 10:00 AM
+                        - generic [ref=e133]:
+                          - img [ref=e134]
+                          - text: $200.00
+                      - paragraph [ref=e137]:
+                        - img [ref=e138]
+                        - text: Paid
+                  - generic [ref=e142]:
+                    - link "View Details" [ref=e143] [cursor=pointer]:
+                      - /url: /confirmation/36
+                      - button "View Details" [ref=e144]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e145]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e146]:
+                - generic [ref=e147]:
+                  - img [ref=e148]
+                  - text: Tomorrow!
+                - generic [ref=e152]:
+                  - generic [ref=e153]:
+                    - generic [ref=e155]: C
+                    - generic [ref=e156]:
+                      - generic [ref=e157]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e158]
+                        - generic [ref=e159]:
+                          - img [ref=e160]
+                          - text: Confirmed
+                      - paragraph [ref=e163]: Neurology
+                      - generic [ref=e164]:
+                        - generic [ref=e165]:
+                          - img [ref=e166]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e171]:
+                          - img [ref=e172]
+                          - text: 10:00 AM
+                        - generic [ref=e175]:
+                          - img [ref=e176]
+                          - text: $200.00
+                      - paragraph [ref=e179]:
+                        - img [ref=e180]
+                        - text: Paid
+                  - generic [ref=e184]:
+                    - link "View Details" [ref=e185] [cursor=pointer]:
+                      - /url: /confirmation/37
+                      - button "View Details" [ref=e186]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e187]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e188]:
+                - generic [ref=e189]:
+                  - img [ref=e190]
+                  - text: Tomorrow!
+                - generic [ref=e194]:
+                  - generic [ref=e195]:
+                    - generic [ref=e197]: C
+                    - generic [ref=e198]:
+                      - generic [ref=e199]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e200]
+                        - generic [ref=e201]:
+                          - img [ref=e202]
+                          - text: Confirmed
+                      - paragraph [ref=e205]: Neurology
+                      - generic [ref=e206]:
+                        - generic [ref=e207]:
+                          - img [ref=e208]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e213]:
+                          - img [ref=e214]
+                          - text: 09:30 AM
+                        - generic [ref=e217]:
+                          - img [ref=e218]
+                          - text: $200.00
+                      - paragraph [ref=e221]:
+                        - img [ref=e222]
+                        - text: Paid
+                  - generic [ref=e226]:
+                    - link "View Details" [ref=e227] [cursor=pointer]:
+                      - /url: /confirmation/13
+                      - button "View Details" [ref=e228]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e229]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e230]:
+                - generic [ref=e231]:
+                  - img [ref=e232]
+                  - text: Tomorrow!
+                - generic [ref=e236]:
+                  - generic [ref=e237]:
+                    - generic [ref=e239]: C
+                    - generic [ref=e240]:
+                      - generic [ref=e241]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e242]
+                        - generic [ref=e243]:
+                          - img [ref=e244]
+                          - text: Confirmed
+                      - paragraph [ref=e247]: Neurology
+                      - generic [ref=e248]:
+                        - generic [ref=e249]:
+                          - img [ref=e250]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e255]:
+                          - img [ref=e256]
+                          - text: 09:30 AM
+                        - generic [ref=e259]:
+                          - img [ref=e260]
+                          - text: $200.00
+                      - paragraph [ref=e263]:
+                        - img [ref=e264]
+                        - text: Paid
+                  - generic [ref=e268]:
+                    - link "View Details" [ref=e269] [cursor=pointer]:
+                      - /url: /confirmation/15
+                      - button "View Details" [ref=e270]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e271]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e272]:
+                - generic [ref=e273]:
+                  - img [ref=e274]
+                  - text: Tomorrow!
+                - generic [ref=e278]:
+                  - generic [ref=e279]:
+                    - generic [ref=e281]: C
+                    - generic [ref=e282]:
+                      - generic [ref=e283]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e284]
+                        - generic [ref=e285]:
+                          - img [ref=e286]
+                          - text: Confirmed
+                      - paragraph [ref=e289]: Neurology
+                      - generic [ref=e290]:
+                        - generic [ref=e291]:
+                          - img [ref=e292]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e297]:
+                          - img [ref=e298]
+                          - text: 10:00 AM
+                        - generic [ref=e301]:
+                          - img [ref=e302]
+                          - text: $200.00
+                      - paragraph [ref=e305]:
+                        - img [ref=e306]
+                        - text: Paid
+                  - generic [ref=e310]:
+                    - link "View Details" [ref=e311] [cursor=pointer]:
+                      - /url: /confirmation/18
+                      - button "View Details" [ref=e312]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e313]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e314]:
+                - generic [ref=e315]:
+                  - img [ref=e316]
+                  - text: Tomorrow!
+                - generic [ref=e320]:
+                  - generic [ref=e321]:
+                    - generic [ref=e323]: C
+                    - generic [ref=e324]:
+                      - generic [ref=e325]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e326]
+                        - generic [ref=e327]:
+                          - img [ref=e328]
+                          - text: Confirmed
+                      - paragraph [ref=e331]: Neurology
+                      - generic [ref=e332]:
+                        - generic [ref=e333]:
+                          - img [ref=e334]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e339]:
+                          - img [ref=e340]
+                          - text: 10:00 AM
+                        - generic [ref=e343]:
+                          - img [ref=e344]
+                          - text: $200.00
+                      - paragraph [ref=e347]:
+                        - img [ref=e348]
+                        - text: Paid
+                  - generic [ref=e352]:
+                    - link "View Details" [ref=e353] [cursor=pointer]:
+                      - /url: /confirmation/19
+                      - button "View Details" [ref=e354]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e355]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e356]:
+                - generic [ref=e357]:
+                  - img [ref=e358]
+                  - text: Tomorrow!
+                - generic [ref=e362]:
+                  - generic [ref=e363]:
+                    - generic [ref=e365]: C
+                    - generic [ref=e366]:
+                      - generic [ref=e367]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e368]
+                        - generic [ref=e369]:
+                          - img [ref=e370]
+                          - text: Confirmed
+                      - paragraph [ref=e373]: Neurology
+                      - generic [ref=e374]:
+                        - generic [ref=e375]:
+                          - img [ref=e376]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e381]:
+                          - img [ref=e382]
+                          - text: 10:00 AM
+                        - generic [ref=e385]:
+                          - img [ref=e386]
+                          - text: $200.00
+                      - paragraph [ref=e389]:
+                        - img [ref=e390]
+                        - text: Paid
+                  - generic [ref=e394]:
+                    - link "View Details" [ref=e395] [cursor=pointer]:
+                      - /url: /confirmation/20
+                      - button "View Details" [ref=e396]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e397]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e398]:
+                - generic [ref=e399]:
+                  - img [ref=e400]
+                  - text: Tomorrow!
+                - generic [ref=e404]:
+                  - generic [ref=e405]:
+                    - generic [ref=e407]: C
+                    - generic [ref=e408]:
+                      - generic [ref=e409]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e410]
+                        - generic [ref=e411]:
+                          - img [ref=e412]
+                          - text: Confirmed
+                      - paragraph [ref=e415]: Neurology
+                      - generic [ref=e416]:
+                        - generic [ref=e417]:
+                          - img [ref=e418]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e423]:
+                          - img [ref=e424]
+                          - text: 10:00 AM
+                        - generic [ref=e427]:
+                          - img [ref=e428]
+                          - text: $200.00
+                      - paragraph [ref=e431]:
+                        - img [ref=e432]
+                        - text: Paid
+                  - generic [ref=e436]:
+                    - link "View Details" [ref=e437] [cursor=pointer]:
+                      - /url: /confirmation/21
+                      - button "View Details" [ref=e438]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e439]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e440]:
+                - generic [ref=e441]:
+                  - img [ref=e442]
+                  - text: Tomorrow!
+                - generic [ref=e446]:
+                  - generic [ref=e447]:
+                    - generic [ref=e449]: C
+                    - generic [ref=e450]:
+                      - generic [ref=e451]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e452]
+                        - generic [ref=e453]:
+                          - img [ref=e454]
+                          - text: Confirmed
+                      - paragraph [ref=e457]: Neurology
+                      - generic [ref=e458]:
+                        - generic [ref=e459]:
+                          - img [ref=e460]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e465]:
+                          - img [ref=e466]
+                          - text: 10:00 AM
+                        - generic [ref=e469]:
+                          - img [ref=e470]
+                          - text: $200.00
+                      - paragraph [ref=e473]:
+                        - img [ref=e474]
+                        - text: Paid
+                  - generic [ref=e478]:
+                    - link "View Details" [ref=e479] [cursor=pointer]:
+                      - /url: /confirmation/22
+                      - button "View Details" [ref=e480]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e481]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e482]:
+                - generic [ref=e483]:
+                  - img [ref=e484]
+                  - text: Tomorrow!
+                - generic [ref=e488]:
+                  - generic [ref=e489]:
+                    - generic [ref=e491]: C
+                    - generic [ref=e492]:
+                      - generic [ref=e493]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e494]
+                        - generic [ref=e495]:
+                          - img [ref=e496]
+                          - text: Confirmed
+                      - paragraph [ref=e499]: Neurology
+                      - generic [ref=e500]:
+                        - generic [ref=e501]:
+                          - img [ref=e502]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e507]:
+                          - img [ref=e508]
+                          - text: 10:00 AM
+                        - generic [ref=e511]:
+                          - img [ref=e512]
+                          - text: $200.00
+                      - paragraph [ref=e515]:
+                        - img [ref=e516]
+                        - text: Paid
+                  - generic [ref=e520]:
+                    - link "View Details" [ref=e521] [cursor=pointer]:
+                      - /url: /confirmation/23
+                      - button "View Details" [ref=e522]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e523]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e524]:
+                - generic [ref=e525]:
+                  - img [ref=e526]
+                  - text: Tomorrow!
+                - generic [ref=e530]:
+                  - generic [ref=e531]:
+                    - generic [ref=e533]: C
+                    - generic [ref=e534]:
+                      - generic [ref=e535]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e536]
+                        - generic [ref=e537]:
+                          - img [ref=e538]
+                          - text: Confirmed
+                      - paragraph [ref=e541]: Neurology
+                      - generic [ref=e542]:
+                        - generic [ref=e543]:
+                          - img [ref=e544]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e549]:
+                          - img [ref=e550]
+                          - text: 10:00 AM
+                        - generic [ref=e553]:
+                          - img [ref=e554]
+                          - text: $200.00
+                      - paragraph [ref=e557]:
+                        - img [ref=e558]
+                        - text: Paid
+                  - generic [ref=e562]:
+                    - link "View Details" [ref=e563] [cursor=pointer]:
+                      - /url: /confirmation/24
+                      - button "View Details" [ref=e564]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e565]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e566]:
+                - generic [ref=e567]:
+                  - img [ref=e568]
+                  - text: Tomorrow!
+                - generic [ref=e572]:
+                  - generic [ref=e573]:
+                    - generic [ref=e575]: C
+                    - generic [ref=e576]:
+                      - generic [ref=e577]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e578]
+                        - generic [ref=e579]:
+                          - img [ref=e580]
+                          - text: Confirmed
+                      - paragraph [ref=e583]: Neurology
+                      - generic [ref=e584]:
+                        - generic [ref=e585]:
+                          - img [ref=e586]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e591]:
+                          - img [ref=e592]
+                          - text: 10:00 AM
+                        - generic [ref=e595]:
+                          - img [ref=e596]
+                          - text: $200.00
+                      - paragraph [ref=e599]:
+                        - img [ref=e600]
+                        - text: Paid
+                  - generic [ref=e604]:
+                    - link "View Details" [ref=e605] [cursor=pointer]:
+                      - /url: /confirmation/25
+                      - button "View Details" [ref=e606]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e607]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e608]:
+                - generic [ref=e609]:
+                  - img [ref=e610]
+                  - text: Tomorrow!
+                - generic [ref=e614]:
+                  - generic [ref=e615]:
+                    - generic [ref=e617]: C
+                    - generic [ref=e618]:
+                      - generic [ref=e619]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e620]
+                        - generic [ref=e621]:
+                          - img [ref=e622]
+                          - text: Confirmed
+                      - paragraph [ref=e625]: Neurology
+                      - generic [ref=e626]:
+                        - generic [ref=e627]:
+                          - img [ref=e628]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e633]:
+                          - img [ref=e634]
+                          - text: 10:00 AM
+                        - generic [ref=e637]:
+                          - img [ref=e638]
+                          - text: $200.00
+                      - paragraph [ref=e641]:
+                        - img [ref=e642]
+                        - text: Paid
+                  - generic [ref=e646]:
+                    - link "View Details" [ref=e647] [cursor=pointer]:
+                      - /url: /confirmation/26
+                      - button "View Details" [ref=e648]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e649]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e650]:
+                - generic [ref=e651]:
+                  - img [ref=e652]
+                  - text: Tomorrow!
+                - generic [ref=e656]:
+                  - generic [ref=e657]:
+                    - generic [ref=e659]: C
+                    - generic [ref=e660]:
+                      - generic [ref=e661]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e662]
+                        - generic [ref=e663]:
+                          - img [ref=e664]
+                          - text: Confirmed
+                      - paragraph [ref=e667]: Neurology
+                      - generic [ref=e668]:
+                        - generic [ref=e669]:
+                          - img [ref=e670]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e675]:
+                          - img [ref=e676]
+                          - text: 10:00 AM
+                        - generic [ref=e679]:
+                          - img [ref=e680]
+                          - text: $200.00
+                      - paragraph [ref=e683]:
+                        - img [ref=e684]
+                        - text: Paid
+                  - generic [ref=e688]:
+                    - link "View Details" [ref=e689] [cursor=pointer]:
+                      - /url: /confirmation/27
+                      - button "View Details" [ref=e690]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e691]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e692]:
+                - generic [ref=e693]:
+                  - img [ref=e694]
+                  - text: Tomorrow!
+                - generic [ref=e698]:
+                  - generic [ref=e699]:
+                    - generic [ref=e701]: C
+                    - generic [ref=e702]:
+                      - generic [ref=e703]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e704]
+                        - generic [ref=e705]:
+                          - img [ref=e706]
+                          - text: Confirmed
+                      - paragraph [ref=e709]: Neurology
+                      - generic [ref=e710]:
+                        - generic [ref=e711]:
+                          - img [ref=e712]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e717]:
+                          - img [ref=e718]
+                          - text: 10:00 AM
+                        - generic [ref=e721]:
+                          - img [ref=e722]
+                          - text: $200.00
+                      - paragraph [ref=e725]:
+                        - img [ref=e726]
+                        - text: Paid
+                  - generic [ref=e730]:
+                    - link "View Details" [ref=e731] [cursor=pointer]:
+                      - /url: /confirmation/28
+                      - button "View Details" [ref=e732]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e733]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e734]:
+                - generic [ref=e735]:
+                  - img [ref=e736]
+                  - text: Tomorrow!
+                - generic [ref=e740]:
+                  - generic [ref=e741]:
+                    - generic [ref=e743]: C
+                    - generic [ref=e744]:
+                      - generic [ref=e745]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e746]
+                        - generic [ref=e747]:
+                          - img [ref=e748]
+                          - text: Confirmed
+                      - paragraph [ref=e751]: Neurology
+                      - generic [ref=e752]:
+                        - generic [ref=e753]:
+                          - img [ref=e754]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e759]:
+                          - img [ref=e760]
+                          - text: 10:00 AM
+                        - generic [ref=e763]:
+                          - img [ref=e764]
+                          - text: $200.00
+                      - paragraph [ref=e767]:
+                        - img [ref=e768]
+                        - text: Paid
+                  - generic [ref=e772]:
+                    - link "View Details" [ref=e773] [cursor=pointer]:
+                      - /url: /confirmation/30
+                      - button "View Details" [ref=e774]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e775]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e776]:
+                - generic [ref=e777]:
+                  - img [ref=e778]
+                  - text: Tomorrow!
+                - generic [ref=e782]:
+                  - generic [ref=e783]:
+                    - generic [ref=e785]: C
+                    - generic [ref=e786]:
+                      - generic [ref=e787]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e788]
+                        - generic [ref=e789]:
+                          - img [ref=e790]
+                          - text: Confirmed
+                      - paragraph [ref=e793]: Neurology
+                      - generic [ref=e794]:
+                        - generic [ref=e795]:
+                          - img [ref=e796]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e801]:
+                          - img [ref=e802]
+                          - text: 10:00 AM
+                        - generic [ref=e805]:
+                          - img [ref=e806]
+                          - text: $200.00
+                      - paragraph [ref=e809]:
+                        - img [ref=e810]
+                        - text: Paid
+                  - generic [ref=e814]:
+                    - link "View Details" [ref=e815] [cursor=pointer]:
+                      - /url: /confirmation/31
+                      - button "View Details" [ref=e816]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e817]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e818]:
+                - generic [ref=e819]:
+                  - img [ref=e820]
+                  - text: Tomorrow!
+                - generic [ref=e824]:
+                  - generic [ref=e825]:
+                    - generic [ref=e827]: C
+                    - generic [ref=e828]:
+                      - generic [ref=e829]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e830]
+                        - generic [ref=e831]:
+                          - img [ref=e832]
+                          - text: Confirmed
+                      - paragraph [ref=e835]: Neurology
+                      - generic [ref=e836]:
+                        - generic [ref=e837]:
+                          - img [ref=e838]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e843]:
+                          - img [ref=e844]
+                          - text: 10:00 AM
+                        - generic [ref=e847]:
+                          - img [ref=e848]
+                          - text: $200.00
+                      - paragraph [ref=e851]:
+                        - img [ref=e852]
+                        - text: Paid
+                  - generic [ref=e856]:
+                    - link "View Details" [ref=e857] [cursor=pointer]:
+                      - /url: /confirmation/32
+                      - button "View Details" [ref=e858]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e859]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e860]:
+                - generic [ref=e861]:
+                  - img [ref=e862]
+                  - text: Tomorrow!
+                - generic [ref=e866]:
+                  - generic [ref=e867]:
+                    - generic [ref=e869]: C
+                    - generic [ref=e870]:
+                      - generic [ref=e871]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e872]
+                        - generic [ref=e873]:
+                          - img [ref=e874]
+                          - text: Confirmed
+                      - paragraph [ref=e877]: Neurology
+                      - generic [ref=e878]:
+                        - generic [ref=e879]:
+                          - img [ref=e880]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e885]:
+                          - img [ref=e886]
+                          - text: 10:00 AM
+                        - generic [ref=e889]:
+                          - img [ref=e890]
+                          - text: $200.00
+                      - paragraph [ref=e893]:
+                        - img [ref=e894]
+                        - text: Paid
+                  - generic [ref=e898]:
+                    - link "View Details" [ref=e899] [cursor=pointer]:
+                      - /url: /confirmation/33
+                      - button "View Details" [ref=e900]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e901]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e902]:
+                - generic [ref=e903]:
+                  - img [ref=e904]
+                  - text: Tomorrow!
+                - generic [ref=e908]:
+                  - generic [ref=e909]:
+                    - generic [ref=e911]: C
+                    - generic [ref=e912]:
+                      - generic [ref=e913]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e914]
+                        - generic [ref=e915]:
+                          - img [ref=e916]
+                          - text: Confirmed
+                      - paragraph [ref=e919]: Neurology
+                      - generic [ref=e920]:
+                        - generic [ref=e921]:
+                          - img [ref=e922]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e927]:
+                          - img [ref=e928]
+                          - text: 10:00 AM
+                        - generic [ref=e931]:
+                          - img [ref=e932]
+                          - text: $200.00
+                      - paragraph [ref=e935]:
+                        - img [ref=e936]
+                        - text: Paid
+                  - generic [ref=e940]:
+                    - link "View Details" [ref=e941] [cursor=pointer]:
+                      - /url: /confirmation/34
+                      - button "View Details" [ref=e942]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e943]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e944]:
+                - generic [ref=e945]:
+                  - img [ref=e946]
+                  - text: Tomorrow!
+                - generic [ref=e950]:
+                  - generic [ref=e951]:
+                    - generic [ref=e953]: C
+                    - generic [ref=e954]:
+                      - generic [ref=e955]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e956]
+                        - generic [ref=e957]:
+                          - img [ref=e958]
+                          - text: Confirmed
+                      - paragraph [ref=e961]: Neurology
+                      - generic [ref=e962]:
+                        - generic [ref=e963]:
+                          - img [ref=e964]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e969]:
+                          - img [ref=e970]
+                          - text: 10:00 AM
+                        - generic [ref=e973]:
+                          - img [ref=e974]
+                          - text: $200.00
+                      - paragraph [ref=e977]:
+                        - img [ref=e978]
+                        - text: Paid
+                  - generic [ref=e982]:
+                    - link "View Details" [ref=e983] [cursor=pointer]:
+                      - /url: /confirmation/35
+                      - button "View Details" [ref=e984]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e985]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e986]:
+                - generic [ref=e987]:
+                  - img [ref=e988]
+                  - text: Tomorrow!
+                - generic [ref=e992]:
+                  - generic [ref=e993]:
+                    - generic [ref=e995]: C
+                    - generic [ref=e996]:
+                      - generic [ref=e997]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e998]
+                        - generic [ref=e999]:
+                          - img [ref=e1000]
+                          - text: Confirmed
+                      - paragraph [ref=e1003]: Neurology
+                      - generic [ref=e1004]:
+                        - generic [ref=e1005]:
+                          - img [ref=e1006]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1011]:
+                          - img [ref=e1012]
+                          - text: 10:00 AM
+                        - generic [ref=e1015]:
+                          - img [ref=e1016]
+                          - text: $200.00
+                      - paragraph [ref=e1019]:
+                        - img [ref=e1020]
+                        - text: Paid
+                  - generic [ref=e1024]:
+                    - link "View Details" [ref=e1025] [cursor=pointer]:
+                      - /url: /confirmation/38
+                      - button "View Details" [ref=e1026]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1027]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1028]:
+                - generic [ref=e1029]:
+                  - img [ref=e1030]
+                  - text: Tomorrow!
+                - generic [ref=e1034]:
+                  - generic [ref=e1035]:
+                    - generic [ref=e1037]: C
+                    - generic [ref=e1038]:
+                      - generic [ref=e1039]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1040]
+                        - generic [ref=e1041]:
+                          - img [ref=e1042]
+                          - text: Confirmed
+                      - paragraph [ref=e1045]: Neurology
+                      - generic [ref=e1046]:
+                        - generic [ref=e1047]:
+                          - img [ref=e1048]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1053]:
+                          - img [ref=e1054]
+                          - text: 10:00 AM
+                        - generic [ref=e1057]:
+                          - img [ref=e1058]
+                          - text: $200.00
+                      - paragraph [ref=e1061]:
+                        - img [ref=e1062]
+                        - text: Paid
+                  - generic [ref=e1066]:
+                    - link "View Details" [ref=e1067] [cursor=pointer]:
+                      - /url: /confirmation/39
+                      - button "View Details" [ref=e1068]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1069]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1070]:
+                - generic [ref=e1071]:
+                  - img [ref=e1072]
+                  - text: Tomorrow!
+                - generic [ref=e1076]:
+                  - generic [ref=e1077]:
+                    - generic [ref=e1079]: C
+                    - generic [ref=e1080]:
+                      - generic [ref=e1081]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1082]
+                        - generic [ref=e1083]:
+                          - img [ref=e1084]
+                          - text: Confirmed
+                      - paragraph [ref=e1087]: Neurology
+                      - generic [ref=e1088]:
+                        - generic [ref=e1089]:
+                          - img [ref=e1090]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1095]:
+                          - img [ref=e1096]
+                          - text: 10:00 AM
+                        - generic [ref=e1099]:
+                          - img [ref=e1100]
+                          - text: $200.00
+                      - paragraph [ref=e1103]:
+                        - img [ref=e1104]
+                        - text: Paid
+                  - generic [ref=e1108]:
+                    - link "View Details" [ref=e1109] [cursor=pointer]:
+                      - /url: /confirmation/40
+                      - button "View Details" [ref=e1110]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1111]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1112]:
+                - generic [ref=e1113]:
+                  - img [ref=e1114]
+                  - text: Tomorrow!
+                - generic [ref=e1118]:
+                  - generic [ref=e1119]:
+                    - generic [ref=e1121]: C
+                    - generic [ref=e1122]:
+                      - generic [ref=e1123]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1124]
+                        - generic [ref=e1125]:
+                          - img [ref=e1126]
+                          - text: Confirmed
+                      - paragraph [ref=e1129]: Neurology
+                      - generic [ref=e1130]:
+                        - generic [ref=e1131]:
+                          - img [ref=e1132]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1137]:
+                          - img [ref=e1138]
+                          - text: 10:00 AM
+                        - generic [ref=e1141]:
+                          - img [ref=e1142]
+                          - text: $200.00
+                      - paragraph [ref=e1145]:
+                        - img [ref=e1146]
+                        - text: Paid
+                  - generic [ref=e1150]:
+                    - link "View Details" [ref=e1151] [cursor=pointer]:
+                      - /url: /confirmation/41
+                      - button "View Details" [ref=e1152]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1153]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1154]:
+                - generic [ref=e1155]:
+                  - img [ref=e1156]
+                  - text: Tomorrow!
+                - generic [ref=e1160]:
+                  - generic [ref=e1161]:
+                    - generic [ref=e1163]: C
+                    - generic [ref=e1164]:
+                      - generic [ref=e1165]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1166]
+                        - generic [ref=e1167]:
+                          - img [ref=e1168]
+                          - text: Confirmed
+                      - paragraph [ref=e1171]: Neurology
+                      - generic [ref=e1172]:
+                        - generic [ref=e1173]:
+                          - img [ref=e1174]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1179]:
+                          - img [ref=e1180]
+                          - text: 10:00 AM
+                        - generic [ref=e1183]:
+                          - img [ref=e1184]
+                          - text: $200.00
+                      - paragraph [ref=e1187]:
+                        - img [ref=e1188]
+                        - text: Paid
+                  - generic [ref=e1192]:
+                    - link "View Details" [ref=e1193] [cursor=pointer]:
+                      - /url: /confirmation/42
+                      - button "View Details" [ref=e1194]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1195]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1196]:
+                - generic [ref=e1197]:
+                  - img [ref=e1198]
+                  - text: Tomorrow!
+                - generic [ref=e1202]:
+                  - generic [ref=e1203]:
+                    - generic [ref=e1205]: C
+                    - generic [ref=e1206]:
+                      - generic [ref=e1207]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1208]
+                        - generic [ref=e1209]:
+                          - img [ref=e1210]
+                          - text: Confirmed
+                      - paragraph [ref=e1213]: Neurology
+                      - generic [ref=e1214]:
+                        - generic [ref=e1215]:
+                          - img [ref=e1216]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1221]:
+                          - img [ref=e1222]
+                          - text: 10:00 AM
+                        - generic [ref=e1225]:
+                          - img [ref=e1226]
+                          - text: $200.00
+                      - paragraph [ref=e1229]:
+                        - img [ref=e1230]
+                        - text: Paid
+                  - generic [ref=e1234]:
+                    - link "View Details" [ref=e1235] [cursor=pointer]:
+                      - /url: /confirmation/43
+                      - button "View Details" [ref=e1236]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1237]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1238]:
+                - generic [ref=e1239]:
+                  - img [ref=e1240]
+                  - text: Tomorrow!
+                - generic [ref=e1244]:
+                  - generic [ref=e1245]:
+                    - generic [ref=e1247]: C
+                    - generic [ref=e1248]:
+                      - generic [ref=e1249]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1250]
+                        - generic [ref=e1251]:
+                          - img [ref=e1252]
+                          - text: Confirmed
+                      - paragraph [ref=e1255]: Neurology
+                      - generic [ref=e1256]:
+                        - generic [ref=e1257]:
+                          - img [ref=e1258]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1263]:
+                          - img [ref=e1264]
+                          - text: 10:00 AM
+                        - generic [ref=e1267]:
+                          - img [ref=e1268]
+                          - text: $200.00
+                      - paragraph [ref=e1271]:
+                        - img [ref=e1272]
+                        - text: Paid
+                  - generic [ref=e1276]:
+                    - link "View Details" [ref=e1277] [cursor=pointer]:
+                      - /url: /confirmation/44
+                      - button "View Details" [ref=e1278]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1279]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1280]:
+                - generic [ref=e1281]:
+                  - img [ref=e1282]
+                  - text: Tomorrow!
+                - generic [ref=e1286]:
+                  - generic [ref=e1287]:
+                    - generic [ref=e1289]: C
+                    - generic [ref=e1290]:
+                      - generic [ref=e1291]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1292]
+                        - generic [ref=e1293]:
+                          - img [ref=e1294]
+                          - text: Confirmed
+                      - paragraph [ref=e1297]: Neurology
+                      - generic [ref=e1298]:
+                        - generic [ref=e1299]:
+                          - img [ref=e1300]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1305]:
+                          - img [ref=e1306]
+                          - text: 10:00 AM
+                        - generic [ref=e1309]:
+                          - img [ref=e1310]
+                          - text: $200.00
+                      - paragraph [ref=e1313]:
+                        - img [ref=e1314]
+                        - text: Paid
+                  - generic [ref=e1318]:
+                    - link "View Details" [ref=e1319] [cursor=pointer]:
+                      - /url: /confirmation/45
+                      - button "View Details" [ref=e1320]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1321]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1322]:
+                - generic [ref=e1323]:
+                  - img [ref=e1324]
+                  - text: Tomorrow!
+                - generic [ref=e1328]:
+                  - generic [ref=e1329]:
+                    - generic [ref=e1331]: C
+                    - generic [ref=e1332]:
+                      - generic [ref=e1333]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1334]
+                        - generic [ref=e1335]:
+                          - img [ref=e1336]
+                          - text: Confirmed
+                      - paragraph [ref=e1339]: Neurology
+                      - generic [ref=e1340]:
+                        - generic [ref=e1341]:
+                          - img [ref=e1342]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1347]:
+                          - img [ref=e1348]
+                          - text: 10:00 AM
+                        - generic [ref=e1351]:
+                          - img [ref=e1352]
+                          - text: $200.00
+                      - paragraph [ref=e1355]:
+                        - img [ref=e1356]
+                        - text: Paid
+                  - generic [ref=e1360]:
+                    - link "View Details" [ref=e1361] [cursor=pointer]:
+                      - /url: /confirmation/46
+                      - button "View Details" [ref=e1362]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1363]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1364]:
+                - generic [ref=e1365]:
+                  - img [ref=e1366]
+                  - text: Tomorrow!
+                - generic [ref=e1370]:
+                  - generic [ref=e1371]:
+                    - generic [ref=e1373]: C
+                    - generic [ref=e1374]:
+                      - generic [ref=e1375]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1376]
+                        - generic [ref=e1377]:
+                          - img [ref=e1378]
+                          - text: Confirmed
+                      - paragraph [ref=e1381]: Neurology
+                      - generic [ref=e1382]:
+                        - generic [ref=e1383]:
+                          - img [ref=e1384]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1389]:
+                          - img [ref=e1390]
+                          - text: 10:00 AM
+                        - generic [ref=e1393]:
+                          - img [ref=e1394]
+                          - text: $200.00
+                      - paragraph [ref=e1397]:
+                        - img [ref=e1398]
+                        - text: Paid
+                  - generic [ref=e1402]:
+                    - link "View Details" [ref=e1403] [cursor=pointer]:
+                      - /url: /confirmation/47
+                      - button "View Details" [ref=e1404]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1405]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1406]:
+                - generic [ref=e1407]:
+                  - img [ref=e1408]
+                  - text: Tomorrow!
+                - generic [ref=e1412]:
+                  - generic [ref=e1413]:
+                    - generic [ref=e1415]: C
+                    - generic [ref=e1416]:
+                      - generic [ref=e1417]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1418]
+                        - generic [ref=e1419]:
+                          - img [ref=e1420]
+                          - text: Confirmed
+                      - paragraph [ref=e1423]: Neurology
+                      - generic [ref=e1424]:
+                        - generic [ref=e1425]:
+                          - img [ref=e1426]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1431]:
+                          - img [ref=e1432]
+                          - text: 10:00 AM
+                        - generic [ref=e1435]:
+                          - img [ref=e1436]
+                          - text: $200.00
+                      - paragraph [ref=e1439]:
+                        - img [ref=e1440]
+                        - text: Paid
+                  - generic [ref=e1444]:
+                    - link "View Details" [ref=e1445] [cursor=pointer]:
+                      - /url: /confirmation/48
+                      - button "View Details" [ref=e1446]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1447]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1448]:
+                - generic [ref=e1449]:
+                  - img [ref=e1450]
+                  - text: Tomorrow!
+                - generic [ref=e1454]:
+                  - generic [ref=e1455]:
+                    - generic [ref=e1457]: C
+                    - generic [ref=e1458]:
+                      - generic [ref=e1459]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1460]
+                        - generic [ref=e1461]:
+                          - img [ref=e1462]
+                          - text: Confirmed
+                      - paragraph [ref=e1465]: Neurology
+                      - generic [ref=e1466]:
+                        - generic [ref=e1467]:
+                          - img [ref=e1468]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1473]:
+                          - img [ref=e1474]
+                          - text: 10:00 AM
+                        - generic [ref=e1477]:
+                          - img [ref=e1478]
+                          - text: $200.00
+                      - paragraph [ref=e1481]:
+                        - img [ref=e1482]
+                        - text: Paid
+                  - generic [ref=e1486]:
+                    - link "View Details" [ref=e1487] [cursor=pointer]:
+                      - /url: /confirmation/49
+                      - button "View Details" [ref=e1488]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1489]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1490]:
+                - generic [ref=e1491]:
+                  - img [ref=e1492]
+                  - text: Tomorrow!
+                - generic [ref=e1496]:
+                  - generic [ref=e1497]:
+                    - generic [ref=e1499]: C
+                    - generic [ref=e1500]:
+                      - generic [ref=e1501]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1502]
+                        - generic [ref=e1503]:
+                          - img [ref=e1504]
+                          - text: Confirmed
+                      - paragraph [ref=e1507]: Neurology
+                      - generic [ref=e1508]:
+                        - generic [ref=e1509]:
+                          - img [ref=e1510]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1515]:
+                          - img [ref=e1516]
+                          - text: 10:00 AM
+                        - generic [ref=e1519]:
+                          - img [ref=e1520]
+                          - text: $200.00
+                      - paragraph [ref=e1523]:
+                        - img [ref=e1524]
+                        - text: Paid
+                  - generic [ref=e1528]:
+                    - link "View Details" [ref=e1529] [cursor=pointer]:
+                      - /url: /confirmation/50
+                      - button "View Details" [ref=e1530]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1531]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1532]:
+                - generic [ref=e1533]:
+                  - img [ref=e1534]
+                  - text: Tomorrow!
+                - generic [ref=e1538]:
+                  - generic [ref=e1539]:
+                    - generic [ref=e1541]: C
+                    - generic [ref=e1542]:
+                      - generic [ref=e1543]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1544]
+                        - generic [ref=e1545]:
+                          - img [ref=e1546]
+                          - text: Confirmed
+                      - paragraph [ref=e1549]: Neurology
+                      - generic [ref=e1550]:
+                        - generic [ref=e1551]:
+                          - img [ref=e1552]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1557]:
+                          - img [ref=e1558]
+                          - text: 10:00 AM
+                        - generic [ref=e1561]:
+                          - img [ref=e1562]
+                          - text: $200.00
+                      - paragraph [ref=e1565]:
+                        - img [ref=e1566]
+                        - text: Paid
+                  - generic [ref=e1570]:
+                    - link "View Details" [ref=e1571] [cursor=pointer]:
+                      - /url: /confirmation/51
+                      - button "View Details" [ref=e1572]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1573]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1574]:
+                - generic [ref=e1575]:
+                  - img [ref=e1576]
+                  - text: Tomorrow!
+                - generic [ref=e1580]:
+                  - generic [ref=e1581]:
+                    - generic [ref=e1583]: C
+                    - generic [ref=e1584]:
+                      - generic [ref=e1585]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1586]
+                        - generic [ref=e1587]:
+                          - img [ref=e1588]
+                          - text: Confirmed
+                      - paragraph [ref=e1591]: Neurology
+                      - generic [ref=e1592]:
+                        - generic [ref=e1593]:
+                          - img [ref=e1594]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1599]:
+                          - img [ref=e1600]
+                          - text: 10:00 AM
+                        - generic [ref=e1603]:
+                          - img [ref=e1604]
+                          - text: $200.00
+                      - paragraph [ref=e1607]:
+                        - img [ref=e1608]
+                        - text: Paid
+                  - generic [ref=e1612]:
+                    - link "View Details" [ref=e1613] [cursor=pointer]:
+                      - /url: /confirmation/52
+                      - button "View Details" [ref=e1614]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1615]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1616]:
+                - generic [ref=e1617]:
+                  - img [ref=e1618]
+                  - text: Tomorrow!
+                - generic [ref=e1622]:
+                  - generic [ref=e1623]:
+                    - generic [ref=e1625]: C
+                    - generic [ref=e1626]:
+                      - generic [ref=e1627]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1628]
+                        - generic [ref=e1629]:
+                          - img [ref=e1630]
+                          - text: Confirmed
+                      - paragraph [ref=e1633]: Neurology
+                      - generic [ref=e1634]:
+                        - generic [ref=e1635]:
+                          - img [ref=e1636]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1641]:
+                          - img [ref=e1642]
+                          - text: 10:00 AM
+                        - generic [ref=e1645]:
+                          - img [ref=e1646]
+                          - text: $200.00
+                      - paragraph [ref=e1649]:
+                        - img [ref=e1650]
+                        - text: Paid
+                  - generic [ref=e1654]:
+                    - link "View Details" [ref=e1655] [cursor=pointer]:
+                      - /url: /confirmation/53
+                      - button "View Details" [ref=e1656]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1657]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1658]:
+                - generic [ref=e1659]:
+                  - img [ref=e1660]
+                  - text: Tomorrow!
+                - generic [ref=e1664]:
+                  - generic [ref=e1665]:
+                    - generic [ref=e1667]: C
+                    - generic [ref=e1668]:
+                      - generic [ref=e1669]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1670]
+                        - generic [ref=e1671]:
+                          - img [ref=e1672]
+                          - text: Confirmed
+                      - paragraph [ref=e1675]: Neurology
+                      - generic [ref=e1676]:
+                        - generic [ref=e1677]:
+                          - img [ref=e1678]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1683]:
+                          - img [ref=e1684]
+                          - text: 10:00 AM
+                        - generic [ref=e1687]:
+                          - img [ref=e1688]
+                          - text: $200.00
+                      - paragraph [ref=e1691]:
+                        - img [ref=e1692]
+                        - text: Paid
+                  - generic [ref=e1696]:
+                    - link "View Details" [ref=e1697] [cursor=pointer]:
+                      - /url: /confirmation/54
+                      - button "View Details" [ref=e1698]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1699]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1700]:
+                - generic [ref=e1701]:
+                  - img [ref=e1702]
+                  - text: Tomorrow!
+                - generic [ref=e1706]:
+                  - generic [ref=e1707]:
+                    - generic [ref=e1709]: C
+                    - generic [ref=e1710]:
+                      - generic [ref=e1711]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1712]
+                        - generic [ref=e1713]:
+                          - img [ref=e1714]
+                          - text: Confirmed
+                      - paragraph [ref=e1717]: Neurology
+                      - generic [ref=e1718]:
+                        - generic [ref=e1719]:
+                          - img [ref=e1720]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1725]:
+                          - img [ref=e1726]
+                          - text: 10:00 AM
+                        - generic [ref=e1729]:
+                          - img [ref=e1730]
+                          - text: $200.00
+                      - paragraph [ref=e1733]:
+                        - img [ref=e1734]
+                        - text: Paid
+                  - generic [ref=e1738]:
+                    - link "View Details" [ref=e1739] [cursor=pointer]:
+                      - /url: /confirmation/55
+                      - button "View Details" [ref=e1740]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1741]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1742]:
+                - generic [ref=e1743]:
+                  - img [ref=e1744]
+                  - text: Tomorrow!
+                - generic [ref=e1748]:
+                  - generic [ref=e1749]:
+                    - generic [ref=e1751]: C
+                    - generic [ref=e1752]:
+                      - generic [ref=e1753]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1754]
+                        - generic [ref=e1755]:
+                          - img [ref=e1756]
+                          - text: Confirmed
+                      - paragraph [ref=e1759]: Neurology
+                      - generic [ref=e1760]:
+                        - generic [ref=e1761]:
+                          - img [ref=e1762]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1767]:
+                          - img [ref=e1768]
+                          - text: 10:00 AM
+                        - generic [ref=e1771]:
+                          - img [ref=e1772]
+                          - text: $200.00
+                      - paragraph [ref=e1775]:
+                        - img [ref=e1776]
+                        - text: Paid
+                  - generic [ref=e1780]:
+                    - link "View Details" [ref=e1781] [cursor=pointer]:
+                      - /url: /confirmation/57
+                      - button "View Details" [ref=e1782]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1783]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1784]:
+                - generic [ref=e1785]:
+                  - img [ref=e1786]
+                  - text: Tomorrow!
+                - generic [ref=e1790]:
+                  - generic [ref=e1791]:
+                    - generic [ref=e1793]: C
+                    - generic [ref=e1794]:
+                      - generic [ref=e1795]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1796]
+                        - generic [ref=e1797]:
+                          - img [ref=e1798]
+                          - text: Confirmed
+                      - paragraph [ref=e1801]: Neurology
+                      - generic [ref=e1802]:
+                        - generic [ref=e1803]:
+                          - img [ref=e1804]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1809]:
+                          - img [ref=e1810]
+                          - text: 10:00 AM
+                        - generic [ref=e1813]:
+                          - img [ref=e1814]
+                          - text: $200.00
+                      - paragraph [ref=e1817]:
+                        - img [ref=e1818]
+                        - text: Paid
+                  - generic [ref=e1822]:
+                    - link "View Details" [ref=e1823] [cursor=pointer]:
+                      - /url: /confirmation/58
+                      - button "View Details" [ref=e1824]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1825]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1826]:
+                - generic [ref=e1827]:
+                  - img [ref=e1828]
+                  - text: Tomorrow!
+                - generic [ref=e1832]:
+                  - generic [ref=e1833]:
+                    - generic [ref=e1835]: C
+                    - generic [ref=e1836]:
+                      - generic [ref=e1837]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1838]
+                        - generic [ref=e1839]:
+                          - img [ref=e1840]
+                          - text: Confirmed
+                      - paragraph [ref=e1843]: Neurology
+                      - generic [ref=e1844]:
+                        - generic [ref=e1845]:
+                          - img [ref=e1846]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1851]:
+                          - img [ref=e1852]
+                          - text: 10:00 AM
+                        - generic [ref=e1855]:
+                          - img [ref=e1856]
+                          - text: $200.00
+                      - paragraph [ref=e1859]:
+                        - img [ref=e1860]
+                        - text: Paid
+                  - generic [ref=e1864]:
+                    - link "View Details" [ref=e1865] [cursor=pointer]:
+                      - /url: /confirmation/59
+                      - button "View Details" [ref=e1866]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1867]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1868]:
+                - generic [ref=e1869]:
+                  - img [ref=e1870]
+                  - text: Tomorrow!
+                - generic [ref=e1874]:
+                  - generic [ref=e1875]:
+                    - generic [ref=e1877]: C
+                    - generic [ref=e1878]:
+                      - generic [ref=e1879]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1880]
+                        - generic [ref=e1881]:
+                          - img [ref=e1882]
+                          - text: Confirmed
+                      - paragraph [ref=e1885]: Neurology
+                      - generic [ref=e1886]:
+                        - generic [ref=e1887]:
+                          - img [ref=e1888]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1893]:
+                          - img [ref=e1894]
+                          - text: 10:00 AM
+                        - generic [ref=e1897]:
+                          - img [ref=e1898]
+                          - text: $200.00
+                      - paragraph [ref=e1901]:
+                        - img [ref=e1902]
+                        - text: Paid
+                  - generic [ref=e1906]:
+                    - link "View Details" [ref=e1907] [cursor=pointer]:
+                      - /url: /confirmation/60
+                      - button "View Details" [ref=e1908]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1909]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1910]:
+                - generic [ref=e1911]:
+                  - img [ref=e1912]
+                  - text: Tomorrow!
+                - generic [ref=e1916]:
+                  - generic [ref=e1917]:
+                    - generic [ref=e1919]: C
+                    - generic [ref=e1920]:
+                      - generic [ref=e1921]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1922]
+                        - generic [ref=e1923]:
+                          - img [ref=e1924]
+                          - text: Confirmed
+                      - paragraph [ref=e1927]: Neurology
+                      - generic [ref=e1928]:
+                        - generic [ref=e1929]:
+                          - img [ref=e1930]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1935]:
+                          - img [ref=e1936]
+                          - text: 10:00 AM
+                        - generic [ref=e1939]:
+                          - img [ref=e1940]
+                          - text: $200.00
+                      - paragraph [ref=e1943]:
+                        - img [ref=e1944]
+                        - text: Paid
+                  - generic [ref=e1948]:
+                    - link "View Details" [ref=e1949] [cursor=pointer]:
+                      - /url: /confirmation/61
+                      - button "View Details" [ref=e1950]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1951]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1952]:
+                - generic [ref=e1953]:
+                  - img [ref=e1954]
+                  - text: Tomorrow!
+                - generic [ref=e1958]:
+                  - generic [ref=e1959]:
+                    - generic [ref=e1961]: C
+                    - generic [ref=e1962]:
+                      - generic [ref=e1963]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e1964]
+                        - generic [ref=e1965]:
+                          - img [ref=e1966]
+                          - text: Confirmed
+                      - paragraph [ref=e1969]: Neurology
+                      - generic [ref=e1970]:
+                        - generic [ref=e1971]:
+                          - img [ref=e1972]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e1977]:
+                          - img [ref=e1978]
+                          - text: 10:00 AM
+                        - generic [ref=e1981]:
+                          - img [ref=e1982]
+                          - text: $200.00
+                      - paragraph [ref=e1985]:
+                        - img [ref=e1986]
+                        - text: Paid
+                  - generic [ref=e1990]:
+                    - link "View Details" [ref=e1991] [cursor=pointer]:
+                      - /url: /confirmation/62
+                      - button "View Details" [ref=e1992]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e1993]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e1994]:
+                - generic [ref=e1995]:
+                  - img [ref=e1996]
+                  - text: Tomorrow!
+                - generic [ref=e2000]:
+                  - generic [ref=e2001]:
+                    - generic [ref=e2003]: C
+                    - generic [ref=e2004]:
+                      - generic [ref=e2005]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2006]
+                        - generic [ref=e2007]:
+                          - img [ref=e2008]
+                          - text: Confirmed
+                      - paragraph [ref=e2011]: Neurology
+                      - generic [ref=e2012]:
+                        - generic [ref=e2013]:
+                          - img [ref=e2014]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2019]:
+                          - img [ref=e2020]
+                          - text: 10:00 AM
+                        - generic [ref=e2023]:
+                          - img [ref=e2024]
+                          - text: $200.00
+                      - paragraph [ref=e2027]:
+                        - img [ref=e2028]
+                        - text: Paid
+                  - generic [ref=e2032]:
+                    - link "View Details" [ref=e2033] [cursor=pointer]:
+                      - /url: /confirmation/64
+                      - button "View Details" [ref=e2034]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2035]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2036]:
+                - generic [ref=e2037]:
+                  - img [ref=e2038]
+                  - text: Tomorrow!
+                - generic [ref=e2042]:
+                  - generic [ref=e2043]:
+                    - generic [ref=e2045]: C
+                    - generic [ref=e2046]:
+                      - generic [ref=e2047]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2048]
+                        - generic [ref=e2049]:
+                          - img [ref=e2050]
+                          - text: Confirmed
+                      - paragraph [ref=e2053]: Neurology
+                      - generic [ref=e2054]:
+                        - generic [ref=e2055]:
+                          - img [ref=e2056]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2061]:
+                          - img [ref=e2062]
+                          - text: 10:00 AM
+                        - generic [ref=e2065]:
+                          - img [ref=e2066]
+                          - text: $200.00
+                      - paragraph [ref=e2069]:
+                        - img [ref=e2070]
+                        - text: Paid
+                  - generic [ref=e2074]:
+                    - link "View Details" [ref=e2075] [cursor=pointer]:
+                      - /url: /confirmation/65
+                      - button "View Details" [ref=e2076]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2077]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2078]:
+                - generic [ref=e2079]:
+                  - img [ref=e2080]
+                  - text: Tomorrow!
+                - generic [ref=e2084]:
+                  - generic [ref=e2085]:
+                    - generic [ref=e2087]: C
+                    - generic [ref=e2088]:
+                      - generic [ref=e2089]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2090]
+                        - generic [ref=e2091]:
+                          - img [ref=e2092]
+                          - text: Confirmed
+                      - paragraph [ref=e2095]: Neurology
+                      - generic [ref=e2096]:
+                        - generic [ref=e2097]:
+                          - img [ref=e2098]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2103]:
+                          - img [ref=e2104]
+                          - text: 10:00 AM
+                        - generic [ref=e2107]:
+                          - img [ref=e2108]
+                          - text: $200.00
+                      - paragraph [ref=e2111]:
+                        - img [ref=e2112]
+                        - text: Paid
+                  - generic [ref=e2116]:
+                    - link "View Details" [ref=e2117] [cursor=pointer]:
+                      - /url: /confirmation/66
+                      - button "View Details" [ref=e2118]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2119]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2120]:
+                - generic [ref=e2121]:
+                  - img [ref=e2122]
+                  - text: Tomorrow!
+                - generic [ref=e2126]:
+                  - generic [ref=e2127]:
+                    - generic [ref=e2129]: C
+                    - generic [ref=e2130]:
+                      - generic [ref=e2131]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2132]
+                        - generic [ref=e2133]:
+                          - img [ref=e2134]
+                          - text: Confirmed
+                      - paragraph [ref=e2137]: Neurology
+                      - generic [ref=e2138]:
+                        - generic [ref=e2139]:
+                          - img [ref=e2140]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2145]:
+                          - img [ref=e2146]
+                          - text: 10:00 AM
+                        - generic [ref=e2149]:
+                          - img [ref=e2150]
+                          - text: $200.00
+                      - paragraph [ref=e2153]:
+                        - img [ref=e2154]
+                        - text: Paid
+                  - generic [ref=e2158]:
+                    - link "View Details" [ref=e2159] [cursor=pointer]:
+                      - /url: /confirmation/67
+                      - button "View Details" [ref=e2160]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2161]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2162]:
+                - generic [ref=e2163]:
+                  - img [ref=e2164]
+                  - text: Tomorrow!
+                - generic [ref=e2168]:
+                  - generic [ref=e2169]:
+                    - generic [ref=e2171]: C
+                    - generic [ref=e2172]:
+                      - generic [ref=e2173]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2174]
+                        - generic [ref=e2175]:
+                          - img [ref=e2176]
+                          - text: Confirmed
+                      - paragraph [ref=e2179]: Neurology
+                      - generic [ref=e2180]:
+                        - generic [ref=e2181]:
+                          - img [ref=e2182]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2187]:
+                          - img [ref=e2188]
+                          - text: 10:00 AM
+                        - generic [ref=e2191]:
+                          - img [ref=e2192]
+                          - text: $200.00
+                      - paragraph [ref=e2195]:
+                        - img [ref=e2196]
+                        - text: Paid
+                  - generic [ref=e2200]:
+                    - link "View Details" [ref=e2201] [cursor=pointer]:
+                      - /url: /confirmation/68
+                      - button "View Details" [ref=e2202]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2203]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2204]:
+                - generic [ref=e2205]:
+                  - img [ref=e2206]
+                  - text: Tomorrow!
+                - generic [ref=e2210]:
+                  - generic [ref=e2211]:
+                    - generic [ref=e2213]: C
+                    - generic [ref=e2214]:
+                      - generic [ref=e2215]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2216]
+                        - generic [ref=e2217]:
+                          - img [ref=e2218]
+                          - text: Confirmed
+                      - paragraph [ref=e2221]: Neurology
+                      - generic [ref=e2222]:
+                        - generic [ref=e2223]:
+                          - img [ref=e2224]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2229]:
+                          - img [ref=e2230]
+                          - text: 10:00 AM
+                        - generic [ref=e2233]:
+                          - img [ref=e2234]
+                          - text: $200.00
+                      - paragraph [ref=e2237]:
+                        - img [ref=e2238]
+                        - text: Paid
+                  - generic [ref=e2242]:
+                    - link "View Details" [ref=e2243] [cursor=pointer]:
+                      - /url: /confirmation/69
+                      - button "View Details" [ref=e2244]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2245]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2246]:
+                - generic [ref=e2247]:
+                  - img [ref=e2248]
+                  - text: Tomorrow!
+                - generic [ref=e2252]:
+                  - generic [ref=e2253]:
+                    - generic [ref=e2255]: C
+                    - generic [ref=e2256]:
+                      - generic [ref=e2257]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2258]
+                        - generic [ref=e2259]:
+                          - img [ref=e2260]
+                          - text: Confirmed
+                      - paragraph [ref=e2263]: Neurology
+                      - generic [ref=e2264]:
+                        - generic [ref=e2265]:
+                          - img [ref=e2266]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2271]:
+                          - img [ref=e2272]
+                          - text: 10:00 AM
+                        - generic [ref=e2275]:
+                          - img [ref=e2276]
+                          - text: $200.00
+                      - paragraph [ref=e2279]:
+                        - img [ref=e2280]
+                        - text: Paid
+                  - generic [ref=e2284]:
+                    - link "View Details" [ref=e2285] [cursor=pointer]:
+                      - /url: /confirmation/71
+                      - button "View Details" [ref=e2286]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2287]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2288]:
+                - generic [ref=e2289]:
+                  - img [ref=e2290]
+                  - text: Tomorrow!
+                - generic [ref=e2294]:
+                  - generic [ref=e2295]:
+                    - generic [ref=e2297]: C
+                    - generic [ref=e2298]:
+                      - generic [ref=e2299]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2300]
+                        - generic [ref=e2301]:
+                          - img [ref=e2302]
+                          - text: Confirmed
+                      - paragraph [ref=e2305]: Neurology
+                      - generic [ref=e2306]:
+                        - generic [ref=e2307]:
+                          - img [ref=e2308]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2313]:
+                          - img [ref=e2314]
+                          - text: 10:00 AM
+                        - generic [ref=e2317]:
+                          - img [ref=e2318]
+                          - text: $200.00
+                      - paragraph [ref=e2321]:
+                        - img [ref=e2322]
+                        - text: Paid
+                  - generic [ref=e2326]:
+                    - link "View Details" [ref=e2327] [cursor=pointer]:
+                      - /url: /confirmation/72
+                      - button "View Details" [ref=e2328]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2329]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2330]:
+                - generic [ref=e2331]:
+                  - img [ref=e2332]
+                  - text: Tomorrow!
+                - generic [ref=e2336]:
+                  - generic [ref=e2337]:
+                    - generic [ref=e2339]: C
+                    - generic [ref=e2340]:
+                      - generic [ref=e2341]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2342]
+                        - generic [ref=e2343]:
+                          - img [ref=e2344]
+                          - text: Confirmed
+                      - paragraph [ref=e2347]: Neurology
+                      - generic [ref=e2348]:
+                        - generic [ref=e2349]:
+                          - img [ref=e2350]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2355]:
+                          - img [ref=e2356]
+                          - text: 10:00 AM
+                        - generic [ref=e2359]:
+                          - img [ref=e2360]
+                          - text: $200.00
+                      - paragraph [ref=e2363]:
+                        - img [ref=e2364]
+                        - text: Paid
+                  - generic [ref=e2368]:
+                    - link "View Details" [ref=e2369] [cursor=pointer]:
+                      - /url: /confirmation/73
+                      - button "View Details" [ref=e2370]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2371]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2372]:
+                - generic [ref=e2373]:
+                  - img [ref=e2374]
+                  - text: Tomorrow!
+                - generic [ref=e2378]:
+                  - generic [ref=e2379]:
+                    - generic [ref=e2381]: C
+                    - generic [ref=e2382]:
+                      - generic [ref=e2383]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2384]
+                        - generic [ref=e2385]:
+                          - img [ref=e2386]
+                          - text: Confirmed
+                      - paragraph [ref=e2389]: Neurology
+                      - generic [ref=e2390]:
+                        - generic [ref=e2391]:
+                          - img [ref=e2392]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2397]:
+                          - img [ref=e2398]
+                          - text: 10:00 AM
+                        - generic [ref=e2401]:
+                          - img [ref=e2402]
+                          - text: $200.00
+                      - paragraph [ref=e2405]:
+                        - img [ref=e2406]
+                        - text: Paid
+                  - generic [ref=e2410]:
+                    - link "View Details" [ref=e2411] [cursor=pointer]:
+                      - /url: /confirmation/74
+                      - button "View Details" [ref=e2412]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2413]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2414]:
+                - generic [ref=e2415]:
+                  - img [ref=e2416]
+                  - text: Tomorrow!
+                - generic [ref=e2420]:
+                  - generic [ref=e2421]:
+                    - generic [ref=e2423]: C
+                    - generic [ref=e2424]:
+                      - generic [ref=e2425]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2426]
+                        - generic [ref=e2427]:
+                          - img [ref=e2428]
+                          - text: Confirmed
+                      - paragraph [ref=e2431]: Neurology
+                      - generic [ref=e2432]:
+                        - generic [ref=e2433]:
+                          - img [ref=e2434]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2439]:
+                          - img [ref=e2440]
+                          - text: 10:00 AM
+                        - generic [ref=e2443]:
+                          - img [ref=e2444]
+                          - text: $200.00
+                      - paragraph [ref=e2447]:
+                        - img [ref=e2448]
+                        - text: Paid
+                  - generic [ref=e2452]:
+                    - link "View Details" [ref=e2453] [cursor=pointer]:
+                      - /url: /confirmation/75
+                      - button "View Details" [ref=e2454]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2455]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2456]:
+                - generic [ref=e2457]:
+                  - img [ref=e2458]
+                  - text: Tomorrow!
+                - generic [ref=e2462]:
+                  - generic [ref=e2463]:
+                    - generic [ref=e2465]: C
+                    - generic [ref=e2466]:
+                      - generic [ref=e2467]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2468]
+                        - generic [ref=e2469]:
+                          - img [ref=e2470]
+                          - text: Confirmed
+                      - paragraph [ref=e2473]: Neurology
+                      - generic [ref=e2474]:
+                        - generic [ref=e2475]:
+                          - img [ref=e2476]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2481]:
+                          - img [ref=e2482]
+                          - text: 10:00 AM
+                        - generic [ref=e2485]:
+                          - img [ref=e2486]
+                          - text: $200.00
+                      - paragraph [ref=e2489]:
+                        - img [ref=e2490]
+                        - text: Paid
+                  - generic [ref=e2494]:
+                    - link "View Details" [ref=e2495] [cursor=pointer]:
+                      - /url: /confirmation/78
+                      - button "View Details" [ref=e2496]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2497]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2498]:
+                - generic [ref=e2499]:
+                  - img [ref=e2500]
+                  - text: Tomorrow!
+                - generic [ref=e2504]:
+                  - generic [ref=e2505]:
+                    - generic [ref=e2507]: C
+                    - generic [ref=e2508]:
+                      - generic [ref=e2509]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2510]
+                        - generic [ref=e2511]:
+                          - img [ref=e2512]
+                          - text: Confirmed
+                      - paragraph [ref=e2515]: Neurology
+                      - generic [ref=e2516]:
+                        - generic [ref=e2517]:
+                          - img [ref=e2518]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2523]:
+                          - img [ref=e2524]
+                          - text: 10:00 AM
+                        - generic [ref=e2527]:
+                          - img [ref=e2528]
+                          - text: $200.00
+                      - paragraph [ref=e2531]:
+                        - img [ref=e2532]
+                        - text: Paid
+                  - generic [ref=e2536]:
+                    - link "View Details" [ref=e2537] [cursor=pointer]:
+                      - /url: /confirmation/82
+                      - button "View Details" [ref=e2538]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2539]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2540]:
+                - generic [ref=e2541]:
+                  - img [ref=e2542]
+                  - text: Tomorrow!
+                - generic [ref=e2546]:
+                  - generic [ref=e2547]:
+                    - generic [ref=e2549]: C
+                    - generic [ref=e2550]:
+                      - generic [ref=e2551]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2552]
+                        - generic [ref=e2553]:
+                          - img [ref=e2554]
+                          - text: Confirmed
+                      - paragraph [ref=e2557]: Neurology
+                      - generic [ref=e2558]:
+                        - generic [ref=e2559]:
+                          - img [ref=e2560]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2565]:
+                          - img [ref=e2566]
+                          - text: 10:00 AM
+                        - generic [ref=e2569]:
+                          - img [ref=e2570]
+                          - text: $200.00
+                      - paragraph [ref=e2573]:
+                        - img [ref=e2574]
+                        - text: Paid
+                  - generic [ref=e2578]:
+                    - link "View Details" [ref=e2579] [cursor=pointer]:
+                      - /url: /confirmation/83
+                      - button "View Details" [ref=e2580]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2581]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2582]:
+                - generic [ref=e2583]:
+                  - img [ref=e2584]
+                  - text: Tomorrow!
+                - generic [ref=e2588]:
+                  - generic [ref=e2589]:
+                    - generic [ref=e2591]: C
+                    - generic [ref=e2592]:
+                      - generic [ref=e2593]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2594]
+                        - generic [ref=e2595]:
+                          - img [ref=e2596]
+                          - text: Confirmed
+                      - paragraph [ref=e2599]: Neurology
+                      - generic [ref=e2600]:
+                        - generic [ref=e2601]:
+                          - img [ref=e2602]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2607]:
+                          - img [ref=e2608]
+                          - text: 10:00 AM
+                        - generic [ref=e2611]:
+                          - img [ref=e2612]
+                          - text: $200.00
+                      - paragraph [ref=e2615]:
+                        - img [ref=e2616]
+                        - text: Paid
+                  - generic [ref=e2620]:
+                    - link "View Details" [ref=e2621] [cursor=pointer]:
+                      - /url: /confirmation/76
+                      - button "View Details" [ref=e2622]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2623]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2624]:
+                - generic [ref=e2625]:
+                  - img [ref=e2626]
+                  - text: Tomorrow!
+                - generic [ref=e2630]:
+                  - generic [ref=e2631]:
+                    - generic [ref=e2633]: C
+                    - generic [ref=e2634]:
+                      - generic [ref=e2635]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2636]
+                        - generic [ref=e2637]:
+                          - img [ref=e2638]
+                          - text: Confirmed
+                      - paragraph [ref=e2641]: Neurology
+                      - generic [ref=e2642]:
+                        - generic [ref=e2643]:
+                          - img [ref=e2644]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2649]:
+                          - img [ref=e2650]
+                          - text: 10:00 AM
+                        - generic [ref=e2653]:
+                          - img [ref=e2654]
+                          - text: $200.00
+                      - paragraph [ref=e2657]:
+                        - img [ref=e2658]
+                        - text: Paid
+                  - generic [ref=e2662]:
+                    - link "View Details" [ref=e2663] [cursor=pointer]:
+                      - /url: /confirmation/79
+                      - button "View Details" [ref=e2664]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2665]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2666]:
+                - generic [ref=e2667]:
+                  - img [ref=e2668]
+                  - text: Tomorrow!
+                - generic [ref=e2672]:
+                  - generic [ref=e2673]:
+                    - generic [ref=e2675]: C
+                    - generic [ref=e2676]:
+                      - generic [ref=e2677]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2678]
+                        - generic [ref=e2679]:
+                          - img [ref=e2680]
+                          - text: Confirmed
+                      - paragraph [ref=e2683]: Neurology
+                      - generic [ref=e2684]:
+                        - generic [ref=e2685]:
+                          - img [ref=e2686]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2691]:
+                          - img [ref=e2692]
+                          - text: 10:00 AM
+                        - generic [ref=e2695]:
+                          - img [ref=e2696]
+                          - text: $200.00
+                      - paragraph [ref=e2699]:
+                        - img [ref=e2700]
+                        - text: Paid
+                  - generic [ref=e2704]:
+                    - link "View Details" [ref=e2705] [cursor=pointer]:
+                      - /url: /confirmation/80
+                      - button "View Details" [ref=e2706]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2707]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2708]:
+                - generic [ref=e2709]:
+                  - img [ref=e2710]
+                  - text: Tomorrow!
+                - generic [ref=e2714]:
+                  - generic [ref=e2715]:
+                    - generic [ref=e2717]: C
+                    - generic [ref=e2718]:
+                      - generic [ref=e2719]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2720]
+                        - generic [ref=e2721]:
+                          - img [ref=e2722]
+                          - text: Confirmed
+                      - paragraph [ref=e2725]: Neurology
+                      - generic [ref=e2726]:
+                        - generic [ref=e2727]:
+                          - img [ref=e2728]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2733]:
+                          - img [ref=e2734]
+                          - text: 10:00 AM
+                        - generic [ref=e2737]:
+                          - img [ref=e2738]
+                          - text: $200.00
+                      - paragraph [ref=e2741]:
+                        - img [ref=e2742]
+                        - text: Paid
+                  - generic [ref=e2746]:
+                    - link "View Details" [ref=e2747] [cursor=pointer]:
+                      - /url: /confirmation/81
+                      - button "View Details" [ref=e2748]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2749]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2750]:
+                - generic [ref=e2751]:
+                  - img [ref=e2752]
+                  - text: Tomorrow!
+                - generic [ref=e2756]:
+                  - generic [ref=e2757]:
+                    - generic [ref=e2759]: C
+                    - generic [ref=e2760]:
+                      - generic [ref=e2761]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2762]
+                        - generic [ref=e2763]:
+                          - img [ref=e2764]
+                          - text: Confirmed
+                      - paragraph [ref=e2767]: Neurology
+                      - generic [ref=e2768]:
+                        - generic [ref=e2769]:
+                          - img [ref=e2770]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2775]:
+                          - img [ref=e2776]
+                          - text: 10:00 AM
+                        - generic [ref=e2779]:
+                          - img [ref=e2780]
+                          - text: $200.00
+                      - paragraph [ref=e2783]:
+                        - img [ref=e2784]
+                        - text: Paid
+                  - generic [ref=e2788]:
+                    - link "View Details" [ref=e2789] [cursor=pointer]:
+                      - /url: /confirmation/85
+                      - button "View Details" [ref=e2790]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2791]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2792]:
+                - generic [ref=e2793]:
+                  - img [ref=e2794]
+                  - text: Tomorrow!
+                - generic [ref=e2798]:
+                  - generic [ref=e2799]:
+                    - generic [ref=e2801]: C
+                    - generic [ref=e2802]:
+                      - generic [ref=e2803]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2804]
+                        - generic [ref=e2805]:
+                          - img [ref=e2806]
+                          - text: Confirmed
+                      - paragraph [ref=e2809]: Neurology
+                      - generic [ref=e2810]:
+                        - generic [ref=e2811]:
+                          - img [ref=e2812]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2817]:
+                          - img [ref=e2818]
+                          - text: 10:00 AM
+                        - generic [ref=e2821]:
+                          - img [ref=e2822]
+                          - text: $200.00
+                      - paragraph [ref=e2825]:
+                        - img [ref=e2826]
+                        - text: Paid
+                  - generic [ref=e2830]:
+                    - link "View Details" [ref=e2831] [cursor=pointer]:
+                      - /url: /confirmation/86
+                      - button "View Details" [ref=e2832]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2833]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2834]:
+                - generic [ref=e2835]:
+                  - img [ref=e2836]
+                  - text: Tomorrow!
+                - generic [ref=e2840]:
+                  - generic [ref=e2841]:
+                    - generic [ref=e2843]: C
+                    - generic [ref=e2844]:
+                      - generic [ref=e2845]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2846]
+                        - generic [ref=e2847]:
+                          - img [ref=e2848]
+                          - text: Confirmed
+                      - paragraph [ref=e2851]: Neurology
+                      - generic [ref=e2852]:
+                        - generic [ref=e2853]:
+                          - img [ref=e2854]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2859]:
+                          - img [ref=e2860]
+                          - text: 10:00 AM
+                        - generic [ref=e2863]:
+                          - img [ref=e2864]
+                          - text: $200.00
+                      - paragraph [ref=e2867]:
+                        - img [ref=e2868]
+                        - text: Paid
+                  - generic [ref=e2872]:
+                    - link "View Details" [ref=e2873] [cursor=pointer]:
+                      - /url: /confirmation/87
+                      - button "View Details" [ref=e2874]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2875]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2876]:
+                - generic [ref=e2877]:
+                  - img [ref=e2878]
+                  - text: Tomorrow!
+                - generic [ref=e2882]:
+                  - generic [ref=e2883]:
+                    - generic [ref=e2885]: C
+                    - generic [ref=e2886]:
+                      - generic [ref=e2887]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2888]
+                        - generic [ref=e2889]:
+                          - img [ref=e2890]
+                          - text: Confirmed
+                      - paragraph [ref=e2893]: Neurology
+                      - generic [ref=e2894]:
+                        - generic [ref=e2895]:
+                          - img [ref=e2896]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2901]:
+                          - img [ref=e2902]
+                          - text: 10:00 AM
+                        - generic [ref=e2905]:
+                          - img [ref=e2906]
+                          - text: $200.00
+                      - paragraph [ref=e2909]:
+                        - img [ref=e2910]
+                        - text: Paid
+                  - generic [ref=e2914]:
+                    - link "View Details" [ref=e2915] [cursor=pointer]:
+                      - /url: /confirmation/88
+                      - button "View Details" [ref=e2916]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2917]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2918]:
+                - generic [ref=e2919]:
+                  - img [ref=e2920]
+                  - text: Tomorrow!
+                - generic [ref=e2924]:
+                  - generic [ref=e2925]:
+                    - generic [ref=e2927]: C
+                    - generic [ref=e2928]:
+                      - generic [ref=e2929]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2930]
+                        - generic [ref=e2931]:
+                          - img [ref=e2932]
+                          - text: Confirmed
+                      - paragraph [ref=e2935]: Neurology
+                      - generic [ref=e2936]:
+                        - generic [ref=e2937]:
+                          - img [ref=e2938]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2943]:
+                          - img [ref=e2944]
+                          - text: 10:00 AM
+                        - generic [ref=e2947]:
+                          - img [ref=e2948]
+                          - text: $200.00
+                      - paragraph [ref=e2951]:
+                        - img [ref=e2952]
+                        - text: Paid
+                  - generic [ref=e2956]:
+                    - link "View Details" [ref=e2957] [cursor=pointer]:
+                      - /url: /confirmation/89
+                      - button "View Details" [ref=e2958]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e2959]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e2960]:
+                - generic [ref=e2961]:
+                  - img [ref=e2962]
+                  - text: Tomorrow!
+                - generic [ref=e2966]:
+                  - generic [ref=e2967]:
+                    - generic [ref=e2969]: C
+                    - generic [ref=e2970]:
+                      - generic [ref=e2971]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e2972]
+                        - generic [ref=e2973]:
+                          - img [ref=e2974]
+                          - text: Confirmed
+                      - paragraph [ref=e2977]: Neurology
+                      - generic [ref=e2978]:
+                        - generic [ref=e2979]:
+                          - img [ref=e2980]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e2985]:
+                          - img [ref=e2986]
+                          - text: 10:00 AM
+                        - generic [ref=e2989]:
+                          - img [ref=e2990]
+                          - text: $200.00
+                      - paragraph [ref=e2993]:
+                        - img [ref=e2994]
+                        - text: Paid
+                  - generic [ref=e2998]:
+                    - link "View Details" [ref=e2999] [cursor=pointer]:
+                      - /url: /confirmation/90
+                      - button "View Details" [ref=e3000]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3001]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3002]:
+                - generic [ref=e3003]:
+                  - img [ref=e3004]
+                  - text: Tomorrow!
+                - generic [ref=e3008]:
+                  - generic [ref=e3009]:
+                    - generic [ref=e3011]: C
+                    - generic [ref=e3012]:
+                      - generic [ref=e3013]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3014]
+                        - generic [ref=e3015]:
+                          - img [ref=e3016]
+                          - text: Confirmed
+                      - paragraph [ref=e3019]: Neurology
+                      - generic [ref=e3020]:
+                        - generic [ref=e3021]:
+                          - img [ref=e3022]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3027]:
+                          - img [ref=e3028]
+                          - text: 10:00 AM
+                        - generic [ref=e3031]:
+                          - img [ref=e3032]
+                          - text: $200.00
+                      - paragraph [ref=e3035]:
+                        - img [ref=e3036]
+                        - text: Paid
+                  - generic [ref=e3040]:
+                    - link "View Details" [ref=e3041] [cursor=pointer]:
+                      - /url: /confirmation/91
+                      - button "View Details" [ref=e3042]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3043]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3044]:
+                - generic [ref=e3045]:
+                  - img [ref=e3046]
+                  - text: Tomorrow!
+                - generic [ref=e3050]:
+                  - generic [ref=e3051]:
+                    - generic [ref=e3053]: C
+                    - generic [ref=e3054]:
+                      - generic [ref=e3055]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3056]
+                        - generic [ref=e3057]:
+                          - img [ref=e3058]
+                          - text: Confirmed
+                      - paragraph [ref=e3061]: Neurology
+                      - generic [ref=e3062]:
+                        - generic [ref=e3063]:
+                          - img [ref=e3064]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3069]:
+                          - img [ref=e3070]
+                          - text: 10:00 AM
+                        - generic [ref=e3073]:
+                          - img [ref=e3074]
+                          - text: $200.00
+                      - paragraph [ref=e3077]:
+                        - img [ref=e3078]
+                        - text: Paid
+                  - generic [ref=e3082]:
+                    - link "View Details" [ref=e3083] [cursor=pointer]:
+                      - /url: /confirmation/92
+                      - button "View Details" [ref=e3084]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3085]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3086]:
+                - generic [ref=e3087]:
+                  - img [ref=e3088]
+                  - text: Tomorrow!
+                - generic [ref=e3092]:
+                  - generic [ref=e3093]:
+                    - generic [ref=e3095]: C
+                    - generic [ref=e3096]:
+                      - generic [ref=e3097]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3098]
+                        - generic [ref=e3099]:
+                          - img [ref=e3100]
+                          - text: Confirmed
+                      - paragraph [ref=e3103]: Neurology
+                      - generic [ref=e3104]:
+                        - generic [ref=e3105]:
+                          - img [ref=e3106]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3111]:
+                          - img [ref=e3112]
+                          - text: 10:00 AM
+                        - generic [ref=e3115]:
+                          - img [ref=e3116]
+                          - text: $200.00
+                      - paragraph [ref=e3119]:
+                        - img [ref=e3120]
+                        - text: Paid
+                  - generic [ref=e3124]:
+                    - link "View Details" [ref=e3125] [cursor=pointer]:
+                      - /url: /confirmation/94
+                      - button "View Details" [ref=e3126]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3127]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3128]:
+                - generic [ref=e3129]:
+                  - img [ref=e3130]
+                  - text: Tomorrow!
+                - generic [ref=e3134]:
+                  - generic [ref=e3135]:
+                    - generic [ref=e3137]: C
+                    - generic [ref=e3138]:
+                      - generic [ref=e3139]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3140]
+                        - generic [ref=e3141]:
+                          - img [ref=e3142]
+                          - text: Confirmed
+                      - paragraph [ref=e3145]: Neurology
+                      - generic [ref=e3146]:
+                        - generic [ref=e3147]:
+                          - img [ref=e3148]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3153]:
+                          - img [ref=e3154]
+                          - text: 10:00 AM
+                        - generic [ref=e3157]:
+                          - img [ref=e3158]
+                          - text: $200.00
+                      - paragraph [ref=e3161]:
+                        - img [ref=e3162]
+                        - text: Paid
+                  - generic [ref=e3166]:
+                    - link "View Details" [ref=e3167] [cursor=pointer]:
+                      - /url: /confirmation/95
+                      - button "View Details" [ref=e3168]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3169]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3170]:
+                - generic [ref=e3171]:
+                  - img [ref=e3172]
+                  - text: Tomorrow!
+                - generic [ref=e3176]:
+                  - generic [ref=e3177]:
+                    - generic [ref=e3179]: C
+                    - generic [ref=e3180]:
+                      - generic [ref=e3181]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3182]
+                        - generic [ref=e3183]:
+                          - img [ref=e3184]
+                          - text: Confirmed
+                      - paragraph [ref=e3187]: Neurology
+                      - generic [ref=e3188]:
+                        - generic [ref=e3189]:
+                          - img [ref=e3190]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3195]:
+                          - img [ref=e3196]
+                          - text: 10:00 AM
+                        - generic [ref=e3199]:
+                          - img [ref=e3200]
+                          - text: $200.00
+                      - paragraph [ref=e3203]:
+                        - img [ref=e3204]
+                        - text: Paid
+                  - generic [ref=e3208]:
+                    - link "View Details" [ref=e3209] [cursor=pointer]:
+                      - /url: /confirmation/96
+                      - button "View Details" [ref=e3210]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3211]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3212]:
+                - generic [ref=e3213]:
+                  - img [ref=e3214]
+                  - text: Tomorrow!
+                - generic [ref=e3218]:
+                  - generic [ref=e3219]:
+                    - generic [ref=e3221]: C
+                    - generic [ref=e3222]:
+                      - generic [ref=e3223]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3224]
+                        - generic [ref=e3225]:
+                          - img [ref=e3226]
+                          - text: Confirmed
+                      - paragraph [ref=e3229]: Neurology
+                      - generic [ref=e3230]:
+                        - generic [ref=e3231]:
+                          - img [ref=e3232]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3237]:
+                          - img [ref=e3238]
+                          - text: 10:00 AM
+                        - generic [ref=e3241]:
+                          - img [ref=e3242]
+                          - text: $200.00
+                      - paragraph [ref=e3245]:
+                        - img [ref=e3246]
+                        - text: Paid
+                  - generic [ref=e3250]:
+                    - link "View Details" [ref=e3251] [cursor=pointer]:
+                      - /url: /confirmation/97
+                      - button "View Details" [ref=e3252]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3253]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3254]:
+                - generic [ref=e3255]:
+                  - img [ref=e3256]
+                  - text: Tomorrow!
+                - generic [ref=e3260]:
+                  - generic [ref=e3261]:
+                    - generic [ref=e3263]: C
+                    - generic [ref=e3264]:
+                      - generic [ref=e3265]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3266]
+                        - generic [ref=e3267]:
+                          - img [ref=e3268]
+                          - text: Confirmed
+                      - paragraph [ref=e3271]: Neurology
+                      - generic [ref=e3272]:
+                        - generic [ref=e3273]:
+                          - img [ref=e3274]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3279]:
+                          - img [ref=e3280]
+                          - text: 10:00 AM
+                        - generic [ref=e3283]:
+                          - img [ref=e3284]
+                          - text: $200.00
+                      - paragraph [ref=e3287]:
+                        - img [ref=e3288]
+                        - text: Paid
+                  - generic [ref=e3292]:
+                    - link "View Details" [ref=e3293] [cursor=pointer]:
+                      - /url: /confirmation/99
+                      - button "View Details" [ref=e3294]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3295]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3296]:
+                - generic [ref=e3297]:
+                  - img [ref=e3298]
+                  - text: Tomorrow!
+                - generic [ref=e3302]:
+                  - generic [ref=e3303]:
+                    - generic [ref=e3305]: C
+                    - generic [ref=e3306]:
+                      - generic [ref=e3307]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3308]
+                        - generic [ref=e3309]:
+                          - img [ref=e3310]
+                          - text: Confirmed
+                      - paragraph [ref=e3313]: Neurology
+                      - generic [ref=e3314]:
+                        - generic [ref=e3315]:
+                          - img [ref=e3316]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3321]:
+                          - img [ref=e3322]
+                          - text: 10:00 AM
+                        - generic [ref=e3325]:
+                          - img [ref=e3326]
+                          - text: $200.00
+                      - paragraph [ref=e3329]:
+                        - img [ref=e3330]
+                        - text: Paid
+                  - generic [ref=e3334]:
+                    - link "View Details" [ref=e3335] [cursor=pointer]:
+                      - /url: /confirmation/100
+                      - button "View Details" [ref=e3336]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3337]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3338]:
+                - generic [ref=e3339]:
+                  - img [ref=e3340]
+                  - text: Tomorrow!
+                - generic [ref=e3344]:
+                  - generic [ref=e3345]:
+                    - generic [ref=e3347]: C
+                    - generic [ref=e3348]:
+                      - generic [ref=e3349]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3350]
+                        - generic [ref=e3351]:
+                          - img [ref=e3352]
+                          - text: Confirmed
+                      - paragraph [ref=e3355]: Neurology
+                      - generic [ref=e3356]:
+                        - generic [ref=e3357]:
+                          - img [ref=e3358]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3363]:
+                          - img [ref=e3364]
+                          - text: 10:00 AM
+                        - generic [ref=e3367]:
+                          - img [ref=e3368]
+                          - text: $200.00
+                      - paragraph [ref=e3371]:
+                        - img [ref=e3372]
+                        - text: Paid
+                  - generic [ref=e3376]:
+                    - link "View Details" [ref=e3377] [cursor=pointer]:
+                      - /url: /confirmation/101
+                      - button "View Details" [ref=e3378]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3379]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3380]:
+                - generic [ref=e3381]:
+                  - img [ref=e3382]
+                  - text: Tomorrow!
+                - generic [ref=e3386]:
+                  - generic [ref=e3387]:
+                    - generic [ref=e3389]: C
+                    - generic [ref=e3390]:
+                      - generic [ref=e3391]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3392]
+                        - generic [ref=e3393]:
+                          - img [ref=e3394]
+                          - text: Confirmed
+                      - paragraph [ref=e3397]: Neurology
+                      - generic [ref=e3398]:
+                        - generic [ref=e3399]:
+                          - img [ref=e3400]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3405]:
+                          - img [ref=e3406]
+                          - text: 10:00 AM
+                        - generic [ref=e3409]:
+                          - img [ref=e3410]
+                          - text: $200.00
+                      - paragraph [ref=e3413]:
+                        - img [ref=e3414]
+                        - text: Paid
+                  - generic [ref=e3418]:
+                    - link "View Details" [ref=e3419] [cursor=pointer]:
+                      - /url: /confirmation/102
+                      - button "View Details" [ref=e3420]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3421]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3422]:
+                - generic [ref=e3423]:
+                  - img [ref=e3424]
+                  - text: Tomorrow!
+                - generic [ref=e3428]:
+                  - generic [ref=e3429]:
+                    - generic [ref=e3431]: C
+                    - generic [ref=e3432]:
+                      - generic [ref=e3433]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3434]
+                        - generic [ref=e3435]:
+                          - img [ref=e3436]
+                          - text: Confirmed
+                      - paragraph [ref=e3439]: Neurology
+                      - generic [ref=e3440]:
+                        - generic [ref=e3441]:
+                          - img [ref=e3442]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3447]:
+                          - img [ref=e3448]
+                          - text: 10:00 AM
+                        - generic [ref=e3451]:
+                          - img [ref=e3452]
+                          - text: $200.00
+                      - paragraph [ref=e3455]:
+                        - img [ref=e3456]
+                        - text: Paid
+                  - generic [ref=e3460]:
+                    - link "View Details" [ref=e3461] [cursor=pointer]:
+                      - /url: /confirmation/103
+                      - button "View Details" [ref=e3462]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3463]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3464]:
+                - generic [ref=e3465]:
+                  - img [ref=e3466]
+                  - text: Tomorrow!
+                - generic [ref=e3470]:
+                  - generic [ref=e3471]:
+                    - generic [ref=e3473]: C
+                    - generic [ref=e3474]:
+                      - generic [ref=e3475]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3476]
+                        - generic [ref=e3477]:
+                          - img [ref=e3478]
+                          - text: Confirmed
+                      - paragraph [ref=e3481]: Neurology
+                      - generic [ref=e3482]:
+                        - generic [ref=e3483]:
+                          - img [ref=e3484]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3489]:
+                          - img [ref=e3490]
+                          - text: 10:00 AM
+                        - generic [ref=e3493]:
+                          - img [ref=e3494]
+                          - text: $200.00
+                      - paragraph [ref=e3497]:
+                        - img [ref=e3498]
+                        - text: Paid
+                  - generic [ref=e3502]:
+                    - link "View Details" [ref=e3503] [cursor=pointer]:
+                      - /url: /confirmation/104
+                      - button "View Details" [ref=e3504]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3505]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3506]:
+                - generic [ref=e3507]:
+                  - img [ref=e3508]
+                  - text: Tomorrow!
+                - generic [ref=e3512]:
+                  - generic [ref=e3513]:
+                    - generic [ref=e3515]: C
+                    - generic [ref=e3516]:
+                      - generic [ref=e3517]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3518]
+                        - generic [ref=e3519]:
+                          - img [ref=e3520]
+                          - text: Confirmed
+                      - paragraph [ref=e3523]: Neurology
+                      - generic [ref=e3524]:
+                        - generic [ref=e3525]:
+                          - img [ref=e3526]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3531]:
+                          - img [ref=e3532]
+                          - text: 10:00 AM
+                        - generic [ref=e3535]:
+                          - img [ref=e3536]
+                          - text: $200.00
+                      - paragraph [ref=e3539]:
+                        - img [ref=e3540]
+                        - text: Paid
+                  - generic [ref=e3544]:
+                    - link "View Details" [ref=e3545] [cursor=pointer]:
+                      - /url: /confirmation/106
+                      - button "View Details" [ref=e3546]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3547]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3548]:
+                - generic [ref=e3549]:
+                  - img [ref=e3550]
+                  - text: Tomorrow!
+                - generic [ref=e3554]:
+                  - generic [ref=e3555]:
+                    - generic [ref=e3557]: C
+                    - generic [ref=e3558]:
+                      - generic [ref=e3559]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3560]
+                        - generic [ref=e3561]:
+                          - img [ref=e3562]
+                          - text: Confirmed
+                      - paragraph [ref=e3565]: Neurology
+                      - generic [ref=e3566]:
+                        - generic [ref=e3567]:
+                          - img [ref=e3568]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3573]:
+                          - img [ref=e3574]
+                          - text: 10:00 AM
+                        - generic [ref=e3577]:
+                          - img [ref=e3578]
+                          - text: $200.00
+                      - paragraph [ref=e3581]:
+                        - img [ref=e3582]
+                        - text: Paid
+                  - generic [ref=e3586]:
+                    - link "View Details" [ref=e3587] [cursor=pointer]:
+                      - /url: /confirmation/107
+                      - button "View Details" [ref=e3588]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3589]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3590]:
+                - generic [ref=e3591]:
+                  - img [ref=e3592]
+                  - text: Tomorrow!
+                - generic [ref=e3596]:
+                  - generic [ref=e3597]:
+                    - generic [ref=e3599]: C
+                    - generic [ref=e3600]:
+                      - generic [ref=e3601]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3602]
+                        - generic [ref=e3603]:
+                          - img [ref=e3604]
+                          - text: Confirmed
+                      - paragraph [ref=e3607]: Neurology
+                      - generic [ref=e3608]:
+                        - generic [ref=e3609]:
+                          - img [ref=e3610]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3615]:
+                          - img [ref=e3616]
+                          - text: 10:00 AM
+                        - generic [ref=e3619]:
+                          - img [ref=e3620]
+                          - text: $200.00
+                      - paragraph [ref=e3623]:
+                        - img [ref=e3624]
+                        - text: Paid
+                  - generic [ref=e3628]:
+                    - link "View Details" [ref=e3629] [cursor=pointer]:
+                      - /url: /confirmation/108
+                      - button "View Details" [ref=e3630]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3631]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3632]:
+                - generic [ref=e3633]:
+                  - img [ref=e3634]
+                  - text: Tomorrow!
+                - generic [ref=e3638]:
+                  - generic [ref=e3639]:
+                    - generic [ref=e3641]: C
+                    - generic [ref=e3642]:
+                      - generic [ref=e3643]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3644]
+                        - generic [ref=e3645]:
+                          - img [ref=e3646]
+                          - text: Confirmed
+                      - paragraph [ref=e3649]: Neurology
+                      - generic [ref=e3650]:
+                        - generic [ref=e3651]:
+                          - img [ref=e3652]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3657]:
+                          - img [ref=e3658]
+                          - text: 10:00 AM
+                        - generic [ref=e3661]:
+                          - img [ref=e3662]
+                          - text: $200.00
+                      - paragraph [ref=e3665]:
+                        - img [ref=e3666]
+                        - text: Paid
+                  - generic [ref=e3670]:
+                    - link "View Details" [ref=e3671] [cursor=pointer]:
+                      - /url: /confirmation/109
+                      - button "View Details" [ref=e3672]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3673]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3674]:
+                - generic [ref=e3675]:
+                  - img [ref=e3676]
+                  - text: Tomorrow!
+                - generic [ref=e3680]:
+                  - generic [ref=e3681]:
+                    - generic [ref=e3683]: C
+                    - generic [ref=e3684]:
+                      - generic [ref=e3685]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3686]
+                        - generic [ref=e3687]:
+                          - img [ref=e3688]
+                          - text: Confirmed
+                      - paragraph [ref=e3691]: Neurology
+                      - generic [ref=e3692]:
+                        - generic [ref=e3693]:
+                          - img [ref=e3694]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3699]:
+                          - img [ref=e3700]
+                          - text: 10:00 AM
+                        - generic [ref=e3703]:
+                          - img [ref=e3704]
+                          - text: $200.00
+                      - paragraph [ref=e3707]:
+                        - img [ref=e3708]
+                        - text: Paid
+                  - generic [ref=e3712]:
+                    - link "View Details" [ref=e3713] [cursor=pointer]:
+                      - /url: /confirmation/110
+                      - button "View Details" [ref=e3714]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3715]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3716]:
+                - generic [ref=e3717]:
+                  - img [ref=e3718]
+                  - text: Tomorrow!
+                - generic [ref=e3722]:
+                  - generic [ref=e3723]:
+                    - generic [ref=e3725]: C
+                    - generic [ref=e3726]:
+                      - generic [ref=e3727]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3728]
+                        - generic [ref=e3729]:
+                          - img [ref=e3730]
+                          - text: Confirmed
+                      - paragraph [ref=e3733]: Neurology
+                      - generic [ref=e3734]:
+                        - generic [ref=e3735]:
+                          - img [ref=e3736]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3741]:
+                          - img [ref=e3742]
+                          - text: 10:00 AM
+                        - generic [ref=e3745]:
+                          - img [ref=e3746]
+                          - text: $200.00
+                      - paragraph [ref=e3749]:
+                        - img [ref=e3750]
+                        - text: Paid
+                  - generic [ref=e3754]:
+                    - link "View Details" [ref=e3755] [cursor=pointer]:
+                      - /url: /confirmation/111
+                      - button "View Details" [ref=e3756]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3757]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3758]:
+                - generic [ref=e3759]:
+                  - img [ref=e3760]
+                  - text: Tomorrow!
+                - generic [ref=e3764]:
+                  - generic [ref=e3765]:
+                    - generic [ref=e3767]: C
+                    - generic [ref=e3768]:
+                      - generic [ref=e3769]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3770]
+                        - generic [ref=e3771]:
+                          - img [ref=e3772]
+                          - text: Confirmed
+                      - paragraph [ref=e3775]: Neurology
+                      - generic [ref=e3776]:
+                        - generic [ref=e3777]:
+                          - img [ref=e3778]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3783]:
+                          - img [ref=e3784]
+                          - text: 10:00 AM
+                        - generic [ref=e3787]:
+                          - img [ref=e3788]
+                          - text: $200.00
+                      - paragraph [ref=e3791]:
+                        - img [ref=e3792]
+                        - text: Paid
+                  - generic [ref=e3796]:
+                    - link "View Details" [ref=e3797] [cursor=pointer]:
+                      - /url: /confirmation/112
+                      - button "View Details" [ref=e3798]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3799]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3800]:
+                - generic [ref=e3801]:
+                  - img [ref=e3802]
+                  - text: Tomorrow!
+                - generic [ref=e3806]:
+                  - generic [ref=e3807]:
+                    - generic [ref=e3809]: C
+                    - generic [ref=e3810]:
+                      - generic [ref=e3811]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3812]
+                        - generic [ref=e3813]:
+                          - img [ref=e3814]
+                          - text: Confirmed
+                      - paragraph [ref=e3817]: Neurology
+                      - generic [ref=e3818]:
+                        - generic [ref=e3819]:
+                          - img [ref=e3820]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3825]:
+                          - img [ref=e3826]
+                          - text: 10:00 AM
+                        - generic [ref=e3829]:
+                          - img [ref=e3830]
+                          - text: $200.00
+                      - paragraph [ref=e3833]:
+                        - img [ref=e3834]
+                        - text: Paid
+                  - generic [ref=e3838]:
+                    - link "View Details" [ref=e3839] [cursor=pointer]:
+                      - /url: /confirmation/113
+                      - button "View Details" [ref=e3840]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3841]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3842]:
+                - generic [ref=e3843]:
+                  - img [ref=e3844]
+                  - text: Tomorrow!
+                - generic [ref=e3848]:
+                  - generic [ref=e3849]:
+                    - generic [ref=e3851]: C
+                    - generic [ref=e3852]:
+                      - generic [ref=e3853]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3854]
+                        - generic [ref=e3855]:
+                          - img [ref=e3856]
+                          - text: Confirmed
+                      - paragraph [ref=e3859]: Neurology
+                      - generic [ref=e3860]:
+                        - generic [ref=e3861]:
+                          - img [ref=e3862]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3867]:
+                          - img [ref=e3868]
+                          - text: 10:00 AM
+                        - generic [ref=e3871]:
+                          - img [ref=e3872]
+                          - text: $200.00
+                      - paragraph [ref=e3875]:
+                        - img [ref=e3876]
+                        - text: Paid
+                  - generic [ref=e3880]:
+                    - link "View Details" [ref=e3881] [cursor=pointer]:
+                      - /url: /confirmation/116
+                      - button "View Details" [ref=e3882]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3883]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3884]:
+                - generic [ref=e3885]:
+                  - img [ref=e3886]
+                  - text: Tomorrow!
+                - generic [ref=e3890]:
+                  - generic [ref=e3891]:
+                    - generic [ref=e3893]: C
+                    - generic [ref=e3894]:
+                      - generic [ref=e3895]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3896]
+                        - generic [ref=e3897]:
+                          - img [ref=e3898]
+                          - text: Confirmed
+                      - paragraph [ref=e3901]: Neurology
+                      - generic [ref=e3902]:
+                        - generic [ref=e3903]:
+                          - img [ref=e3904]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3909]:
+                          - img [ref=e3910]
+                          - text: 10:00 AM
+                        - generic [ref=e3913]:
+                          - img [ref=e3914]
+                          - text: $200.00
+                      - paragraph [ref=e3917]:
+                        - img [ref=e3918]
+                        - text: Paid
+                  - generic [ref=e3922]:
+                    - link "View Details" [ref=e3923] [cursor=pointer]:
+                      - /url: /confirmation/117
+                      - button "View Details" [ref=e3924]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3925]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3926]:
+                - generic [ref=e3927]:
+                  - img [ref=e3928]
+                  - text: Tomorrow!
+                - generic [ref=e3932]:
+                  - generic [ref=e3933]:
+                    - generic [ref=e3935]: C
+                    - generic [ref=e3936]:
+                      - generic [ref=e3937]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3938]
+                        - generic [ref=e3939]:
+                          - img [ref=e3940]
+                          - text: Confirmed
+                      - paragraph [ref=e3943]: Neurology
+                      - generic [ref=e3944]:
+                        - generic [ref=e3945]:
+                          - img [ref=e3946]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3951]:
+                          - img [ref=e3952]
+                          - text: 10:00 AM
+                        - generic [ref=e3955]:
+                          - img [ref=e3956]
+                          - text: $200.00
+                      - paragraph [ref=e3959]:
+                        - img [ref=e3960]
+                        - text: Paid
+                  - generic [ref=e3964]:
+                    - link "View Details" [ref=e3965] [cursor=pointer]:
+                      - /url: /confirmation/118
+                      - button "View Details" [ref=e3966]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e3967]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e3968]:
+                - generic [ref=e3969]:
+                  - img [ref=e3970]
+                  - text: Tomorrow!
+                - generic [ref=e3974]:
+                  - generic [ref=e3975]:
+                    - generic [ref=e3977]: C
+                    - generic [ref=e3978]:
+                      - generic [ref=e3979]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e3980]
+                        - generic [ref=e3981]:
+                          - img [ref=e3982]
+                          - text: Confirmed
+                      - paragraph [ref=e3985]: Neurology
+                      - generic [ref=e3986]:
+                        - generic [ref=e3987]:
+                          - img [ref=e3988]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e3993]:
+                          - img [ref=e3994]
+                          - text: 10:00 AM
+                        - generic [ref=e3997]:
+                          - img [ref=e3998]
+                          - text: $200.00
+                      - paragraph [ref=e4001]:
+                        - img [ref=e4002]
+                        - text: Paid
+                  - generic [ref=e4006]:
+                    - link "View Details" [ref=e4007] [cursor=pointer]:
+                      - /url: /confirmation/121
+                      - button "View Details" [ref=e4008]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e4009]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e4010]:
+                - generic [ref=e4011]:
+                  - img [ref=e4012]
+                  - text: Tomorrow!
+                - generic [ref=e4016]:
+                  - generic [ref=e4017]:
+                    - generic [ref=e4019]: C
+                    - generic [ref=e4020]:
+                      - generic [ref=e4021]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e4022]
+                        - generic [ref=e4023]:
+                          - img [ref=e4024]
+                          - text: Confirmed
+                      - paragraph [ref=e4027]: Neurology
+                      - generic [ref=e4028]:
+                        - generic [ref=e4029]:
+                          - img [ref=e4030]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e4035]:
+                          - img [ref=e4036]
+                          - text: 10:00 AM
+                        - generic [ref=e4039]:
+                          - img [ref=e4040]
+                          - text: $200.00
+                      - paragraph [ref=e4043]:
+                        - img [ref=e4044]
+                        - text: Paid
+                  - generic [ref=e4048]:
+                    - link "View Details" [ref=e4049] [cursor=pointer]:
+                      - /url: /confirmation/119
+                      - button "View Details" [ref=e4050]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e4051]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e4052]:
+                - generic [ref=e4053]:
+                  - img [ref=e4054]
+                  - text: Tomorrow!
+                - generic [ref=e4058]:
+                  - generic [ref=e4059]:
+                    - generic [ref=e4061]: C
+                    - generic [ref=e4062]:
+                      - generic [ref=e4063]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e4064]
+                        - generic [ref=e4065]:
+                          - img [ref=e4066]
+                          - text: Confirmed
+                      - paragraph [ref=e4069]: Neurology
+                      - generic [ref=e4070]:
+                        - generic [ref=e4071]:
+                          - img [ref=e4072]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e4077]:
+                          - img [ref=e4078]
+                          - text: 10:00 AM
+                        - generic [ref=e4081]:
+                          - img [ref=e4082]
+                          - text: $200.00
+                      - paragraph [ref=e4085]:
+                        - img [ref=e4086]
+                        - text: Paid
+                  - generic [ref=e4090]:
+                    - link "View Details" [ref=e4091] [cursor=pointer]:
+                      - /url: /confirmation/120
+                      - button "View Details" [ref=e4092]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e4093]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e4094]:
+                - generic [ref=e4095]:
+                  - img [ref=e4096]
+                  - text: Tomorrow!
+                - generic [ref=e4100]:
+                  - generic [ref=e4101]:
+                    - generic [ref=e4103]: C
+                    - generic [ref=e4104]:
+                      - generic [ref=e4105]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e4106]
+                        - generic [ref=e4107]:
+                          - img [ref=e4108]
+                          - text: Confirmed
+                      - paragraph [ref=e4111]: Neurology
+                      - generic [ref=e4112]:
+                        - generic [ref=e4113]:
+                          - img [ref=e4114]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e4119]:
+                          - img [ref=e4120]
+                          - text: 10:00 AM
+                        - generic [ref=e4123]:
+                          - img [ref=e4124]
+                          - text: $200.00
+                      - paragraph [ref=e4127]:
+                        - img [ref=e4128]
+                        - text: Paid
+                  - generic [ref=e4132]:
+                    - link "View Details" [ref=e4133] [cursor=pointer]:
+                      - /url: /confirmation/122
+                      - button "View Details" [ref=e4134]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e4135]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e4136]:
+                - generic [ref=e4137]:
+                  - img [ref=e4138]
+                  - text: Tomorrow!
+                - generic [ref=e4142]:
+                  - generic [ref=e4143]:
+                    - generic [ref=e4145]: C
+                    - generic [ref=e4146]:
+                      - generic [ref=e4147]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e4148]
+                        - generic [ref=e4149]:
+                          - img [ref=e4150]
+                          - text: Confirmed
+                      - paragraph [ref=e4153]: Neurology
+                      - generic [ref=e4154]:
+                        - generic [ref=e4155]:
+                          - img [ref=e4156]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e4161]:
+                          - img [ref=e4162]
+                          - text: 10:00 AM
+                        - generic [ref=e4165]:
+                          - img [ref=e4166]
+                          - text: $200.00
+                      - paragraph [ref=e4169]:
+                        - img [ref=e4170]
+                        - text: Paid
+                  - generic [ref=e4174]:
+                    - link "View Details" [ref=e4175] [cursor=pointer]:
+                      - /url: /confirmation/129
+                      - button "View Details" [ref=e4176]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e4177]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e4178]:
+                - generic [ref=e4179]:
+                  - img [ref=e4180]
+                  - text: Tomorrow!
+                - generic [ref=e4184]:
+                  - generic [ref=e4185]:
+                    - generic [ref=e4187]: C
+                    - generic [ref=e4188]:
+                      - generic [ref=e4189]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e4190]
+                        - generic [ref=e4191]:
+                          - img [ref=e4192]
+                          - text: Confirmed
+                      - paragraph [ref=e4195]: Neurology
+                      - generic [ref=e4196]:
+                        - generic [ref=e4197]:
+                          - img [ref=e4198]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e4203]:
+                          - img [ref=e4204]
+                          - text: 10:00 AM
+                        - generic [ref=e4207]:
+                          - img [ref=e4208]
+                          - text: $200.00
+                      - paragraph [ref=e4211]:
+                        - img [ref=e4212]
+                        - text: Paid
+                  - generic [ref=e4216]:
+                    - link "View Details" [ref=e4217] [cursor=pointer]:
+                      - /url: /confirmation/130
+                      - button "View Details" [ref=e4218]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e4219]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e4220]:
+                - generic [ref=e4221]:
+                  - img [ref=e4222]
+                  - text: Tomorrow!
+                - generic [ref=e4226]:
+                  - generic [ref=e4227]:
+                    - generic [ref=e4229]: C
+                    - generic [ref=e4230]:
+                      - generic [ref=e4231]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e4232]
+                        - generic [ref=e4233]:
+                          - img [ref=e4234]
+                          - text: Confirmed
+                      - paragraph [ref=e4237]: Neurology
+                      - generic [ref=e4238]:
+                        - generic [ref=e4239]:
+                          - img [ref=e4240]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e4245]:
+                          - img [ref=e4246]
+                          - text: 10:00 AM
+                        - generic [ref=e4249]:
+                          - img [ref=e4250]
+                          - text: $200.00
+                      - paragraph [ref=e4253]:
+                        - img [ref=e4254]
+                        - text: Paid
+                  - generic [ref=e4258]:
+                    - link "View Details" [ref=e4259] [cursor=pointer]:
+                      - /url: /confirmation/131
+                      - button "View Details" [ref=e4260]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e4261]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e4262]:
+                - generic [ref=e4263]:
+                  - img [ref=e4264]
+                  - text: Tomorrow!
+                - generic [ref=e4268]:
+                  - generic [ref=e4269]:
+                    - generic [ref=e4271]: C
+                    - generic [ref=e4272]:
+                      - generic [ref=e4273]:
+                        - heading "Dr. Michael Chen" [level=3] [ref=e4274]
+                        - generic [ref=e4275]:
+                          - img [ref=e4276]
+                          - text: Confirmed
+                      - paragraph [ref=e4279]: Neurology
+                      - generic [ref=e4280]:
+                        - generic [ref=e4281]:
+                          - img [ref=e4282]
+                          - text: Apr 1st, 2026
+                        - generic [ref=e4287]:
+                          - img [ref=e4288]
+                          - text: 10:00 AM
+                        - generic [ref=e4291]:
+                          - img [ref=e4292]
+                          - text: $200.00
+                      - paragraph [ref=e4295]:
+                        - img [ref=e4296]
+                        - text: Paid
+                  - generic [ref=e4300]:
+                    - link "View Details" [ref=e4301] [cursor=pointer]:
+                      - /url: /confirmation/132
+                      - button "View Details" [ref=e4302]:
+                        - img
+                        - text: View Details
+                    - button "Cancel Visit" [ref=e4303]:
+                      - img
+                      - text: Cancel Visit
+              - generic [ref=e4305]:
+                - generic [ref=e4306]:
+                  - generic [ref=e4308]: T
+                  - generic [ref=e4309]:
+                    - generic [ref=e4310]:
+                      - heading "Dr. Lisa Thompson" [level=3] [ref=e4311]
+                      - generic [ref=e4312]:
+                        - img [ref=e4313]
+                        - text: Confirmed
+                    - paragraph [ref=e4316]: Gynecology
+                    - generic [ref=e4317]:
+                      - generic [ref=e4318]:
+                        - img [ref=e4319]
+                        - text: Apr 9th, 2026
+                      - generic [ref=e4324]:
+                        - img [ref=e4325]
+                        - text: 10:30 AM
+                      - generic [ref=e4328]:
+                        - img [ref=e4329]
+                        - text: $130.00
+                    - paragraph [ref=e4332]:
+                      - img [ref=e4333]
+                      - text: Paid
+                - generic [ref=e4337]:
+                  - link "View Details" [ref=e4338] [cursor=pointer]:
+                    - /url: /confirmation/56
+                    - button "View Details" [ref=e4339]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e4340]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e4342]:
+                - generic [ref=e4343]:
+                  - generic [ref=e4345]: T
+                  - generic [ref=e4346]:
+                    - generic [ref=e4347]:
+                      - heading "Dr. Lisa Thompson" [level=3] [ref=e4348]
+                      - generic [ref=e4349]:
+                        - img [ref=e4350]
+                        - text: Confirmed
+                    - paragraph [ref=e4353]: Gynecology
+                    - generic [ref=e4354]:
+                      - generic [ref=e4355]:
+                        - img [ref=e4356]
+                        - text: Apr 9th, 2026
+                      - generic [ref=e4361]:
+                        - img [ref=e4362]
+                        - text: 10:30 AM
+                      - generic [ref=e4365]:
+                        - img [ref=e4366]
+                        - text: $130.00
+                    - paragraph [ref=e4369]:
+                      - img [ref=e4370]
+                      - text: Paid
+                - generic [ref=e4374]:
+                  - link "View Details" [ref=e4375] [cursor=pointer]:
+                    - /url: /confirmation/63
+                    - button "View Details" [ref=e4376]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e4377]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e4379]:
+                - generic [ref=e4380]:
+                  - generic [ref=e4382]: T
+                  - generic [ref=e4383]:
+                    - generic [ref=e4384]:
+                      - heading "Dr. Lisa Thompson" [level=3] [ref=e4385]
+                      - generic [ref=e4386]:
+                        - img [ref=e4387]
+                        - text: Confirmed
+                    - paragraph [ref=e4390]: Gynecology
+                    - generic [ref=e4391]:
+                      - generic [ref=e4392]:
+                        - img [ref=e4393]
+                        - text: Apr 9th, 2026
+                      - generic [ref=e4398]:
+                        - img [ref=e4399]
+                        - text: 10:30 AM
+                      - generic [ref=e4402]:
+                        - img [ref=e4403]
+                        - text: $130.00
+                    - paragraph [ref=e4406]:
+                      - img [ref=e4407]
+                      - text: Paid
+                - generic [ref=e4411]:
+                  - link "View Details" [ref=e4412] [cursor=pointer]:
+                    - /url: /confirmation/70
+                    - button "View Details" [ref=e4413]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e4414]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e4416]:
+                - generic [ref=e4417]:
+                  - generic [ref=e4419]: T
+                  - generic [ref=e4420]:
+                    - generic [ref=e4421]:
+                      - heading "Dr. Lisa Thompson" [level=3] [ref=e4422]
+                      - generic [ref=e4423]:
+                        - img [ref=e4424]
+                        - text: Confirmed
+                    - paragraph [ref=e4427]: Gynecology
+                    - generic [ref=e4428]:
+                      - generic [ref=e4429]:
+                        - img [ref=e4430]
+                        - text: Apr 9th, 2026
+                      - generic [ref=e4435]:
+                        - img [ref=e4436]
+                        - text: 10:30 AM
+                      - generic [ref=e4439]:
+                        - img [ref=e4440]
+                        - text: $130.00
+                    - paragraph [ref=e4443]:
+                      - img [ref=e4444]
+                      - text: Paid
+                - generic [ref=e4448]:
+                  - link "View Details" [ref=e4449] [cursor=pointer]:
+                    - /url: /confirmation/77
+                    - button "View Details" [ref=e4450]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e4451]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e4453]:
+                - generic [ref=e4454]:
+                  - generic [ref=e4456]: T
+                  - generic [ref=e4457]:
+                    - generic [ref=e4458]:
+                      - heading "Dr. Lisa Thompson" [level=3] [ref=e4459]
+                      - generic [ref=e4460]:
+                        - img [ref=e4461]
+                        - text: Confirmed
+                    - paragraph [ref=e4464]: Gynecology
+                    - generic [ref=e4465]:
+                      - generic [ref=e4466]:
+                        - img [ref=e4467]
+                        - text: Apr 9th, 2026
+                      - generic [ref=e4472]:
+                        - img [ref=e4473]
+                        - text: 10:30 AM
+                      - generic [ref=e4476]:
+                        - img [ref=e4477]
+                        - text: $130.00
+                    - paragraph [ref=e4480]:
+                      - img [ref=e4481]
+                      - text: Paid
+                - generic [ref=e4485]:
+                  - link "View Details" [ref=e4486] [cursor=pointer]:
+                    - /url: /confirmation/84
+                    - button "View Details" [ref=e4487]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e4488]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e4490]:
+                - generic [ref=e4491]:
+                  - generic [ref=e4493]: T
+                  - generic [ref=e4494]:
+                    - generic [ref=e4495]:
+                      - heading "Dr. Lisa Thompson" [level=3] [ref=e4496]
+                      - generic [ref=e4497]:
+                        - img [ref=e4498]
+                        - text: Confirmed
+                    - paragraph [ref=e4501]: Gynecology
+                    - generic [ref=e4502]:
+                      - generic [ref=e4503]:
+                        - img [ref=e4504]
+                        - text: Apr 9th, 2026
+                      - generic [ref=e4509]:
+                        - img [ref=e4510]
+                        - text: 10:30 AM
+                      - generic [ref=e4513]:
+                        - img [ref=e4514]
+                        - text: $130.00
+                    - paragraph [ref=e4517]:
+                      - img [ref=e4518]
+                      - text: Paid
+                - generic [ref=e4522]:
+                  - link "View Details" [ref=e4523] [cursor=pointer]:
+                    - /url: /confirmation/93
+                    - button "View Details" [ref=e4524]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e4525]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e4527]:
+                - generic [ref=e4528]:
+                  - generic [ref=e4530]: T
+                  - generic [ref=e4531]:
+                    - generic [ref=e4532]:
+                      - heading "Dr. Lisa Thompson" [level=3] [ref=e4533]
+                      - generic [ref=e4534]:
+                        - img [ref=e4535]
+                        - text: Confirmed
+                    - paragraph [ref=e4538]: Gynecology
+                    - generic [ref=e4539]:
+                      - generic [ref=e4540]:
+                        - img [ref=e4541]
+                        - text: Apr 9th, 2026
+                      - generic [ref=e4546]:
+                        - img [ref=e4547]
+                        - text: 10:30 AM
+                      - generic [ref=e4550]:
+                        - img [ref=e4551]
+                        - text: $130.00
+                    - paragraph [ref=e4554]:
+                      - img [ref=e4555]
+                      - text: Paid
+                - generic [ref=e4559]:
+                  - link "View Details" [ref=e4560] [cursor=pointer]:
+                    - /url: /confirmation/98
+                    - button "View Details" [ref=e4561]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e4562]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e4564]:
+                - generic [ref=e4565]:
+                  - generic [ref=e4567]: T
+                  - generic [ref=e4568]:
+                    - generic [ref=e4569]:
+                      - heading "Dr. Lisa Thompson" [level=3] [ref=e4570]
+                      - generic [ref=e4571]:
+                        - img [ref=e4572]
+                        - text: Confirmed
+                    - paragraph [ref=e4575]: Gynecology
+                    - generic [ref=e4576]:
+                      - generic [ref=e4577]:
+                        - img [ref=e4578]
+                        - text: Apr 9th, 2026
+                      - generic [ref=e4583]:
+                        - img [ref=e4584]
+                        - text: 10:30 AM
+                      - generic [ref=e4587]:
+                        - img [ref=e4588]
+                        - text: $130.00
+                    - paragraph [ref=e4591]:
+                      - img [ref=e4592]
+                      - text: Paid
+                - generic [ref=e4596]:
+                  - link "View Details" [ref=e4597] [cursor=pointer]:
+                    - /url: /confirmation/105
+                    - button "View Details" [ref=e4598]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e4599]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e4601]:
+                - generic [ref=e4602]:
+                  - generic [ref=e4604]: T
+                  - generic [ref=e4605]:
+                    - generic [ref=e4606]:
+                      - heading "Dr. Lisa Thompson" [level=3] [ref=e4607]
+                      - generic [ref=e4608]:
+                        - img [ref=e4609]
+                        - text: Confirmed
+                    - paragraph [ref=e4612]: Gynecology
+                    - generic [ref=e4613]:
+                      - generic [ref=e4614]:
+                        - img [ref=e4615]
+                        - text: Apr 9th, 2026
+                      - generic [ref=e4620]:
+                        - img [ref=e4621]
+                        - text: 10:30 AM
+                      - generic [ref=e4624]:
+                        - img [ref=e4625]
+                        - text: $130.00
+                    - paragraph [ref=e4628]:
+                      - img [ref=e4629]
+                      - text: Paid
+                - generic [ref=e4633]:
+                  - link "View Details" [ref=e4634] [cursor=pointer]:
+                    - /url: /confirmation/115
+                    - button "View Details" [ref=e4635]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e4636]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e4638]:
+                - generic [ref=e4639]:
+                  - generic [ref=e4641]: P
+                  - generic [ref=e4642]:
+                    - generic [ref=e4643]:
+                      - heading "Dr. Priya Patel" [level=3] [ref=e4644]
+                      - generic [ref=e4645]:
+                        - img [ref=e4646]
+                        - text: Confirmed
+                    - paragraph [ref=e4649]: Pediatrics
+                    - generic [ref=e4650]:
+                      - generic [ref=e4651]:
+                        - img [ref=e4652]
+                        - text: Apr 15th, 2026
+                      - generic [ref=e4657]:
+                        - img [ref=e4658]
+                        - text: 09:00 AM
+                      - generic [ref=e4661]:
+                        - img [ref=e4662]
+                        - text: $100.00
+                    - paragraph [ref=e4665]:
+                      - img [ref=e4666]
+                      - text: Paid
+                - generic [ref=e4670]:
+                  - link "View Details" [ref=e4671] [cursor=pointer]:
+                    - /url: /confirmation/5
+                    - button "View Details" [ref=e4672]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e4673]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e4675]:
+                - generic [ref=e4676]:
+                  - generic [ref=e4678]: P
+                  - generic [ref=e4679]:
+                    - generic [ref=e4680]:
+                      - heading "Dr. Priya Patel" [level=3] [ref=e4681]
+                      - generic [ref=e4682]:
+                        - img [ref=e4683]
+                        - text: Confirmed
+                    - paragraph [ref=e4686]: Pediatrics
+                    - generic [ref=e4687]:
+                      - generic [ref=e4688]:
+                        - img [ref=e4689]
+                        - text: Apr 15th, 2026
+                      - generic [ref=e4694]:
+                        - img [ref=e4695]
+                        - text: 09:00 AM
+                      - generic [ref=e4698]:
+                        - img [ref=e4699]
+                        - text: $100.00
+                    - paragraph [ref=e4702]:
+                      - img [ref=e4703]
+                      - text: Paid
+                - generic [ref=e4707]:
+                  - link "View Details" [ref=e4708] [cursor=pointer]:
+                    - /url: /confirmation/6
+                    - button "View Details" [ref=e4709]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e4710]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e4712]:
+                - generic [ref=e4713]:
+                  - generic [ref=e4715]: P
+                  - generic [ref=e4716]:
+                    - generic [ref=e4717]:
+                      - heading "Dr. Priya Patel" [level=3] [ref=e4718]
+                      - generic [ref=e4719]:
+                        - img [ref=e4720]
+                        - text: Confirmed
+                    - paragraph [ref=e4723]: Pediatrics
+                    - generic [ref=e4724]:
+                      - generic [ref=e4725]:
+                        - img [ref=e4726]
+                        - text: Apr 15th, 2026
+                      - generic [ref=e4731]:
+                        - img [ref=e4732]
+                        - text: 09:00 AM
+                      - generic [ref=e4735]:
+                        - img [ref=e4736]
+                        - text: $100.00
+                    - paragraph [ref=e4739]:
+                      - img [ref=e4740]
+                      - text: Paid
+                - generic [ref=e4744]:
+                  - link "View Details" [ref=e4745] [cursor=pointer]:
+                    - /url: /confirmation/7
+                    - button "View Details" [ref=e4746]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e4747]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e4749]:
+                - generic [ref=e4750]:
+                  - generic [ref=e4752]: P
+                  - generic [ref=e4753]:
+                    - generic [ref=e4754]:
+                      - heading "Dr. Priya Patel" [level=3] [ref=e4755]
+                      - generic [ref=e4756]:
+                        - img [ref=e4757]
+                        - text: Pending
+                    - paragraph [ref=e4760]: Pediatrics
+                    - generic [ref=e4761]:
+                      - generic [ref=e4762]:
+                        - img [ref=e4763]
+                        - text: Apr 15th, 2026
+                      - generic [ref=e4768]:
+                        - img [ref=e4769]
+                        - text: 09:00 AM
+                      - generic [ref=e4772]:
+                        - img [ref=e4773]
+                        - text: $100.00
+                    - paragraph [ref=e4776]:
+                      - img [ref=e4777]
+                      - text: Payment Pending
+                - generic [ref=e4781]:
+                  - link "View Details" [ref=e4782] [cursor=pointer]:
+                    - /url: /confirmation/8
+                    - button "View Details" [ref=e4783]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e4784]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e4786]:
+                - generic [ref=e4787]:
+                  - generic [ref=e4789]: P
+                  - generic [ref=e4790]:
+                    - generic [ref=e4791]:
+                      - heading "Dr. Priya Patel" [level=3] [ref=e4792]
+                      - generic [ref=e4793]:
+                        - img [ref=e4794]
+                        - text: Pending
+                    - paragraph [ref=e4797]: Pediatrics
+                    - generic [ref=e4798]:
+                      - generic [ref=e4799]:
+                        - img [ref=e4800]
+                        - text: Apr 15th, 2026
+                      - generic [ref=e4805]:
+                        - img [ref=e4806]
+                        - text: 09:00 AM
+                      - generic [ref=e4809]:
+                        - img [ref=e4810]
+                        - text: $100.00
+                    - paragraph [ref=e4813]:
+                      - img [ref=e4814]
+                      - text: Payment Pending
+                - generic [ref=e4818]:
+                  - link "View Details" [ref=e4819] [cursor=pointer]:
+                    - /url: /confirmation/9
+                    - button "View Details" [ref=e4820]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e4821]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e4823]:
+                - generic [ref=e4824]:
+                  - generic [ref=e4826]: P
+                  - generic [ref=e4827]:
+                    - generic [ref=e4828]:
+                      - heading "Dr. Priya Patel" [level=3] [ref=e4829]
+                      - generic [ref=e4830]:
+                        - img [ref=e4831]
+                        - text: Pending
+                    - paragraph [ref=e4834]: Pediatrics
+                    - generic [ref=e4835]:
+                      - generic [ref=e4836]:
+                        - img [ref=e4837]
+                        - text: Apr 15th, 2026
+                      - generic [ref=e4842]:
+                        - img [ref=e4843]
+                        - text: 09:00 AM
+                      - generic [ref=e4846]:
+                        - img [ref=e4847]
+                        - text: $100.00
+                    - paragraph [ref=e4850]:
+                      - img [ref=e4851]
+                      - text: Payment Pending
+                - generic [ref=e4855]:
+                  - link "View Details" [ref=e4856] [cursor=pointer]:
+                    - /url: /confirmation/10
+                    - button "View Details" [ref=e4857]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e4858]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e4860]:
+                - generic [ref=e4861]:
+                  - generic [ref=e4863]: C
+                  - generic [ref=e4864]:
+                    - generic [ref=e4865]:
+                      - heading "Dr. Michael Chen" [level=3] [ref=e4866]
+                      - generic [ref=e4867]:
+                        - img [ref=e4868]
+                        - text: Confirmed
+                    - paragraph [ref=e4871]: Neurology
+                    - generic [ref=e4872]:
+                      - generic [ref=e4873]:
+                        - img [ref=e4874]
+                        - text: Apr 23rd, 2026
+                      - generic [ref=e4879]:
+                        - img [ref=e4880]
+                        - text: 01:00 PM
+                      - generic [ref=e4883]:
+                        - img [ref=e4884]
+                        - text: $200.00
+                    - paragraph [ref=e4887]:
+                      - img [ref=e4888]
+                      - text: Paid
+                - generic [ref=e4892]:
+                  - link "View Details" [ref=e4893] [cursor=pointer]:
+                    - /url: /confirmation/4
+                    - button "View Details" [ref=e4894]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e4895]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e4897]:
+                - generic [ref=e4898]:
+                  - generic [ref=e4900]: L
+                  - generic [ref=e4901]:
+                    - generic [ref=e4902]:
+                      - heading "Dr. Thomas Lee" [level=3] [ref=e4903]
+                      - generic [ref=e4904]:
+                        - img [ref=e4905]
+                        - text: Confirmed
+                    - paragraph [ref=e4908]: Gastroenterology
+                    - generic [ref=e4909]:
+                      - generic [ref=e4910]:
+                        - img [ref=e4911]
+                        - text: Apr 24th, 2026
+                      - generic [ref=e4916]:
+                        - img [ref=e4917]
+                        - text: 03:00 PM
+                      - generic [ref=e4920]:
+                        - img [ref=e4921]
+                        - text: $165.00
+                    - paragraph [ref=e4924]:
+                      - img [ref=e4925]
+                      - text: Paid
+                - generic [ref=e4929]:
+                  - link "View Details" [ref=e4930] [cursor=pointer]:
+                    - /url: /confirmation/114
+                    - button "View Details" [ref=e4931]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e4932]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e4934]:
+                - generic [ref=e4935]:
+                  - generic [ref=e4937]: F
+                  - generic [ref=e4938]:
+                    - generic [ref=e4939]:
+                      - heading "Dr. Amanda Foster" [level=3] [ref=e4940]
+                      - generic [ref=e4941]:
+                        - img [ref=e4942]
+                        - text: Pending
+                    - paragraph [ref=e4945]: Psychiatry
+                    - generic [ref=e4946]:
+                      - generic [ref=e4947]:
+                        - img [ref=e4948]
+                        - text: May 6th, 2026
+                      - generic [ref=e4953]:
+                        - img [ref=e4954]
+                        - text: 10:00 AM
+                      - generic [ref=e4957]:
+                        - img [ref=e4958]
+                        - text: $180.00
+                    - paragraph [ref=e4961]:
+                      - img [ref=e4962]
+                      - text: Payment Pending
+                - generic [ref=e4966]:
+                  - link "View Details" [ref=e4967] [cursor=pointer]:
+                    - /url: /confirmation/16
+                    - button "View Details" [ref=e4968]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e4969]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e4971]:
+                - generic [ref=e4972]:
+                  - generic [ref=e4974]: M
+                  - generic [ref=e4975]:
+                    - generic [ref=e4976]:
+                      - heading "Dr. David Martinez" [level=3] [ref=e4977]
+                      - generic [ref=e4978]:
+                        - img [ref=e4979]
+                        - text: Confirmed
+                    - paragraph [ref=e4982]: General Medicine
+                    - generic [ref=e4983]:
+                      - generic [ref=e4984]:
+                        - img [ref=e4985]
+                        - text: May 22nd, 2026
+                      - generic [ref=e4990]:
+                        - img [ref=e4991]
+                        - text: 10:30 AM
+                      - generic [ref=e4994]:
+                        - img [ref=e4995]
+                        - text: $80.00
+                    - paragraph [ref=e4998]:
+                      - img [ref=e4999]
+                      - text: Paid
+                - generic [ref=e5003]:
+                  - link "View Details" [ref=e5004] [cursor=pointer]:
+                    - /url: /confirmation/123
+                    - button "View Details" [ref=e5005]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e5006]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e5008]:
+                - generic [ref=e5009]:
+                  - generic [ref=e5011]: M
+                  - generic [ref=e5012]:
+                    - generic [ref=e5013]:
+                      - heading "Dr. David Martinez" [level=3] [ref=e5014]
+                      - generic [ref=e5015]:
+                        - img [ref=e5016]
+                        - text: Confirmed
+                    - paragraph [ref=e5019]: General Medicine
+                    - generic [ref=e5020]:
+                      - generic [ref=e5021]:
+                        - img [ref=e5022]
+                        - text: May 22nd, 2026
+                      - generic [ref=e5027]:
+                        - img [ref=e5028]
+                        - text: 10:30 AM
+                      - generic [ref=e5031]:
+                        - img [ref=e5032]
+                        - text: $80.00
+                    - paragraph [ref=e5035]:
+                      - img [ref=e5036]
+                      - text: Paid
+                - generic [ref=e5040]:
+                  - link "View Details" [ref=e5041] [cursor=pointer]:
+                    - /url: /confirmation/124
+                    - button "View Details" [ref=e5042]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e5043]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e5045]:
+                - generic [ref=e5046]:
+                  - generic [ref=e5048]: M
+                  - generic [ref=e5049]:
+                    - generic [ref=e5050]:
+                      - heading "Dr. David Martinez" [level=3] [ref=e5051]
+                      - generic [ref=e5052]:
+                        - img [ref=e5053]
+                        - text: Confirmed
+                    - paragraph [ref=e5056]: General Medicine
+                    - generic [ref=e5057]:
+                      - generic [ref=e5058]:
+                        - img [ref=e5059]
+                        - text: May 22nd, 2026
+                      - generic [ref=e5064]:
+                        - img [ref=e5065]
+                        - text: 10:30 AM
+                      - generic [ref=e5068]:
+                        - img [ref=e5069]
+                        - text: $80.00
+                    - paragraph [ref=e5072]:
+                      - img [ref=e5073]
+                      - text: Paid
+                - generic [ref=e5077]:
+                  - link "View Details" [ref=e5078] [cursor=pointer]:
+                    - /url: /confirmation/125
+                    - button "View Details" [ref=e5079]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e5080]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e5082]:
+                - generic [ref=e5083]:
+                  - generic [ref=e5085]: M
+                  - generic [ref=e5086]:
+                    - generic [ref=e5087]:
+                      - heading "Dr. David Martinez" [level=3] [ref=e5088]
+                      - generic [ref=e5089]:
+                        - img [ref=e5090]
+                        - text: Confirmed
+                    - paragraph [ref=e5093]: General Medicine
+                    - generic [ref=e5094]:
+                      - generic [ref=e5095]:
+                        - img [ref=e5096]
+                        - text: May 22nd, 2026
+                      - generic [ref=e5101]:
+                        - img [ref=e5102]
+                        - text: 10:30 AM
+                      - generic [ref=e5105]:
+                        - img [ref=e5106]
+                        - text: $80.00
+                    - paragraph [ref=e5109]:
+                      - img [ref=e5110]
+                      - text: Paid
+                - generic [ref=e5114]:
+                  - link "View Details" [ref=e5115] [cursor=pointer]:
+                    - /url: /confirmation/126
+                    - button "View Details" [ref=e5116]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e5117]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e5119]:
+                - generic [ref=e5120]:
+                  - generic [ref=e5122]: M
+                  - generic [ref=e5123]:
+                    - generic [ref=e5124]:
+                      - heading "Dr. David Martinez" [level=3] [ref=e5125]
+                      - generic [ref=e5126]:
+                        - img [ref=e5127]
+                        - text: Confirmed
+                    - paragraph [ref=e5130]: General Medicine
+                    - generic [ref=e5131]:
+                      - generic [ref=e5132]:
+                        - img [ref=e5133]
+                        - text: May 22nd, 2026
+                      - generic [ref=e5138]:
+                        - img [ref=e5139]
+                        - text: 10:30 AM
+                      - generic [ref=e5142]:
+                        - img [ref=e5143]
+                        - text: $80.00
+                    - paragraph [ref=e5146]:
+                      - img [ref=e5147]
+                      - text: Paid
+                - generic [ref=e5151]:
+                  - link "View Details" [ref=e5152] [cursor=pointer]:
+                    - /url: /confirmation/127
+                    - button "View Details" [ref=e5153]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e5154]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e5156]:
+                - generic [ref=e5157]:
+                  - generic [ref=e5159]: M
+                  - generic [ref=e5160]:
+                    - generic [ref=e5161]:
+                      - heading "Dr. David Martinez" [level=3] [ref=e5162]
+                      - generic [ref=e5163]:
+                        - img [ref=e5164]
+                        - text: Confirmed
+                    - paragraph [ref=e5167]: General Medicine
+                    - generic [ref=e5168]:
+                      - generic [ref=e5169]:
+                        - img [ref=e5170]
+                        - text: May 22nd, 2026
+                      - generic [ref=e5175]:
+                        - img [ref=e5176]
+                        - text: 10:30 AM
+                      - generic [ref=e5179]:
+                        - img [ref=e5180]
+                        - text: $80.00
+                    - paragraph [ref=e5183]:
+                      - img [ref=e5184]
+                      - text: Paid
+                - generic [ref=e5188]:
+                  - link "View Details" [ref=e5189] [cursor=pointer]:
+                    - /url: /confirmation/128
+                    - button "View Details" [ref=e5190]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e5191]:
+                    - img
+                    - text: Cancel Visit
+              - generic [ref=e5193]:
+                - generic [ref=e5194]:
+                  - generic [ref=e5196]: C
+                  - generic [ref=e5197]:
+                    - generic [ref=e5198]:
+                      - heading "Dr. Michael Chen" [level=3] [ref=e5199]
+                      - generic [ref=e5200]:
+                        - img [ref=e5201]
+                        - text: Pending
+                    - paragraph [ref=e5204]: Neurology
+                    - generic [ref=e5205]:
+                      - generic [ref=e5206]:
+                        - img [ref=e5207]
+                        - text: Jun 27th, 2026
+                      - generic [ref=e5212]:
+                        - img [ref=e5213]
+                        - text: 10:30 AM
+                      - generic [ref=e5216]:
+                        - img [ref=e5217]
+                        - text: $200.00
+                    - paragraph [ref=e5220]:
+                      - img [ref=e5221]
+                      - text: Payment Pending
+                - generic [ref=e5225]:
+                  - link "View Details" [ref=e5226] [cursor=pointer]:
+                    - /url: /confirmation/11
+                    - button "View Details" [ref=e5227]:
+                      - img
+                      - text: View Details
+                  - button "Cancel Visit" [ref=e5228]:
+                    - img
+                    - text: Cancel Visit
+    - contentinfo [ref=e5229]:
+      - generic [ref=e5230]:
+        - generic [ref=e5231]:
+          - img [ref=e5232]
+          - generic [ref=e5235]: MedBook
+          - generic [ref=e5236]: © 2026 All rights reserved.
+        - generic [ref=e5237]:
+          - link "Privacy" [ref=e5238] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms" [ref=e5239] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact Support" [ref=e5240] [cursor=pointer]:
+            - /url: "#"
+  - region "Notifications (F8)":
+    - list
+```

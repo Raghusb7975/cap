@@ -1,0 +1,45 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "MedBook." [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e12]: MedBook.
+        - generic [ref=e13]:
+          - heading "Welcome back" [level=1] [ref=e14]
+          - paragraph [ref=e15]: Enter your credentials to access your account
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - generic [ref=e19]:
+              - text: Email address
+              - textbox "Email address" [ref=e20]:
+                - /placeholder: name@example.com
+                - text: raghu01@gmail.com
+            - generic [ref=e21]:
+              - generic [ref=e22]:
+                - generic [ref=e23]: Password
+                - link "Forgot password?" [ref=e24] [cursor=pointer]:
+                  - /url: "#"
+              - textbox "Password" [ref=e25]:
+                - /placeholder: ••••••••
+                - text: Raghu@12345
+          - button "Sign In" [ref=e26]:
+            - text: Sign In
+            - img
+        - generic [ref=e27]:
+          - text: Don't have an account?
+          - link "Sign up for free" [ref=e28] [cursor=pointer]:
+            - /url: /register
+    - generic [ref=e29]:
+      - img "Medical Abstract" [ref=e30]
+      - generic [ref=e31]:
+        - heading "Your Health, Simplified" [level=2] [ref=e32]
+        - paragraph [ref=e33]: Book appointments, manage records, and connect with top specialists all in one place.
+  - region "Notifications (F8)":
+    - list
+```

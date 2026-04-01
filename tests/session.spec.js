@@ -12,7 +12,6 @@ test('Create session and save login state', async ({ page }) => {
     await dialog.accept();
   });
   await page.waitForLoadState('load');
-  // Navigate to home to ensure session is active
   await page.goto('https://daily-wage-book-1--vinayksgowda44.replit.app/');
   await page.context().storageState({ path: 'storageState.json' });  
 });

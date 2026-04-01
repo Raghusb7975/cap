@@ -3,7 +3,6 @@
 const { test, expect } = require('@playwright/test');
 const RegisterPage = require('../POM/registerPage');
 
-// TC01 - Valid Registration
 test('TC01 - Valid Registration', async ({ page }) => {
   const r = new RegisterPage(page);
   await r.goto();
@@ -19,7 +18,7 @@ test('TC01 - Valid Registration', async ({ page }) => {
   await expect(page).not.toHaveURL(/register/);
 });
 
-// TC02 - Empty Form
+
 test('TC02 - Empty Form', async ({ page }) => {
   const r = new RegisterPage(page);
   await r.goto();
@@ -31,7 +30,6 @@ test('TC02 - Empty Form', async ({ page }) => {
   await expect(page).toHaveURL(/register/);
 });
 
-// TC03 - Empty Name
 test('TC03 - Empty Name', async ({ page }) => {
   const r = new RegisterPage(page);
   await r.goto();
@@ -44,7 +42,6 @@ test('TC03 - Empty Name', async ({ page }) => {
   await expect(page).toHaveURL(/register/);
 });
 
-// TC04 - Successful Register redirects to Login
 test('TC04 - Successful Register redirects to Login', async ({ page }) => {
   const r = new RegisterPage(page);
   await r.goto();
@@ -60,7 +57,7 @@ test('TC04 - Successful Register redirects to Login', async ({ page }) => {
   await expect(page).toHaveURL(/login/);
 });
 
-// TC05 - Existing Email
+
 test('TC05 - Existing Email shows error message', async ({ page }) => {
   const r = new RegisterPage(page);
   await r.goto();
@@ -77,7 +74,7 @@ test('TC05 - Existing Email shows error message', async ({ page }) => {
   await expect(page).toHaveURL(/register/);
 });
 
-// TC06 - Invalid Phone
+
 test('TC06 - Invalid Phone Number', async ({ page }) => {
   const r = new RegisterPage(page);
   await r.goto();
@@ -94,7 +91,7 @@ test('TC06 - Invalid Phone Number', async ({ page }) => {
   await expect(page).toHaveURL(/register/);
 });
 
-// TC07 - Password too short
+
 test('TC07 - Password validation', async ({ page }) => {
   const r = new RegisterPage(page);
   await r.goto();
@@ -110,7 +107,7 @@ test('TC07 - Password validation', async ({ page }) => {
   await expect(page.getByText(/Password must be at least 6/i)).toBeVisible();
 });
 
-// TC08 - Invalid Email Format
+
 test('TC08 - Invalid Email Format', async ({ page }) => {
   const r = new RegisterPage(page);
   await r.goto();
@@ -121,7 +118,7 @@ test('TC08 - Invalid Email Format', async ({ page }) => {
   await expect(r.emailInput).toHaveAttribute('type', 'email');
 });
 
-// TC09 - Password too short
+
 test('TC09 - Password too short', async ({ page }) => {
   const r = new RegisterPage(page);
   await r.goto();
@@ -132,7 +129,7 @@ test('TC09 - Password too short', async ({ page }) => {
   await expect(r.passwordError).toBeVisible();
 });
 
-// TC10 - Gender not selected
+
 test('TC10 - Gender not selected', async ({ page }) => {
   const r = new RegisterPage(page);
   await r.goto();
@@ -144,7 +141,7 @@ test('TC10 - Gender not selected', async ({ page }) => {
   await expect(page.getByText(/gender/i).first()).toBeVisible();
 });
 
-// TC11 - DOB validation
+
 test('TC11 - DOB validation', async ({ page }) => {
   const r = new RegisterPage(page);
   await r.goto();
@@ -155,7 +152,7 @@ test('TC11 - DOB validation', async ({ page }) => {
   await expect(page.locator('text=birth').first()).toBeVisible();
 });
 
-// TC12 - Success message
+
 test('TC12 - Success message', async ({ page }) => {
   const r = new RegisterPage(page);
   await r.goto();
@@ -171,7 +168,6 @@ test('TC12 - Success message', async ({ page }) => {
   await expect(r.successMessage).toBeVisible();
 });
 
-// TC13 - Phone less than 10 digits
 test('TC13 - Phone validation', async ({ page }) => {
   const r = new RegisterPage(page);
   await r.goto();
@@ -182,7 +178,6 @@ test('TC13 - Phone validation', async ({ page }) => {
   await expect(page.getByText(/phone/i).first()).toBeVisible();
 });
 
-// TC14 - Invalid characters in name
 test('TC14 - Invalid Name', async ({ page }) => {
   const r = new RegisterPage(page);
   await r.goto();
@@ -193,7 +188,6 @@ test('TC14 - Invalid Name', async ({ page }) => {
   await expect(page.getByText(/name/i).first()).toBeVisible();
 });
 
-// TC15 - Navigate to login
 test('TC15 - Navigate to Login', async ({ page }) => {
   const r = new RegisterPage(page);
   await r.goto();

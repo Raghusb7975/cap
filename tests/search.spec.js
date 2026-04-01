@@ -8,7 +8,7 @@ test.beforeEach(async ({ page }) => {
   await search.login('raghu01@gmail.com', 'Raghu@12345');
 });
 
-// ✅ TC01
+
 test('Search doctor name', async ({ page }) => {
   const search = new SearchPage(page);
 
@@ -18,7 +18,6 @@ test('Search doctor name', async ({ page }) => {
   await expect(search.getDoctorByName('Dr. Michael Chen')).toBeVisible();
 });
 
-// ✅ TC02
 test('Verify Showing 10 doctors', async ({ page }) => {
   const search = new SearchPage(page);
 
@@ -40,7 +39,7 @@ test('Search raghu or no doctors', async ({ page }) => {
   ).toBeVisible();
 });
 
-// ✅ TC04
+
 test('Search Cardiology', async ({ page }) => {
   const search = new SearchPage(page);
 
@@ -50,7 +49,6 @@ test('Search Cardiology', async ({ page }) => {
   await expect(page.getByText('Cardiology').first()).toBeVisible();
 });
 
-// ✅ TC05
 test('Sort rating descending', async ({ page }) => {
   const search = new SearchPage(page);
 
@@ -65,7 +63,6 @@ test('Sort rating descending', async ({ page }) => {
   expect(ratings).toEqual(sorted);
 });
 
-// ✅ TC06 (FIXED strict issue)
 test('Filter Orthopedics', async ({ page }) => {
   const search = new SearchPage(page);
 
@@ -77,7 +74,6 @@ test('Filter Orthopedics', async ({ page }) => {
   await expect(orthoBtn).toBeVisible(); // ✅ FIX
 });
 
-// ✅ TC07
 test('Sort fee ascending', async ({ page }) => {
   const search = new SearchPage(page);
 
@@ -92,18 +88,15 @@ test('Sort fee ascending', async ({ page }) => {
   expect(fees).toEqual(sorted);
 });
 
-// ✅ TC08 (FIXED strict issue)
 test('Sort by experience', async ({ page }) => {
   const search = new SearchPage(page);
 
   await search.goToFindDoctorBtn();
   await search.selectSort('experience');
 
-  // Check at least one experience value exists
   await expect(page.locator('text=exp').first()).toBeVisible();
 });
 
-// ✅ TC09
 test('Sort fee descending', async ({ page }) => {
   const search = new SearchPage(page);
 
@@ -118,7 +111,6 @@ test('Sort fee descending', async ({ page }) => {
   expect(fees).toEqual(sorted);
 });
 
-// ✅ TC10
 test('Filter Psychiatry', async ({ page }) => {
   const search = new SearchPage(page);
 

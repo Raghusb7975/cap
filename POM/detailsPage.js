@@ -3,26 +3,21 @@ class DetailsPage {
   constructor(page) {
     this.page = page;
 
-    // Login
     this.loginBtn = page.getByRole('button', { name: 'Log in' });
     this.email = page.getByRole('textbox', { name: 'Email address' });
     this.password = page.getByRole('textbox', { name: 'Password' });
     this.signInBtn = page.getByRole('button', { name: 'Sign In' });
 
-    // Navigation
     this.findDoctorBtn = page.getByRole('button', { name: 'Find a Doctor' });
     this.bookVisitBtn = page.getByRole('button', { name: 'Book Visit' });
 
-    // Doctor Details
     this.doctorName = page.locator('h1'); // FIX strict mode
     this.speciality = page.locator('text=Neurology').first();
     this.location = page.locator('text=Center').first();
 
-    // Sections
     this.aboutSection = page.getByRole('heading', { name: 'About the Doctor' });
     this.expertiseSection = page.getByRole('heading', { name: 'Expertise & Services' });
 
-    // Appointment
     this.selectDate = page.getByText('Select Date', { exact: true });
     this.nextMonthBtn = page.getByRole('button', { name: 'Go to the Next Month' });
     this.timeDropdown = page.getByRole('combobox');

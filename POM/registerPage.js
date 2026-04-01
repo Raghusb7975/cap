@@ -2,27 +2,21 @@ class RegisterPage {
   constructor(page) {
     this.page = page;
 
-    // URL
     this.url = 'https://medi-schedule--raghubakare143.replit.app/register';
 
-    // Form fields
     this.nameInput = page.getByRole('textbox', { name: 'Full Name' });
     this.emailInput = page.getByRole('textbox', { name: 'Email address' });
     this.passwordInput = page.getByRole('textbox', { name: 'Password' });
     this.phoneInput = page.getByRole('textbox', { name: 'Phone Number' });
     this.dobInput = page.getByRole('textbox', { name: 'Date of Birth' });
 
-    // Gender dropdown
     this.genderDropdown = page.getByRole('combobox');
     this.genderMale = page.getByRole('option', { name: 'Male', exact: true });
 
-    // Buttons
     this.createAccountBtn = page.getByRole('button', { name: 'Create Account' });
 
-    // Links
     this.loginLink = page.getByRole('link', { name: 'Log in instead' });
 
-    // Common messages
     this.phoneRequired = page.getByText('Phone number is required');
     this.dobRequired = page.getByText('Date of birth is required');
     this.nameValidation = page.getByText('Name must be at least 2 characters');
@@ -30,8 +24,6 @@ class RegisterPage {
     this.passwordError = page.getByText(/at least/i).first();
     this.successMessage = page.getByText(/success|account created|registered/i).first();
   }
-
-  // ---------- Actions ----------
 
   async goto() {
     await this.page.goto(this.url);
@@ -69,9 +61,6 @@ class RegisterPage {
   async clickLoginInstead() {
     await this.loginLink.click();
   }
-
-  // ---------- Combined Actions (VERY IMPORTANT) ----------
-
   async registerUser({ name, email, password, phone, dob, gender = true }) {
     if (name) await this.fillName(name);
     if (email) await this.fillEmail(email);

@@ -1,0 +1,88 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "MedBook." [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e12]: MedBook.
+        - navigation [ref=e13]:
+          - link "Find Doctors" [ref=e14] [cursor=pointer]:
+            - /url: /doctors
+            - img [ref=e15]
+            - text: Find Doctors
+          - link "Appointments Cart 108" [ref=e19] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e20]
+            - text: Appointments Cart
+            - generic [ref=e24]: "108"
+          - link "Dashboard" [ref=e25] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e26]
+            - text: Dashboard
+        - generic [ref=e32]:
+          - link "R raghu Patient" [ref=e33] [cursor=pointer]:
+            - /url: /profile
+            - generic [ref=e35]: R
+            - generic [ref=e36]:
+              - generic [ref=e37]: raghu
+              - generic [ref=e38]: Patient
+          - button [ref=e39]:
+            - img
+    - main [ref=e40]:
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - img [ref=e44]
+          - generic [ref=e48]:
+            - heading "Account Settings" [level=1] [ref=e49]
+            - paragraph [ref=e50]: Manage your personal information and preferences.
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - heading "Read-only Details" [level=3] [ref=e54]
+            - generic [ref=e55]:
+              - generic [ref=e56]:
+                - text: Email address
+                - textbox [disabled] [ref=e57]: raghu01@gmail.com
+              - generic [ref=e58]:
+                - text: Patient ID
+                - textbox [disabled] [ref=e59]: PT-00099
+          - generic [ref=e60]:
+            - heading "Personal Information" [level=3] [ref=e61]
+            - generic [ref=e62]:
+              - generic [ref=e63]:
+                - text: Full Name
+                - textbox "Full Name" [ref=e64]: raghu
+              - generic [ref=e65]:
+                - text: Phone Number
+                - textbox "Phone Number" [ref=e66]: "8877889966"
+              - generic [ref=e67]:
+                - text: Date of Birth
+                - textbox "Date of Birth" [ref=e68]: 2026-03-31
+              - generic [ref=e69]:
+                - text: Gender
+                - combobox [ref=e70]:
+                  - generic: Female
+                  - img [ref=e71]
+                - combobox [ref=e73]
+          - button "Save Changes" [ref=e75]:
+            - img
+            - text: Save Changes
+    - contentinfo [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - img [ref=e79]
+          - generic [ref=e82]: MedBook
+          - generic [ref=e83]: © 2026 All rights reserved.
+        - generic [ref=e84]:
+          - link "Privacy" [ref=e85] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms" [ref=e86] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact Support" [ref=e87] [cursor=pointer]:
+            - /url: "#"
+  - region "Notifications (F8)":
+    - list
+```

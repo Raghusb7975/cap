@@ -161,3 +161,20 @@ test('test7', async ({ page }) => {
   // Click Save Changes button
   await page.getByRole('button', { name: 'Save Changes' }).click();
 });
+
+
+
+
+
+
+test('test8', async ({ page }) => {
+  await page.goto('https://medi-schedule--raghubakare143.replit.app/login');
+  await page.getByRole('textbox', { name: 'Email address' }).click();
+  await page.getByRole('textbox', { name: 'Email address' }).fill('raghu01@gmail.com');
+  await page.getByRole('textbox', { name: 'Password' }).click();
+  await page.getByRole('textbox', { name: 'Password' }).fill('Raghu@12345');
+  await page.getByRole('button', { name: 'Sign In' }).click();
+  await page.getByRole('button', { name: 'Profile' }).click();
+  await page.getByRole('button', { name: 'Save Changes' }).click();
+  await expect( page.getByText('Manage your personal')).toBeVisible();
+});

@@ -130,7 +130,7 @@
 
 
 
-import { test } from '@playwright/test';
+import { expect, test } from '@playwright/test';
 import { LoginPage } from '../POM/loginPage';
 
 test.describe('Login Tests (POM)', () => {
@@ -238,4 +238,47 @@ test.describe('Login Tests (POM)', () => {
     await login.page.waitForLoadState('networkidle');
   });
 
+});
+
+
+test('test12', async ({ page }) => {
+  await page.goto('https://medi-schedule--raghubakare143.replit.app/login');
+  await page.getByRole('textbox', { name: 'Email address' }).click();
+  await page.getByRole('textbox', { name: 'Email address' }).fill('');
+  await page.getByRole('textbox', { name: 'Password' }).click();
+  await page.getByRole('textbox', { name: 'Password' }).fill('Raghu@12345');
+  await page.getByRole('button', { name: 'Sign In' }).click();
+  
+  await expect( page.getByText('Please enter a valid email')).toBeVisible();
+});
+
+
+
+
+test('login with wrong credentials', async ({ page }) => {
+  await page.goto('https://medi-schedule--raghubakare143.replit.app/login');
+
+  // Fill wrong credentials
+  await page.getByRole('textbox', { name: 'Email address' }).fill('raghu0@gmail.com');
+  await page.getByRole('textbox', { name: 'Password' }).fill('Raghu0@12345');
+
+  // Click Sign In
+  await page.getByRole('button', { name: 'Sign In' }).click();
+
+  // Assert the specific error is visible
+  await expect(
+    page.getByText('HTTP 401 : Invalid email or password', { exact: true })
+  ).toBeVisible();
+
+  // Verify page did not navigate away
+  await expect(page).toHaveURL(/login/);
+});
+
+
+test.only('test', async ({ page }) => {
+  await page.goto('https://medi-schedule--raghubakare143.replit.app/login');
+  await page.getByText('Enter your credentials to').click();
+  await page.getByRole('textbox', { name: 'Email address' }).fill('raghu01@gmail.com');
+  await page.getByRole('textbox', { name: 'Password' }).fill('Raghu@12345');
+ await expect(page.getByText('Enter your credentials to')).toBeVisible();
 });

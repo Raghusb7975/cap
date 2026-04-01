@@ -71,7 +71,7 @@ test('Filter Orthopedics', async ({ page }) => {
   const orthoBtn = page.getByRole('button', { name: 'Orthopedics' });
   await orthoBtn.click();
 
-  await expect(orthoBtn).toBeVisible(); // ✅ FIX
+  await expect(orthoBtn).toBeVisible(); 
 });
 
 test('Sort fee ascending', async ({ page }) => {
@@ -157,3 +157,68 @@ test('test', async ({ page }) => {
   await expect(page.getByText('Consultation Fee$80Book Visit')).toBeVisible();
 
 });
+
+
+
+test('search doctor by oncology', async ({ page }) => {
+  await page.goto('https://medi-schedule--raghubakare143.replit.app/login');
+
+ 
+  await page.getByRole('textbox', { name: 'Email address' }).fill('raghu01@gmail.com');
+  await page.getByRole('textbox', { name: 'Password' }).fill('Raghu@12345');
+  await page.getByRole('button', { name: 'Sign In' }).click();
+
+
+  await page.getByRole('link', { name: 'Find Doctors' }).click();
+
+  const searchBox = page.getByRole('textbox', { name: 'Search by name, specialty or' });
+  await searchBox.fill('oncology');
+
+
+  const oncologyOption = page.locator('span', { hasText: /^Oncology$/ });
+
+  await expect(oncologyOption).toBeVisible();
+
+  
+  await oncologyOption.click();
+});
+
+  test(' Login successfully', async ({ page }) => {
+    await page.goto('https://medi-schedule--raghubakare143.replit.app/login');
+    await page.getByRole('textbox', { name: 'Email address' }).fill('raghu01@gmail.com');
+    await page.getByRole('textbox', { name: 'Password' }).fill('Raghu@12345');
+    await page.getByRole('button', { name: 'Sign In' }).click();
+    await expect(page.getByRole('button', { name: 'Find a Doctor' })).toBeVisible();
+  });
+
+  test('Navigate to Find a Doctor', async ({ page }) => {
+    await page.goto('https://medi-schedule--raghubakare143.replit.app/login');
+    await page.getByRole('textbox', { name: 'Email address' }).fill('raghu01@gmail.com');
+    await page.getByRole('textbox', { name: 'Password' }).fill('Raghu@12345');
+    await page.getByRole('button', { name: 'Sign In' }).click();
+    await page.getByRole('button', { name: 'Find a Doctor' }).click();
+    await expect(page.getByRole('button', { name: 'Book Visit' }).first()).toBeVisible();
+  });
+
+  test('Book a Doctor Visit', async ({ page }) => {
+    await page.goto('https://medi-schedule--raghubakare143.replit.app/login');
+    await page.getByRole('textbox', { name: 'Email address' }).fill('raghu01@gmail.com');
+    await page.getByRole('textbox', { name: 'Password' }).fill('Raghu@12345');
+    await page.getByRole('button', { name: 'Sign In' }).click();
+    await page.getByRole('button', { name: 'Find a Doctor' }).click();
+    await page.getByRole('button', { name: 'Book Visit' }).nth(1).click();
+    await page.getByText('Children\'s Health Center').click();
+    await page.getByText('Select date and time').click();
+    await expect(page.getByRole('link', { name: 'Appointments Cart' })).toBeVisible();
+  });
+
+  test(' Appointments Cart navigation', async ({ page }) => {
+    await page.goto('https://medi-schedule--raghubakare143.replit.app/login');
+    await page.getByRole('textbox', { name: 'Email address' }).fill('raghu01@gmail.com');
+    await page.getByRole('textbox', { name: 'Password' }).fill('Raghu@12345');
+    await page.getByRole('button', { name: 'Sign In' }).click();
+    await page.getByRole('link', { name: 'Appointments Cart' }).click();
+    await expect(page.getByRole('heading', { name: 'Your Appointments Cart' })).toBeVisible();
+    await page.getByRole('link', { name: 'Find Doctors' }).click();
+    await expect(page.getByRole('button', { name: 'Book Visit' }).first()).toBeVisible();
+  });

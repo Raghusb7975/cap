@@ -10,7 +10,7 @@ test.beforeEach(async ({ page }) => {
 
 test.skip('TC01 - Dashboard loads successfully', async ({ page }) => {
   const dash = new DashboardPage(page);
-  await expect(dash.WelcomeText).toBeVisible();
+  await expect(dash.Welcome).toBeVisible();
 });
 
 

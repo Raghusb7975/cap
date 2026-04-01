@@ -1,0 +1,128 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "MedBook." [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e12]: MedBook.
+        - navigation [ref=e13]:
+          - link "Find Doctors" [ref=e14] [cursor=pointer]:
+            - /url: /doctors
+            - img [ref=e15]
+            - text: Find Doctors
+          - link "Appointments Cart 130" [ref=e19] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e20]
+            - text: Appointments Cart
+            - generic [ref=e24]: "130"
+          - link "Dashboard" [ref=e25] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e26]
+            - text: Dashboard
+        - generic [ref=e32]:
+          - link "R raghu Patient" [ref=e33] [cursor=pointer]:
+            - /url: /profile
+            - generic [ref=e35]: R
+            - generic [ref=e36]:
+              - generic [ref=e37]: raghu
+              - generic [ref=e38]: Patient
+          - button [ref=e39]:
+            - img
+    - main [ref=e40]:
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - img [ref=e45]
+          - generic [ref=e49]: 10 Specialists Available
+        - heading "Find the Right Doctor" [level=1] [ref=e50]
+        - paragraph [ref=e51]: Search by name, specialty, or hospital — results update instantly.
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - img [ref=e54]
+            - textbox "Search by name, specialty or hospital..." [active] [ref=e57]: Dr. Michael Chen
+            - button [ref=e58]:
+              - img [ref=e59]
+          - combobox [ref=e63]:
+            - option "All Specialties" [selected]
+            - option "Cardiology"
+            - option "Dermatology"
+            - option "Gastroenterology"
+            - option "General Medicine"
+            - option "Gynecology"
+            - option "Neurology"
+            - option "Oncology"
+            - option "Orthopedics"
+            - option "Pediatrics"
+            - option "Psychiatry"
+      - generic [ref=e66]:
+        - button "All" [ref=e67]
+        - button "Cardiology" [ref=e68]
+        - button "Dermatology" [ref=e69]
+        - button "Gastroenterology" [ref=e70]
+        - button "General Medicine" [ref=e71]
+        - button "Gynecology" [ref=e72]
+        - button "Neurology" [ref=e73]
+        - button "Oncology" [ref=e74]
+        - button "Orthopedics" [ref=e75]
+        - button "Pediatrics" [ref=e76]
+        - button "Psychiatry" [ref=e77]
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - generic [ref=e80]:
+            - paragraph [ref=e81]: Showing 1 doctor matching your search
+            - button "Clear filters" [ref=e82]:
+              - img [ref=e83]
+              - text: Clear filters
+          - generic [ref=e86]:
+            - img [ref=e87]
+            - combobox [ref=e88]:
+              - 'option "Sort: Top Rated" [selected]'
+              - 'option "Sort: Most Experienced"'
+              - 'option "Sort: Fee (Low → High)"'
+              - 'option "Sort: Fee (High → Low)"'
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e92]:
+              - generic [ref=e94]: C
+              - generic [ref=e95]:
+                - heading "Dr. Michael Chen" [level=3] [ref=e96]
+                - generic [ref=e97]: Neurology
+                - generic [ref=e98]:
+                  - img [ref=e99]
+                  - generic [ref=e101]: "4.9"
+                  - generic [ref=e102]: (15y exp)
+            - generic [ref=e103]:
+              - generic [ref=e104]:
+                - img [ref=e105]
+                - generic [ref=e108]: Brain & Spine Center
+              - generic [ref=e109]:
+                - img [ref=e110]
+                - generic [ref=e113]: Tue, Thu, Sat
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - paragraph [ref=e116]: Consultation Fee
+              - paragraph [ref=e117]: $200
+            - link "Book Visit" [ref=e118] [cursor=pointer]:
+              - /url: /doctors/2
+              - button "Book Visit" [ref=e119]:
+                - text: Book Visit
+                - img
+    - contentinfo [ref=e120]:
+      - generic [ref=e121]:
+        - generic [ref=e122]:
+          - img [ref=e123]
+          - generic [ref=e126]: MedBook
+          - generic [ref=e127]: © 2026 All rights reserved.
+        - generic [ref=e128]:
+          - link "Privacy" [ref=e129] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms" [ref=e130] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact Support" [ref=e131] [cursor=pointer]:
+            - /url: "#"
+  - region "Notifications (F8)":
+    - list
+```

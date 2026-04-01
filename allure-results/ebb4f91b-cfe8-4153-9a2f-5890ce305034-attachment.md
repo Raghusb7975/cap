@@ -1,0 +1,169 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "MedBook." [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e12]: MedBook.
+        - navigation [ref=e13]:
+          - link "Find Doctors" [ref=e14] [cursor=pointer]:
+            - /url: /doctors
+            - img [ref=e15]
+            - text: Find Doctors
+          - link "Appointments Cart 131" [ref=e21] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e22]
+            - text: Appointments Cart
+            - generic [ref=e26]: "131"
+          - link "Dashboard" [ref=e27] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e28]
+            - text: Dashboard
+        - generic [ref=e34]:
+          - link "R raghu Patient" [ref=e35] [cursor=pointer]:
+            - /url: /profile
+            - generic [ref=e37]: R
+            - generic [ref=e38]:
+              - generic [ref=e39]: raghu
+              - generic [ref=e40]: Patient
+          - button [ref=e41]:
+            - img
+    - main [ref=e42]:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - heading "Secure Checkout" [level=1] [ref=e46]:
+            - img [ref=e47]
+            - text: Secure Checkout
+          - paragraph [ref=e50]:
+            - img [ref=e51]
+            - text: Your payment is protected by 256-bit SSL encryption
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - img [ref=e57]
+            - generic [ref=e60]: Cart
+            - img [ref=e61]
+          - generic [ref=e63]:
+            - generic [ref=e64]: "2"
+            - generic [ref=e65]: Payment
+            - img [ref=e66]
+          - generic [ref=e68]:
+            - generic [ref=e69]: "3"
+            - generic [ref=e70]: Confirmation
+        - generic [ref=e71]:
+          - generic [ref=e73]:
+            - heading "1 Choose Payment Method" [level=2] [ref=e74]:
+              - generic [ref=e75]: "1"
+              - text: Choose Payment Method
+            - generic [ref=e76]:
+              - button "Credit Card Visa, Mastercard, Amex" [ref=e77]:
+                - img [ref=e78]
+                - generic [ref=e81]: Credit Card
+                - generic [ref=e82]: Visa, Mastercard, Amex
+              - button "Debit Card Direct bank payment" [ref=e83]:
+                - img [ref=e84]
+                - generic [ref=e88]: Debit Card
+                - generic [ref=e89]: Direct bank payment
+              - button "Health Insurance Use your insurance plan" [ref=e90]:
+                - img [ref=e91]
+                - generic [ref=e93]: Health Insurance
+                - generic [ref=e94]: Use your insurance plan
+              - button "Pay at Clinic Pay on arrival" [ref=e95]:
+                - img [ref=e96]
+                - generic [ref=e102]: Pay at Clinic
+                - generic [ref=e103]: Pay on arrival
+            - generic [ref=e104]:
+              - generic [ref=e105]:
+                - heading "Insurance Details" [level=3] [ref=e106]:
+                  - img [ref=e107]
+                  - text: Insurance Details
+                - generic [ref=e109]:
+                  - generic [ref=e110]: Insurance Provider *
+                  - textbox "Insurance Provider *" [ref=e111]:
+                    - /placeholder: e.g. Blue Cross, Aetna, Cigna
+                    - text: Blue cross
+                - generic [ref=e112]:
+                  - generic [ref=e113]: Policy Number *(min. 6 characters)
+                  - textbox "Policy Number *(min. 6 characters)" [ref=e114]:
+                    - /placeholder: e.g. POL-123456789
+                    - text: "123456"
+                  - paragraph [ref=e115]:
+                    - img [ref=e116]
+                    - text: Valid policy number
+                - generic [ref=e119]:
+                  - generic [ref=e120]:
+                    - generic [ref=e121]: Member ID *
+                    - textbox "Member ID *" [ref=e122]:
+                      - /placeholder: e.g. MBR-00123
+                      - text: "098989"
+                  - generic [ref=e123]:
+                    - generic [ref=e124]: Group Number (optional)
+                    - textbox "Group Number (optional)" [ref=e125]:
+                      - /placeholder: e.g. GRP-456
+                      - text: "565"
+                - generic [ref=e126]:
+                  - img [ref=e127]
+                  - text: Insurance claims are processed within 3–5 business days. You may be billed for any uncovered portion.
+              - button "Submit Insurance Claim — $210.00" [ref=e130]
+              - paragraph [ref=e131]:
+                - img [ref=e132]
+                - text: Secured by 256-bit SSL · No charges without confirmation
+          - generic [ref=e136]:
+            - heading "Appointment Summary" [level=2] [ref=e137]
+            - generic [ref=e138]:
+              - generic [ref=e140]: C
+              - generic [ref=e141]:
+                - paragraph [ref=e142]: Dr. Michael Chen
+                - paragraph [ref=e143]: Neurology
+                - paragraph [ref=e144]: Brain & Spine Center
+            - generic [ref=e145]:
+              - generic [ref=e146]:
+                - generic [ref=e147]: Date
+                - generic [ref=e148]: Apr 26th, 2026
+              - generic [ref=e149]:
+                - generic [ref=e150]: Time
+                - generic [ref=e151]: 10:30 AM
+            - generic [ref=e152]:
+              - generic [ref=e153]:
+                - generic [ref=e154]: Consultation Fee
+                - generic [ref=e155]: $200.00
+              - generic [ref=e156]:
+                - generic [ref=e157]: Service Tax (5%)
+                - generic [ref=e158]: $10.00
+              - generic [ref=e159]:
+                - generic [ref=e160]: Insurance Applied
+                - generic [ref=e161]: Subject to claim
+            - generic [ref=e162]:
+              - generic [ref=e163]: Total Due
+              - generic [ref=e164]: $210.00
+            - generic [ref=e165]:
+              - generic [ref=e166]: "Accepted:"
+              - generic [ref=e167]: VISA
+              - generic [ref=e168]: MC
+              - generic [ref=e169]: AMEX
+              - generic [ref=e170]: Insurance
+    - contentinfo [ref=e171]:
+      - generic [ref=e172]:
+        - generic [ref=e173]:
+          - img [ref=e174]
+          - generic [ref=e177]: MedBook
+          - generic [ref=e178]: © 2026 All rights reserved.
+        - generic [ref=e179]:
+          - link "Privacy" [ref=e180] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms" [ref=e181] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact Support" [ref=e182] [cursor=pointer]:
+            - /url: "#"
+  - region "Notifications (F8)":
+    - list [ref=e184]:
+      - listitem [ref=e185]:
+        - generic [ref=e186]:
+          - generic [ref=e187]: Transaction Failed
+          - generic [ref=e188]: "HTTP 404 : Cart item not found"
+        - button [ref=e189]:
+          - img [ref=e190]
+```

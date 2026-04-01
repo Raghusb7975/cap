@@ -1,0 +1,92 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - generic [ref=e6]:
+          - link "MedBook." [ref=e7] [cursor=pointer]:
+            - /url: /
+            - img [ref=e9]
+            - generic [ref=e12]: MedBook.
+          - navigation [ref=e13]:
+            - link "Find Doctors" [ref=e14] [cursor=pointer]:
+              - /url: /doctors
+              - img [ref=e15]
+              - text: Find Doctors
+            - link "Appointments Cart" [ref=e21] [cursor=pointer]:
+              - /url: /cart
+              - img [ref=e22]
+              - text: Appointments Cart
+            - link "Dashboard" [ref=e26] [cursor=pointer]:
+              - /url: /dashboard
+              - img [ref=e27]
+              - text: Dashboard
+          - generic [ref=e33]:
+            - link "R raghu Patient" [ref=e34] [cursor=pointer]:
+              - /url: /profile
+              - generic [ref=e36]: R
+              - generic [ref=e37]:
+                - generic [ref=e38]: raghu
+                - generic [ref=e39]: Patient
+            - button [ref=e40]:
+              - img
+      - main [ref=e41]:
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - img [ref=e46]
+            - generic [ref=e52]: 0 Specialists Available
+          - heading "Find the Right Doctor" [level=1] [ref=e53]
+          - paragraph [ref=e54]: Search by name, specialty, or hospital — results update instantly.
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - img [ref=e57]
+              - textbox "Search by name, specialty or hospital..." [ref=e60]
+            - combobox [ref=e62]:
+              - option "All Specialties" [selected]
+              - option "Cardiology"
+              - option "Dermatology"
+              - option "Gastroenterology"
+              - option "General Medicine"
+              - option "Gynecology"
+              - option "Neurology"
+              - option "Oncology"
+              - option "Orthopedics"
+              - option "Pediatrics"
+              - option "Psychiatry"
+        - generic [ref=e65]:
+          - button "All" [ref=e66]
+          - button "Cardiology" [ref=e67]
+          - button "Dermatology" [ref=e68]
+          - button "Gastroenterology" [ref=e69]
+          - button "General Medicine" [ref=e70]
+          - button "Gynecology" [ref=e71]
+          - button "Neurology" [ref=e72]
+          - button "Oncology" [ref=e73]
+          - button "Orthopedics" [ref=e74]
+          - button "Pediatrics" [ref=e75]
+          - button "Psychiatry" [ref=e76]
+      - contentinfo [ref=e103]:
+        - generic [ref=e104]:
+          - generic [ref=e105]:
+            - img [ref=e106]
+            - generic [ref=e109]: MedBook
+            - generic [ref=e110]: © 2026 All rights reserved.
+          - generic [ref=e111]:
+            - link "Privacy" [ref=e112] [cursor=pointer]:
+              - /url: "#"
+            - link "Terms" [ref=e113] [cursor=pointer]:
+              - /url: "#"
+            - link "Contact Support" [ref=e114] [cursor=pointer]:
+              - /url: "#"
+    - region "Notifications (F8)":
+      - list [ref=e116]:
+        - listitem [ref=e117]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Welcome back!
+            - generic [ref=e120]: You have successfully logged in.
+          - button [ref=e121]:
+            - img [ref=e122]
+  - status [ref=e126]: Notification Welcome back!You have successfully logged in.
+```

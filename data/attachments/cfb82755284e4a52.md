@@ -1,0 +1,144 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "MedBook." [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e12]: MedBook.
+        - navigation [ref=e13]:
+          - link "Find Doctors" [ref=e14] [cursor=pointer]:
+            - /url: /doctors
+            - img [ref=e15]
+            - text: Find Doctors
+          - link "Appointments Cart 108" [ref=e19] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e20]
+            - text: Appointments Cart
+            - generic [ref=e24]: "108"
+          - link "Dashboard" [ref=e25] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e26]
+            - text: Dashboard
+        - generic [ref=e32]:
+          - link "R raghu Patient" [ref=e33] [cursor=pointer]:
+            - /url: /profile
+            - generic [ref=e35]: R
+            - generic [ref=e36]:
+              - generic [ref=e37]: raghu
+              - generic [ref=e38]: Patient
+          - button [ref=e39]:
+            - img
+    - main [ref=e40]:
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - heading "Secure Checkout" [level=1] [ref=e44]:
+            - img [ref=e45]
+            - text: Secure Checkout
+          - paragraph [ref=e48]:
+            - img [ref=e49]
+            - text: Your payment is protected by 256-bit SSL encryption
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - img [ref=e55]
+            - generic [ref=e58]: Cart
+            - img [ref=e59]
+          - generic [ref=e61]:
+            - generic [ref=e62]: "2"
+            - generic [ref=e63]: Payment
+            - img [ref=e64]
+          - generic [ref=e66]:
+            - generic [ref=e67]: "3"
+            - generic [ref=e68]: Confirmation
+        - generic [ref=e69]:
+          - generic [ref=e71]:
+            - heading "1 Choose Payment Method" [level=2] [ref=e72]:
+              - generic [ref=e73]: "1"
+              - text: Choose Payment Method
+            - generic [ref=e74]:
+              - button "Credit Card Visa, Mastercard, Amex" [ref=e75]:
+                - img [ref=e76]
+                - generic [ref=e78]: Credit Card
+                - generic [ref=e79]: Visa, Mastercard, Amex
+              - button "Debit Card Direct bank payment" [ref=e80]:
+                - img [ref=e81]
+                - generic [ref=e84]: Debit Card
+                - generic [ref=e85]: Direct bank payment
+              - button "Health Insurance Use your insurance plan" [ref=e86]:
+                - img [ref=e87]
+                - generic [ref=e89]: Health Insurance
+                - generic [ref=e90]: Use your insurance plan
+              - button "Pay at Clinic Pay on arrival" [ref=e91]:
+                - img [ref=e92]
+                - generic [ref=e96]: Pay at Clinic
+                - generic [ref=e97]: Pay on arrival
+            - generic [ref=e98]:
+              - generic [ref=e99]:
+                - paragraph [ref=e100]:
+                  - img [ref=e101]
+                  - text: Pay at the Clinic
+                - list [ref=e105]:
+                  - listitem [ref=e106]: Please arrive 15 minutes before your appointment.
+                  - listitem [ref=e107]: Bring a valid photo ID and this booking reference.
+                  - listitem [ref=e108]: Payment is due at the time of your visit.
+                  - listitem [ref=e109]: We accept cash and all major debit cards at reception.
+              - button "Confirm Booking — Pay $210.00 at Clinic" [ref=e110]
+              - paragraph [ref=e111]:
+                - img [ref=e112]
+                - text: Secured by 256-bit SSL · No charges without confirmation
+          - generic [ref=e116]:
+            - heading "Appointment Summary" [level=2] [ref=e117]
+            - generic [ref=e118]:
+              - generic [ref=e120]: C
+              - generic [ref=e121]:
+                - paragraph [ref=e122]: Dr. Michael Chen
+                - paragraph [ref=e123]: Neurology
+                - paragraph [ref=e124]: Brain & Spine Center
+            - generic [ref=e125]:
+              - generic [ref=e126]:
+                - generic [ref=e127]: Date
+                - generic [ref=e128]: Apr 1st, 2026
+              - generic [ref=e129]:
+                - generic [ref=e130]: Time
+                - generic [ref=e131]: 10:00 AM
+            - generic [ref=e132]:
+              - generic [ref=e133]:
+                - generic [ref=e134]: Consultation Fee
+                - generic [ref=e135]: $200.00
+              - generic [ref=e136]:
+                - generic [ref=e137]: Service Tax (5%)
+                - generic [ref=e138]: $10.00
+            - generic [ref=e139]:
+              - generic [ref=e140]: Total Due
+              - generic [ref=e141]: $210.00
+            - generic [ref=e142]:
+              - generic [ref=e143]: "Accepted:"
+              - generic [ref=e144]: VISA
+              - generic [ref=e145]: MC
+              - generic [ref=e146]: AMEX
+              - generic [ref=e147]: Insurance
+    - contentinfo [ref=e148]:
+      - generic [ref=e149]:
+        - generic [ref=e150]:
+          - img [ref=e151]
+          - generic [ref=e154]: MedBook
+          - generic [ref=e155]: © 2026 All rights reserved.
+        - generic [ref=e156]:
+          - link "Privacy" [ref=e157] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms" [ref=e158] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact Support" [ref=e159] [cursor=pointer]:
+            - /url: "#"
+  - region "Notifications (F8)":
+    - list [ref=e161]:
+      - listitem [ref=e162]:
+        - generic [ref=e163]:
+          - generic [ref=e164]: Transaction Failed
+          - generic [ref=e165]: "HTTP 404 : Cart item not found"
+        - button [ref=e166]:
+          - img [ref=e167]
+```

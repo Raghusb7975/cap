@@ -1,0 +1,109 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - generic [ref=e6]:
+          - link "MedBook." [ref=e7] [cursor=pointer]:
+            - /url: /
+            - img [ref=e9]
+            - generic [ref=e12]: MedBook.
+          - navigation [ref=e13]:
+            - link "Find Doctors" [ref=e14] [cursor=pointer]:
+              - /url: /doctors
+              - img [ref=e15]
+              - text: Find Doctors
+            - link "Appointments Cart" [ref=e21] [cursor=pointer]:
+              - /url: /cart
+              - img [ref=e22]
+              - text: Appointments Cart
+            - link "Dashboard" [active] [ref=e26] [cursor=pointer]:
+              - /url: /dashboard
+              - img [ref=e27]
+              - text: Dashboard
+          - generic [ref=e33]:
+            - link "R raghu Patient" [ref=e34] [cursor=pointer]:
+              - /url: /profile
+              - generic [ref=e36]: R
+              - generic [ref=e37]:
+                - generic [ref=e38]: raghu
+                - generic [ref=e39]: Patient
+            - button [ref=e40]:
+              - img
+      - main [ref=e41]:
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - paragraph [ref=e47]: Welcome back
+            - heading "raghu 👋" [level=1] [ref=e48]
+            - paragraph [ref=e49]: Manage your healthcare appointments
+          - generic [ref=e50]:
+            - link "Find a Doctor" [ref=e51] [cursor=pointer]:
+              - /url: /doctors
+              - button "Find a Doctor" [ref=e52]:
+                - img
+                - text: Find a Doctor
+            - link "View Cart" [ref=e53] [cursor=pointer]:
+              - /url: /cart
+              - button "View Cart" [ref=e54]:
+                - img
+                - text: View Cart
+            - link "Profile" [ref=e55] [cursor=pointer]:
+              - /url: /profile
+              - button "Profile" [ref=e56]:
+                - img
+                - text: Profile
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - img [ref=e61]
+              - generic [ref=e63]:
+                - paragraph [ref=e64]: Total Visits
+                - paragraph [ref=e65]: "0"
+            - generic [ref=e66]:
+              - img [ref=e68]
+              - generic [ref=e73]:
+                - paragraph [ref=e74]: Upcoming
+                - paragraph [ref=e75]: "0"
+            - generic [ref=e76]:
+              - img [ref=e78]
+              - generic [ref=e81]:
+                - paragraph [ref=e82]: Completed
+                - paragraph [ref=e83]: "0"
+            - generic [ref=e84]:
+              - img [ref=e86]
+              - generic [ref=e89]:
+                - paragraph [ref=e90]: Total Spent
+                - paragraph [ref=e91]: $0
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - heading "My Appointments" [level=2] [ref=e95]
+              - tablist [ref=e96]:
+                - tab "Upcoming" [selected] [ref=e97]
+                - tab "Past Records" [ref=e98]
+            - tabpanel "Upcoming" [ref=e99]:
+              - img [ref=e101]
+      - contentinfo [ref=e103]:
+        - generic [ref=e104]:
+          - generic [ref=e105]:
+            - img [ref=e106]
+            - generic [ref=e109]: MedBook
+            - generic [ref=e110]: © 2026 All rights reserved.
+          - generic [ref=e111]:
+            - link "Privacy" [ref=e112] [cursor=pointer]:
+              - /url: "#"
+            - link "Terms" [ref=e113] [cursor=pointer]:
+              - /url: "#"
+            - link "Contact Support" [ref=e114] [cursor=pointer]:
+              - /url: "#"
+    - region "Notifications (F8)":
+      - list [ref=e116]:
+        - listitem [ref=e117]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Welcome back!
+            - generic [ref=e120]: You have successfully logged in.
+          - button [ref=e121]:
+            - img [ref=e122]
+  - status [ref=e126]: Notification Welcome back!You have successfully logged in.
+```

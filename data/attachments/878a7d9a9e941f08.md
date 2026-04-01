@@ -1,0 +1,217 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "MedBook." [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e12]: MedBook.
+        - navigation [ref=e13]:
+          - link "Find Doctors" [ref=e14] [cursor=pointer]:
+            - /url: /doctors
+            - img [ref=e15]
+            - text: Find Doctors
+          - link "Appointments Cart 112" [ref=e21] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e22]
+            - text: Appointments Cart
+            - generic [ref=e26]: "112"
+          - link "Dashboard" [ref=e27] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e28]
+            - text: Dashboard
+        - generic [ref=e34]:
+          - link "R raghu Patient" [ref=e35] [cursor=pointer]:
+            - /url: /profile
+            - generic [ref=e37]: R
+            - generic [ref=e38]:
+              - generic [ref=e39]: raghu
+              - generic [ref=e40]: Patient
+          - button [ref=e41]:
+            - img
+    - main [ref=e42]:
+      - link "Back to all doctors" [ref=e45] [cursor=pointer]:
+        - /url: /doctors
+        - img [ref=e46]
+        - text: Back to all doctors
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - generic [ref=e54]: D
+            - generic [ref=e55]:
+              - generic [ref=e56]: General Medicine
+              - heading "Dr. David Martinez" [level=1] [ref=e57]
+              - generic [ref=e58]:
+                - generic [ref=e59]:
+                  - img [ref=e60]
+                  - generic [ref=e62]: "4.5"
+                  - generic [ref=e63]: (120+ reviews)
+                - generic [ref=e64]:
+                  - img [ref=e65]
+                  - generic [ref=e68]: 9 Years Experience
+              - generic [ref=e69]:
+                - generic [ref=e70]:
+                  - img [ref=e71]
+                  - generic [ref=e74]:
+                    - paragraph [ref=e75]: Location
+                    - paragraph [ref=e76]: Community Health Center
+                - generic [ref=e77]:
+                  - img [ref=e78]
+                  - generic [ref=e81]:
+                    - paragraph [ref=e82]: Availability
+                    - paragraph [ref=e83]: Mon, Tue, Wed, Thu, Fri
+          - generic [ref=e84]:
+            - heading "About the Doctor" [level=2] [ref=e85]
+            - paragraph [ref=e86]: Primary care physician dedicated to preventive medicine, chronic disease management, and patient education.
+            - generic [ref=e87]:
+              - heading "Expertise & Services" [level=3] [ref=e88]
+              - list [ref=e89]:
+                - listitem [ref=e90]:
+                  - img [ref=e91]
+                  - generic [ref=e94]: Specialized Treatment 1
+                - listitem [ref=e95]:
+                  - img [ref=e96]
+                  - generic [ref=e99]: Specialized Treatment 2
+                - listitem [ref=e100]:
+                  - img [ref=e101]
+                  - generic [ref=e104]: Specialized Treatment 3
+                - listitem [ref=e105]:
+                  - img [ref=e106]
+                  - generic [ref=e109]: Specialized Treatment 4
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - heading "Book Appointment" [level=3] [ref=e113]
+            - paragraph [ref=e114]: Select date and time
+          - generic [ref=e115]:
+            - generic [ref=e116]:
+              - generic [ref=e117]: Consultation Fee
+              - generic [ref=e118]: $80
+            - generic [ref=e119]:
+              - generic [ref=e120]:
+                - img [ref=e121]
+                - text: Select Date
+              - generic [ref=e128]:
+                - navigation "Navigation bar" [ref=e129]:
+                  - button "Go to the Previous Month" [ref=e130]:
+                    - img
+                  - button "Go to the Next Month" [active] [ref=e131]:
+                    - img
+                - generic [ref=e132]:
+                  - status [ref=e134]: June 2026
+                  - grid "June 2026" [ref=e135]:
+                    - rowgroup [ref=e136]:
+                      - row [ref=e137]:
+                        - columnheader [ref=e138]: Su
+                        - columnheader [ref=e139]: Mo
+                        - columnheader [ref=e140]: Tu
+                        - columnheader [ref=e141]: We
+                        - columnheader [ref=e142]: Th
+                        - columnheader [ref=e143]: Fr
+                        - columnheader [ref=e144]: Sa
+                    - rowgroup [ref=e145]:
+                      - row "Sunday, May 31st, 2026 Monday, June 1st, 2026 Tuesday, June 2nd, 2026 Wednesday, June 3rd, 2026 Thursday, June 4th, 2026 Friday, June 5th, 2026 Saturday, June 6th, 2026" [ref=e146]:
+                        - gridcell "Sunday, May 31st, 2026" [ref=e147]:
+                          - button "Sunday, May 31st, 2026" [ref=e148]: "31"
+                        - gridcell "Monday, June 1st, 2026" [ref=e149]:
+                          - button "Monday, June 1st, 2026" [ref=e150]: "1"
+                        - gridcell "Tuesday, June 2nd, 2026" [ref=e151]:
+                          - button "Tuesday, June 2nd, 2026" [ref=e152]: "2"
+                        - gridcell "Wednesday, June 3rd, 2026" [ref=e153]:
+                          - button "Wednesday, June 3rd, 2026" [ref=e154]: "3"
+                        - gridcell "Thursday, June 4th, 2026" [ref=e155]:
+                          - button "Thursday, June 4th, 2026" [ref=e156]: "4"
+                        - gridcell "Friday, June 5th, 2026" [ref=e157]:
+                          - button "Friday, June 5th, 2026" [ref=e158]: "5"
+                        - gridcell "Saturday, June 6th, 2026" [ref=e159]:
+                          - button "Saturday, June 6th, 2026" [ref=e160]: "6"
+                      - row "Sunday, June 7th, 2026 Monday, June 8th, 2026 Tuesday, June 9th, 2026 Wednesday, June 10th, 2026 Thursday, June 11th, 2026 Friday, June 12th, 2026 Saturday, June 13th, 2026" [ref=e161]:
+                        - gridcell "Sunday, June 7th, 2026" [ref=e162]:
+                          - button "Sunday, June 7th, 2026" [ref=e163]: "7"
+                        - gridcell "Monday, June 8th, 2026" [ref=e164]:
+                          - button "Monday, June 8th, 2026" [ref=e165]: "8"
+                        - gridcell "Tuesday, June 9th, 2026" [ref=e166]:
+                          - button "Tuesday, June 9th, 2026" [ref=e167]: "9"
+                        - gridcell "Wednesday, June 10th, 2026" [ref=e168]:
+                          - button "Wednesday, June 10th, 2026" [ref=e169]: "10"
+                        - gridcell "Thursday, June 11th, 2026" [ref=e170]:
+                          - button "Thursday, June 11th, 2026" [ref=e171]: "11"
+                        - gridcell "Friday, June 12th, 2026" [ref=e172]:
+                          - button "Friday, June 12th, 2026" [ref=e173]: "12"
+                        - gridcell "Saturday, June 13th, 2026" [ref=e174]:
+                          - button "Saturday, June 13th, 2026" [ref=e175]: "13"
+                      - row "Sunday, June 14th, 2026 Monday, June 15th, 2026 Tuesday, June 16th, 2026 Wednesday, June 17th, 2026 Thursday, June 18th, 2026 Friday, June 19th, 2026 Saturday, June 20th, 2026" [ref=e176]:
+                        - gridcell "Sunday, June 14th, 2026" [ref=e177]:
+                          - button "Sunday, June 14th, 2026" [ref=e178]: "14"
+                        - gridcell "Monday, June 15th, 2026" [ref=e179]:
+                          - button "Monday, June 15th, 2026" [ref=e180]: "15"
+                        - gridcell "Tuesday, June 16th, 2026" [ref=e181]:
+                          - button "Tuesday, June 16th, 2026" [ref=e182]: "16"
+                        - gridcell "Wednesday, June 17th, 2026" [ref=e183]:
+                          - button "Wednesday, June 17th, 2026" [ref=e184]: "17"
+                        - gridcell "Thursday, June 18th, 2026" [ref=e185]:
+                          - button "Thursday, June 18th, 2026" [ref=e186]: "18"
+                        - gridcell "Friday, June 19th, 2026" [ref=e187]:
+                          - button "Friday, June 19th, 2026" [ref=e188]: "19"
+                        - gridcell "Saturday, June 20th, 2026" [ref=e189]:
+                          - button "Saturday, June 20th, 2026" [ref=e190]: "20"
+                      - row "Sunday, June 21st, 2026 Monday, June 22nd, 2026 Tuesday, June 23rd, 2026 Wednesday, June 24th, 2026 Thursday, June 25th, 2026 Friday, June 26th, 2026 Saturday, June 27th, 2026" [ref=e191]:
+                        - gridcell "Sunday, June 21st, 2026" [ref=e192]:
+                          - button "Sunday, June 21st, 2026" [ref=e193]: "21"
+                        - gridcell "Monday, June 22nd, 2026" [ref=e194]:
+                          - button "Monday, June 22nd, 2026" [ref=e195]: "22"
+                        - gridcell "Tuesday, June 23rd, 2026" [ref=e196]:
+                          - button "Tuesday, June 23rd, 2026" [ref=e197]: "23"
+                        - gridcell "Wednesday, June 24th, 2026" [ref=e198]:
+                          - button "Wednesday, June 24th, 2026" [ref=e199]: "24"
+                        - gridcell "Thursday, June 25th, 2026" [ref=e200]:
+                          - button "Thursday, June 25th, 2026" [ref=e201]: "25"
+                        - gridcell "Friday, June 26th, 2026" [ref=e202]:
+                          - button "Friday, June 26th, 2026" [ref=e203]: "26"
+                        - gridcell "Saturday, June 27th, 2026" [ref=e204]:
+                          - button "Saturday, June 27th, 2026" [ref=e205]: "27"
+                      - row "Sunday, June 28th, 2026 Monday, June 29th, 2026 Tuesday, June 30th, 2026 Wednesday, July 1st, 2026 Thursday, July 2nd, 2026 Friday, July 3rd, 2026 Saturday, July 4th, 2026" [ref=e206]:
+                        - gridcell "Sunday, June 28th, 2026" [ref=e207]:
+                          - button "Sunday, June 28th, 2026" [ref=e208]: "28"
+                        - gridcell "Monday, June 29th, 2026" [ref=e209]:
+                          - button "Monday, June 29th, 2026" [ref=e210]: "29"
+                        - gridcell "Tuesday, June 30th, 2026" [ref=e211]:
+                          - button "Tuesday, June 30th, 2026" [ref=e212]: "30"
+                        - gridcell "Wednesday, July 1st, 2026" [ref=e213]:
+                          - button "Wednesday, July 1st, 2026" [ref=e214]: "1"
+                        - gridcell "Thursday, July 2nd, 2026" [ref=e215]:
+                          - button "Thursday, July 2nd, 2026" [ref=e216]: "2"
+                        - gridcell "Friday, July 3rd, 2026" [ref=e217]:
+                          - button "Friday, July 3rd, 2026" [ref=e218]: "3"
+                        - gridcell "Saturday, July 4th, 2026" [ref=e219]:
+                          - button "Saturday, July 4th, 2026" [ref=e220]: "4"
+            - generic [ref=e221]:
+              - generic [ref=e222]:
+                - img [ref=e223]
+                - text: Select Time
+              - combobox [ref=e226]:
+                - generic: Choose a time slot
+                - img [ref=e227]
+            - generic [ref=e229]:
+              - text: Patient Notes (Optional)
+              - textbox "Briefly describe your symptoms or reason for visit..." [ref=e230]
+            - button "Add to Cart" [disabled]
+            - paragraph [ref=e231]: You won't be charged yet. Payment is collected at checkout.
+    - contentinfo [ref=e232]:
+      - generic [ref=e233]:
+        - generic [ref=e234]:
+          - img [ref=e235]
+          - generic [ref=e238]: MedBook
+          - generic [ref=e239]: © 2026 All rights reserved.
+        - generic [ref=e240]:
+          - link "Privacy" [ref=e241] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms" [ref=e242] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact Support" [ref=e243] [cursor=pointer]:
+            - /url: "#"
+  - region "Notifications (F8)":
+    - list
+```

@@ -1,0 +1,178 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - generic [ref=e6]:
+          - link "MedBook." [ref=e7] [cursor=pointer]:
+            - /url: /
+            - img [ref=e9]
+            - generic [ref=e12]: MedBook.
+          - navigation [ref=e13]:
+            - link "Find Doctors" [ref=e14] [cursor=pointer]:
+              - /url: /doctors
+              - img [ref=e15]
+              - text: Find Doctors
+            - link "Appointments Cart 111" [ref=e21] [cursor=pointer]:
+              - /url: /cart
+              - img [ref=e22]
+              - text: Appointments Cart
+              - generic [ref=e26]: "111"
+            - link "Dashboard" [ref=e27] [cursor=pointer]:
+              - /url: /dashboard
+              - img [ref=e28]
+              - text: Dashboard
+          - generic [ref=e34]:
+            - link "R raghu Patient" [ref=e35] [cursor=pointer]:
+              - /url: /profile
+              - generic [ref=e37]: R
+              - generic [ref=e38]:
+                - generic [ref=e39]: raghu
+                - generic [ref=e40]: Patient
+            - button [ref=e41]:
+              - img
+      - main [ref=e42]:
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - heading "Secure Checkout" [level=1] [ref=e46]:
+              - img [ref=e47]
+              - text: Secure Checkout
+            - paragraph [ref=e50]:
+              - img [ref=e51]
+              - text: Your payment is protected by 256-bit SSL encryption
+          - generic [ref=e54]:
+            - generic [ref=e55]:
+              - img [ref=e57]
+              - generic [ref=e60]: Cart
+              - img [ref=e61]
+            - generic [ref=e63]:
+              - generic [ref=e64]: "2"
+              - generic [ref=e65]: Payment
+              - img [ref=e66]
+            - generic [ref=e68]:
+              - generic [ref=e69]: "3"
+              - generic [ref=e70]: Confirmation
+          - generic [ref=e71]:
+            - generic [ref=e73]:
+              - heading "1 Choose Payment Method" [level=2] [ref=e74]:
+                - generic [ref=e75]: "1"
+                - text: Choose Payment Method
+              - generic [ref=e76]:
+                - button "Credit Card Visa, Mastercard, Amex" [ref=e77]:
+                  - img [ref=e78]
+                  - generic [ref=e81]: Credit Card
+                  - generic [ref=e82]: Visa, Mastercard, Amex
+                - button "Debit Card Direct bank payment" [ref=e83]:
+                  - img [ref=e84]
+                  - generic [ref=e88]: Debit Card
+                  - generic [ref=e89]: Direct bank payment
+                - button "Health Insurance Use your insurance plan" [ref=e90]:
+                  - img [ref=e91]
+                  - generic [ref=e93]: Health Insurance
+                  - generic [ref=e94]: Use your insurance plan
+                - button "Pay at Clinic Pay on arrival" [ref=e95]:
+                  - img [ref=e96]
+                  - generic [ref=e102]: Pay at Clinic
+                  - generic [ref=e103]: Pay on arrival
+              - generic [ref=e104]:
+                - generic [ref=e105]:
+                  - heading "Credit Card Details" [level=3] [ref=e106]:
+                    - img [ref=e107]
+                    - text: Credit Card Details
+                  - generic [ref=e110]:
+                    - generic [ref=e111]: Card Number *
+                    - generic [ref=e112]:
+                      - textbox "Card Number *" [ref=e113]:
+                        - /placeholder: 0000 0000 0000 0000
+                        - text: 1234 5678 12
+                      - generic [ref=e114]: 10/16
+                    - generic [ref=e115]:
+                      - img [ref=e116]
+                      - generic [ref=e120]: Card number must be exactly 16 digits (you entered 10).
+                  - generic [ref=e121]:
+                    - generic [ref=e122]: Cardholder Name *
+                    - textbox "Cardholder Name *" [ref=e123]:
+                      - /placeholder: Full name as on card
+                      - text: raghu
+                  - generic [ref=e124]:
+                    - generic [ref=e125]:
+                      - generic [ref=e126]: Expiry Date *
+                      - textbox "Expiry Date *" [ref=e127]:
+                        - /placeholder: MM/YY
+                        - text: 04/25
+                      - generic [ref=e128]:
+                        - img [ref=e129]
+                        - generic [ref=e133]: This card has expired. Please use a valid card.
+                    - generic [ref=e134]:
+                      - generic [ref=e135]: CVV *(3 digits)
+                      - textbox "CVV *(3 digits)" [ref=e137]:
+                        - /placeholder: •••
+                        - text: "123"
+                      - paragraph [ref=e138]:
+                        - img [ref=e139]
+                        - text: Valid
+                  - generic [ref=e142]:
+                    - img [ref=e143]
+                    - text: Your card details are encrypted and never stored on our servers.
+                - button "Pay $210.00 Securely" [active] [ref=e146]:
+                  - img
+                  - text: Pay $210.00 Securely
+                - paragraph [ref=e147]:
+                  - img [ref=e148]
+                  - text: Secured by 256-bit SSL · No charges without confirmation
+            - generic [ref=e152]:
+              - heading "Appointment Summary" [level=2] [ref=e153]
+              - generic [ref=e154]:
+                - generic [ref=e156]: C
+                - generic [ref=e157]:
+                  - paragraph [ref=e158]: Dr. Michael Chen
+                  - paragraph [ref=e159]: Neurology
+                  - paragraph [ref=e160]: Brain & Spine Center
+              - generic [ref=e161]:
+                - generic [ref=e162]:
+                  - generic [ref=e163]: Date
+                  - generic [ref=e164]: Apr 1st, 2026
+                - generic [ref=e165]:
+                  - generic [ref=e166]: Time
+                  - generic [ref=e167]: 10:00 AM
+              - generic [ref=e168]:
+                - generic [ref=e169]:
+                  - generic [ref=e170]: Consultation Fee
+                  - generic [ref=e171]: $200.00
+                - generic [ref=e172]:
+                  - generic [ref=e173]: Service Tax (5%)
+                  - generic [ref=e174]: $10.00
+              - generic [ref=e175]:
+                - generic [ref=e176]: Total Due
+                - generic [ref=e177]: $210.00
+              - generic [ref=e178]:
+                - generic [ref=e179]: "Accepted:"
+                - generic [ref=e180]: VISA
+                - generic [ref=e181]: MC
+                - generic [ref=e182]: AMEX
+                - generic [ref=e183]: Insurance
+      - contentinfo [ref=e184]:
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - img [ref=e187]
+            - generic [ref=e190]: MedBook
+            - generic [ref=e191]: © 2026 All rights reserved.
+          - generic [ref=e192]:
+            - link "Privacy" [ref=e193] [cursor=pointer]:
+              - /url: "#"
+            - link "Terms" [ref=e194] [cursor=pointer]:
+              - /url: "#"
+            - link "Contact Support" [ref=e195] [cursor=pointer]:
+              - /url: "#"
+    - region "Notifications (F8)":
+      - list [ref=e197]:
+        - listitem [ref=e198]:
+          - generic [ref=e199]:
+            - generic [ref=e200]: Please fix the following error
+            - generic [ref=e201]: Card number must be exactly 16 digits (you entered 10).
+          - button [ref=e202]:
+            - img [ref=e203]
+  - status [ref=e207]: Notification Please fix the following errorCard number must be exactly 16 digits (you entered 10).
+```

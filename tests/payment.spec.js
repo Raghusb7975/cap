@@ -181,58 +181,101 @@
 // });
 
 
-test('payment processing test through debit card',async({page})=>
-{
-     await page.goto('https://medi-schedule--raghubakare143.replit.app/login');
-     await page.getByRole('textbox', { name: 'Email address' }).fill('raghu01@gmail.com');
-  await page.getByRole('textbox', { name: 'Password' }).fill('Raghu@12345');
-  await page.getByRole('button', { name: 'Sign In' }).click();
-  await page.getByRole('link', { name: 'Find Doctors' }).click();
-  await page.getByRole('button', { name: 'Book Visit' }).first().click();
-  await page.getByRole('button', { name: 'Wednesday, April 1st,' }).click();
-   await page.getByRole('combobox').click();
-  await page.getByText('10:00 AM').click();
-  
-  
-  await page.getByText('Consultation Fee$200 Select').click();
-  await page.getByRole('button', { name: 'Add to Cart' }).click();
-  await page.getByRole('button', { name: 'Proceed to Checkout' }).click();
-  await page.getByRole('textbox', { name: 'Card Number *' }).fill('1234 5678 1234 5678');
-  await page.getByRole('textbox', { name: 'Cardholder Name *' }).fill('raghu');
-  await page.getByRole('textbox', { name: 'Expiry Date *' }).fill('04/25');
-  await page.getByRole('textbox', { name: 'CVV *(3 digits)' }).fill('123');
-  await page.getByRole('textbox', { name: 'Expiry Date *' }).fill('04/27');
- // await page.locator('form').click();
- await page.locator('button[type="submit"]').click();
-  await expect(page.getByText('Booking Confirmed!')).toBeVisible();
-});
+test('payment processing test through debit card', async ({ page }) => {
 
+  await page.goto('https://medi-schedule--raghubakare143.replit.app/login');
 
-
-test('payment processing test through debit card1', async ({ page }) => {
-  // Increase the timeout to 60 seconds (60000ms) if page load is slow
-  await page.goto('https://medi-schedule--raghubakare143.replit.app/login', { timeout: 60000 });
-  
+  // Login
   await page.getByRole('textbox', { name: 'Email address' }).fill('raghu01@gmail.com');
   await page.getByRole('textbox', { name: 'Password' }).fill('Raghu@12345');
   await page.getByRole('button', { name: 'Sign In' }).click();
+
+  // Navigate
   await page.getByRole('link', { name: 'Find Doctors' }).click();
   await page.getByRole('button', { name: 'Book Visit' }).first().click();
-  await page.getByRole('button', { name: 'Wednesday, April 1st,' }).click();
-  await page.getByRole('combobox').click();
-  await page.getByText('10:00 AM').click();
 
-  await page.getByText('Consultation Fee$200 Select').click();
-  await page.getByRole('button', { name: 'Add to Cart' }).click();
+  // ✅ FIX 1: Dynamic date (IMPORTANT)
+  await page.waitForSelector('button[aria-label]');
+  await page.locator('button[aria-label]:not([disabled])').first().click();
+
+  // Time
+  await page.getByRole('combobox').click();
+  await page.locator('text=/AM|PM/').first().click();
+
+  // Consultation
+  await page.getByText('Consultation Fee').click();
+
+  // ✅ FIX 2: REQUIRED FIELD (MAIN ISSUE)
+  await page.getByRole('textbox', { name: 'Briefly describe your' })
+    .fill('General consultation');
+
+  // ✅ FIX 3: Ensure button enabled
+  const addBtn = page.getByRole('button', { name: 'Add to Cart' });
+  await expect(addBtn).toBeEnabled();
+  await addBtn.click();
+
+  // Checkout
   await page.getByRole('button', { name: 'Proceed to Checkout' }).click();
-  
-  // Fill in the correct card number (16 digits)
+
+  // Payment
   await page.getByRole('textbox', { name: 'Card Number *' }).fill('1234 5678 1234 5678');
-  
-  // Validate the error message does not appear
-  await expect(page.getByText('Card number must be exactly 16 digits (you entered 8).')).not.toBeVisible();
+  await page.getByRole('textbox', { name: 'Cardholder Name *' }).fill('raghu');
+  await page.getByRole('textbox', { name: 'Expiry Date *' }).fill('04/27');
+  await page.getByRole('textbox', { name: 'CVV *(3 digits)' }).fill('123');
+
+  await page.locator('button[type="submit"]').click();
+
+  // ✅ Stable assertion
+  await expect(
+    page.getByRole('main').getByText(/Booking Confirmed/i)
+  ).toBeVisible({ timeout: 10000 });
+
 });
 
+test('payment processing test through debit card1', async ({ page }) => {
+
+  await page.goto('https://medi-schedule--raghubakare143.replit.app/login', { timeout: 60000 });
+
+  // Login
+  await page.getByRole('textbox', { name: 'Email address' }).fill('raghu01@gmail.com');
+  await page.getByRole('textbox', { name: 'Password' }).fill('Raghu@12345');
+  await page.getByRole('button', { name: 'Sign In' }).click();
+
+  // Navigate
+  await page.getByRole('link', { name: 'Find Doctors' }).click();
+  await page.getByRole('button', { name: 'Book Visit' }).first().click();
+
+  // ✅ FIX 1: Dynamic date
+  await page.waitForSelector('button[aria-label]');
+  await page.locator('button[aria-label]:not([disabled])').first().click();
+
+  // Time
+  await page.getByRole('combobox').click();
+  await page.locator('text=/AM|PM/').first().click();
+
+  // Consultation
+  await page.getByText('Consultation Fee').click();
+
+  // ✅ FIX 2: REQUIRED FIELD (most important)
+  await page.getByRole('textbox', { name: 'Briefly describe your' })
+    .fill('General consultation');
+
+  // ✅ FIX 3: Wait until enabled
+  const addBtn = page.getByRole('button', { name: 'Add to Cart' });
+  await expect(addBtn).toBeEnabled();
+  await addBtn.click();
+
+  // Checkout
+  await page.getByRole('button', { name: 'Proceed to Checkout' }).click();
+
+  // Valid card
+  await page.getByRole('textbox', { name: 'Card Number *' }).fill('1234 5678 1234 5678');
+
+  // ✅ FIX 4: Proper assertion (avoid strict mode issue)
+  await expect(
+    page.getByRole('main').getByText(/Card number must be exactly/i)
+  ).not.toBeVisible();
+});
 
 
 
@@ -308,124 +351,206 @@ test('test5', async ({ page }) => {
   await expect(page.getByText('Booking Confirmed!')).toBeVisible();
 });
 
+test('06 testing invalid debit card details', async ({ page }) => {
 
+  await page.goto('https://medi-schedule--raghubakare143.replit.app/login');
 
-test('06 testing invalid debita card deetails',async({page})=>
-{
-    await page.goto('https://medi-schedule--raghubakare143.replit.app/login');
-     await page.getByRole('textbox', { name: 'Email address' }).fill('raghu01@gmail.com');
+  // Login
+  await page.getByRole('textbox', { name: 'Email address' }).fill('raghu01@gmail.com');
   await page.getByRole('textbox', { name: 'Password' }).fill('Raghu@12345');
   await page.getByRole('button', { name: 'Sign In' }).click();
+
+  // Navigate
   await page.getByRole('link', { name: 'Find Doctors' }).click();
   await page.getByRole('button', { name: 'Book Visit' }).first().click();
-  await page.getByRole('button', { name: 'Wednesday, April 1st,' }).click();
-   await page.getByRole('combobox').click();
-  await page.getByText('10:00 AM').click();
-  
-  
-  await page.getByText('Consultation Fee$200 Select').click();
-  await page.getByRole('button', { name: 'Add to Cart' }).click();
+
+  // ✅ FIX 1: Dynamic date
+  await page.waitForSelector('button[aria-label]');
+  await page.locator('button[aria-label]:not([disabled])').first().click();
+
+  // Time
+  await page.getByRole('combobox').click();
+  await page.locator('text=/AM|PM/').first().click();
+
+  // Consultation
+  await page.getByText('Consultation Fee').click();
+
+  // ✅ FIX 2: REQUIRED FIELD (main issue)
+  await page.getByRole('textbox', { name: 'Briefly describe your' })
+    .fill('General consultation');
+
+  // ✅ FIX 3: Wait for button enabled
+  const addBtn = page.getByRole('button', { name: 'Add to Cart' });
+  await expect(addBtn).toBeEnabled();
+  await addBtn.click();
+
+  // Checkout
   await page.getByRole('button', { name: 'Proceed to Checkout' }).click();
+
+  // Invalid card
   await page.getByRole('textbox', { name: 'Card Number *' }).fill('1234 5678 12');
   await page.getByRole('textbox', { name: 'Cardholder Name *' }).fill('raghu');
   await page.getByRole('textbox', { name: 'Expiry Date *' }).fill('04/25');
   await page.getByRole('textbox', { name: 'CVV *(3 digits)' }).fill('123');
-  await page.getByRole('textbox', { name: 'Expiry Date *' }).fill('04/27');
- // await page.locator('form').click();
- await page.locator('button[type="submit"]').click();
-  await expect(page.getByRole('main').getByText('Card number must be exactly')).toBeVisible();
-})
+
+  await page.locator('button[type="submit"]').click();
+
+  // Validation
+  await expect(
+  page.getByRole('main').getByText(/Card number must be exactly/i)
+).toBeVisible();
+});
 
 
+test('07 testing invalid cvv card details', async ({ page }) => {
 
-test('07 testing invalid cvv card deetails',async({page})=>
-{
-    await page.goto('https://medi-schedule--raghubakare143.replit.app/login');
-     await page.getByRole('textbox', { name: 'Email address' }).fill('raghu01@gmail.com');
+  await page.goto('https://medi-schedule--raghubakare143.replit.app/login');
+
+  // Login
+  await page.getByRole('textbox', { name: 'Email address' }).fill('raghu01@gmail.com');
   await page.getByRole('textbox', { name: 'Password' }).fill('Raghu@12345');
   await page.getByRole('button', { name: 'Sign In' }).click();
+
+  // Navigate
   await page.getByRole('link', { name: 'Find Doctors' }).click();
   await page.getByRole('button', { name: 'Book Visit' }).first().click();
-  await page.getByRole('button', { name: 'Wednesday, April 1st,' }).click();
-   await page.getByRole('combobox').click();
-  await page.getByText('10:00 AM').click();
-  
-  
-  await page.getByText('Consultation Fee$200 Select').click();
-  await page.getByRole('button', { name: 'Add to Cart' }).click();
+
+  // ✅ FIX 1: Dynamic date
+  await page.waitForSelector('button[aria-label]');
+  await page.locator('button[aria-label]:not([disabled])').first().click();
+
+  // Time selection
+  await page.getByRole('combobox').click();
+  await page.locator('text=/AM|PM/').first().click();
+
+  // Consultation
+  await page.getByText('Consultation Fee').click();
+
+  // ✅ FIX 2: Required description
+  await page.getByRole('textbox', { name: 'Briefly describe your' })
+    .fill('General consultation');
+
+  // ✅ FIX 3: Wait for button enabled
+  const addBtn = page.getByRole('button', { name: 'Add to Cart' });
+  await expect(addBtn).toBeEnabled();
+  await addBtn.click();
+
+  // Checkout
   await page.getByRole('button', { name: 'Proceed to Checkout' }).click();
+
+  // Invalid CVV
   await page.getByRole('textbox', { name: 'Card Number *' }).fill('1234 5678 1267');
   await page.getByRole('textbox', { name: 'Cardholder Name *' }).fill('raghu');
   await page.getByRole('textbox', { name: 'Expiry Date *' }).fill('04/25');
   await page.getByRole('textbox', { name: 'CVV *(3 digits)' }).fill('13');
-  await page.getByRole('textbox', { name: 'Expiry Date *' }).fill('04/27');
- // await page.locator('form').click();
- await page.locator('button[type="submit"]').click();
-  await expect(page.getByRole('main').getByText('CVV must be exactly 3 digits.')).toBeVisible();
-})
+
+  await page.locator('button[type="submit"]').click();
+
+  // Validation
+  await expect(page.getByText(/CVV must be exactly 3 digits/i)).toBeVisible();
+});
 
 
 
+test('08 testing invalid card expired details', async ({ page }) => {
 
+  await page.goto('https://medi-schedule--raghubakare143.replit.app/login');
 
-test('08 testing invalid  card expired deetails',async({page})=>
-{
-    await page.goto('https://medi-schedule--raghubakare143.replit.app/login');
-     await page.getByRole('textbox', { name: 'Email address' }).fill('raghu01@gmail.com');
+  // Login
+  await page.getByRole('textbox', { name: 'Email address' }).fill('raghu01@gmail.com');
   await page.getByRole('textbox', { name: 'Password' }).fill('Raghu@12345');
   await page.getByRole('button', { name: 'Sign In' }).click();
+
+  // Navigate
   await page.getByRole('link', { name: 'Find Doctors' }).click();
   await page.getByRole('button', { name: 'Book Visit' }).first().click();
-  await page.getByRole('button', { name: 'Wednesday, April 1st,' }).click();
-   await page.getByRole('combobox').click();
-  await page.getByText('10:00 AM').click();
-  
-  
-  await page.getByText('Consultation Fee$200 Select').click();
-  await page.getByRole('button', { name: 'Add to Cart' }).click();
+
+  // ✅ FIX 1: Dynamic date (avoid hardcoded)
+  await page.waitForSelector('button[aria-label]');
+  await page.locator('button[aria-label]:not([disabled])').first().click();
+
+  // Time selection
+  await page.getByRole('combobox').click();
+  await page.locator('text=/AM|PM/').first().click();
+
+  // Consultation
+  await page.getByText('Consultation Fee').click();
+
+  // ✅ FIX 2: REQUIRED FIELD (MAIN ISSUE)
+  await page.getByRole('textbox', { name: 'Briefly describe your' })
+    .fill('General consultation');
+
+  // ✅ FIX 3: Wait until enabled
+  const addBtn = page.getByRole('button', { name: 'Add to Cart' });
+  await expect(addBtn).toBeEnabled();
+  await addBtn.click();
+
+  // Checkout
   await page.getByRole('button', { name: 'Proceed to Checkout' }).click();
+
+  // Invalid expired card
   await page.getByRole('textbox', { name: 'Card Number *' }).fill('1234 5678 1267');
   await page.getByRole('textbox', { name: 'Cardholder Name *' }).fill('raghu');
   await page.getByRole('textbox', { name: 'Expiry Date *' }).fill('04/17');
   await page.getByRole('textbox', { name: 'CVV *(3 digits)' }).fill('878');
- // await page.locator('form').click();
- await page.locator('button[type="submit"]').click();
-  await expect(page.getByRole('main').getByText('This card has expired. Please use a valid card.')).toBeVisible();
-})
+
+  await page.locator('button[type="submit"]').click();
+
+  // Validation
+  await expect(page.getByText(/card has expired/i)).toBeVisible();
+});
 
 
 
 
 
+test('09 testing without details', async ({ page }) => {
 
+  await page.goto('https://medi-schedule--raghubakare143.replit.app/login');
 
-test('09 testing withput  deetails',async({page})=>
-{
-    await page.goto('https://medi-schedule--raghubakare143.replit.app/login');
-     await page.getByRole('textbox', { name: 'Email address' }).fill('raghu01@gmail.com');
+  // Login
+  await page.getByRole('textbox', { name: 'Email address' }).fill('raghu01@gmail.com');
   await page.getByRole('textbox', { name: 'Password' }).fill('Raghu@12345');
   await page.getByRole('button', { name: 'Sign In' }).click();
+
+  // Navigate to doctor booking
   await page.getByRole('link', { name: 'Find Doctors' }).click();
   await page.getByRole('button', { name: 'Book Visit' }).first().click();
-  await page.getByRole('button', { name: 'Wednesday, April 1st,' }).click();
-   await page.getByRole('combobox').click();
-  await page.getByText('10:00 AM').click();
-  
-  
-  await page.getByText('Consultation Fee$200 Select').click();
-  await page.getByRole('button', { name: 'Add to Cart' }).click();
+
+  // ✅ FIX 1: Dynamic date selection
+  await page.waitForSelector('button[aria-label]');
+  await page.locator('button[aria-label]:not([disabled])').first().click();
+
+  // Select time
+  await page.getByRole('combobox').click();
+  await page.locator('text=/AM|PM/').first().click();
+
+  // ✅ FIX 2: Select consultation
+  await page.getByText('Consultation Fee').click();
+
+  // ✅ FIX 3: Fill required description (IMPORTANT)
+  await page.getByRole('textbox', { name: 'Briefly describe your' })
+    .fill('General consultation');
+
+  // ✅ FIX 4: Wait for Add to Cart enabled
+  const addToCartBtn = page.getByRole('button', { name: 'Add to Cart' });
+  await expect(addToCartBtn).toBeEnabled();
+  await addToCartBtn.click();
+
+  // Proceed to checkout
   await page.getByRole('button', { name: 'Proceed to Checkout' }).click();
+
+  // Payment (invalid case - missing name)
   await page.getByRole('textbox', { name: 'Card Number *' }).fill('1234 5678 1267');
   await page.getByRole('textbox', { name: 'Cardholder Name *' }).fill('');
   await page.getByRole('textbox', { name: 'Expiry Date *' }).fill('04/17');
   await page.getByRole('textbox', { name: 'CVV *(3 digits)' }).fill('878');
- // await page.locator('form').click();
- await page.locator('button[type="submit"]').click();
- await expect(page.getByRole('main').getByText('Cardholder name is required.')).toBeVisible();
-})
 
+  await page.locator('button[type="submit"]').click();
 
-
+  // ✅ Validation
+  await expect(page.getByText(/Cardholder name is required/i)).toBeVisible();
+});
 
 
 test('test10', async ({ page }) => {
@@ -437,8 +562,11 @@ test('test10', async ({ page }) => {
   await page.getByRole('button', { name: 'Sign In' }).click();
   await page.getByRole('link', { name: 'Find Doctors' }).click();
   await page.locator('div:nth-child(7) > .px-6 > a > .inline-flex').click();
+
   await page.getByRole('button', { name: 'Go to the Next Month' }).click();
-  await page.getByRole('button', { name: 'Thursday, April 9th,' }).click();
+
+await page.getByRole('button', { name: /April/i }).first().click();
+
   await page.getByRole('combobox').click();
   await page.getByText('10:30 AM').click();
   await page.getByRole('textbox', { name: 'Briefly describe your' }).click();

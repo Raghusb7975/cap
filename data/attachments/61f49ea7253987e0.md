@@ -1,0 +1,62 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "MedBook." [ref=e7]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e12]: MedBook.
+        - navigation [ref=e13]:
+          - link "Find Doctors" [ref=e14]:
+            - /url: /doctors
+            - img [ref=e15]
+            - text: Find Doctors
+          - link "Appointments Cart 136" [ref=e19]:
+            - /url: /cart
+            - img [ref=e20]
+            - text: Appointments Cart
+            - generic [ref=e24]: "136"
+          - link "Dashboard" [ref=e25]:
+            - /url: /dashboard
+            - img [ref=e26]
+            - text: Dashboard
+        - generic [ref=e32]:
+          - link "R raghu Patient" [ref=e33]:
+            - /url: /profile
+            - generic [ref=e35]: R
+            - generic [ref=e36]:
+              - generic [ref=e37]: raghu
+              - generic [ref=e38]: Patient
+          - button [ref=e39]:
+            - img
+    - main [ref=e40]:
+      - generic [ref=e41]:
+        - img [ref=e42]
+        - heading "No item selected" [level=2] [ref=e44]
+        - paragraph [ref=e45]: Go back to your cart and select an item to pay.
+        - button "Return to Cart" [ref=e46]
+    - contentinfo [ref=e47]:
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - img [ref=e50]
+          - generic [ref=e53]: MedBook
+          - generic [ref=e54]: © 2026 All rights reserved.
+        - generic [ref=e55]:
+          - link "Privacy" [ref=e56]:
+            - /url: "#"
+          - link "Terms" [ref=e57]:
+            - /url: "#"
+          - link "Contact Support" [ref=e58]:
+            - /url: "#"
+  - region "Notifications (F8)":
+    - list [ref=e60]:
+      - listitem [ref=e61]:
+        - generic [ref=e62]:
+          - generic [ref=e63]: Added to Cart
+          - generic [ref=e64]: Appointment added to your cart successfully.
+        - button [ref=e65]:
+          - img [ref=e66]
+```

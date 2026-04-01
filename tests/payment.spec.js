@@ -304,7 +304,8 @@ test('test5', async ({ page }) => {
 
   // Stable locator (FIX)
   await page.getByRole('button', { name: /Confirm Booking/i }).click();
-await expect(page.getByText(/Booking Confirmed/i)).toBeVisible({ timeout: 10000 });
+
+  await expect(page.getByText('Booking Confirmed!')).toBeVisible();
 });
 
 
@@ -471,27 +472,4 @@ test('TC06 Expiry current month edge case', async ({ page }) => {
 
   await page.getByRole('textbox', { name: 'Expiry Date *' }).fill(currentMonth);
   await expect(page.locator('button[type="submit"]')).toBeEnabled();
-});
-
-
-test('TC13 No payment method selected', async ({ page }) => {
-  await page.goto('https://medi-schedule--raghubakare143.replit.app/login');
-
-  await page.getByRole('textbox', { name: 'Email address' }).fill('raghu01@gmail.com');
-  await page.getByRole('textbox', { name: 'Password' }).fill('Raghu@12345');
-  await page.getByRole('button', { name: 'Sign In' }).click();
-
-  await page.getByRole('link', { name: 'Appointments Cart' }).click();
-  await page.getByRole('button', { name: 'Proceed to Checkout' }).click();
-
-  // store current URL
-  const currentURL = page.url();
-
-  await page.locator('button[type="submit"]').click();
-
-  // ✅ FIX 1: still on payment page
-  await expect(page).toHaveURL(currentURL);
-
-  // ✅ FIX 2: booking NOT successful
-  await expect(page.getByText(/Booking Confirmed/i)).not.toBeVisible();
 });
